@@ -20,7 +20,7 @@ const seo = {
 //Home Page
 const greeting = {
   title: "pk",
-  logo_name: "Pratik Kharade",
+  logo_name: "PratikKharade",
   nickname: "he/him",
   subTitle:
     "Data wizard transforming raw data into actionable insights! Master of Information Systems and Python, with a passion for uncovering stories hidden in the numbers. Let's make data-driven decisions with a smile!",
