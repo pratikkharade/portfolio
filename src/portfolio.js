@@ -7,7 +7,7 @@ const settings = {
 
 //SEO Related settings
 const seo = {
-  title: "Deepak's Portfolio",
+  title: "Pratik's Portfolio",
   description:
     "Data wizard transforming raw data into actionable insights! Master of Information Systems and Python, with a passion for uncovering stories hidden in the numbers. Let's make data-driven decisions with a smile!",
   og: {
@@ -20,7 +20,7 @@ const seo = {
 //Home Page
 const greeting = {
   title: "pk",
-  logo_name: "DeepakDhole",
+  logo_name: "Pratik Kharade",
   nickname: "he/him",
   subTitle:
     "Data wizard transforming raw data into actionable insights! Master of Information Systems and Python, with a passion for uncovering stories hidden in the numbers. Let's make data-driven decisions with a smile!",
