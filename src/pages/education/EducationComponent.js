@@ -30,8 +30,7 @@ class Education extends Component {
                   Education
                 </h1>
                 <h3 className="text" style={{ color: theme.text }}>
-                  Equipped with a well-rounded education for success in
-                  technology and information management.
+                  Equipped with a well-rounded education for success in technology and information management.
                 </h3>
                 <CompetitiveSites logos={competitiveSites.competitiveSites} />
               </div>

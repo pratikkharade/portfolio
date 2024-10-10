@@ -31,6 +31,7 @@
 }
 
 .greeting-text {
+  margin-bottom: 0;
   margin-top: 80px;
   font-size: 70px;
   line-height: 1.1;
@@ -38,21 +39,22 @@
 }
 
 .greeting-nickname {
+  margin-top: 0;
   font-size: 30px;
-  line-height: 0px;
+  line-height: 30px;
   font-family: "Google Sans Bold Italic";
 }
 
 .greeting-text-p {
-  font-size: 40px;
-  line-height: 40px;
+  font-size: 28px;
+  line-height: 28px;
   margin-right: 40px;
   font-family: "Google Sans Medium";
 }
 
 .greeting-image-div > * {
-  max-width: 100%;
-  height: auto;
+  width: auto;
+  height: 700px;
 }
 
 /* Media Query */

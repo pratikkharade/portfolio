@@ -16,9 +16,9 @@ export default function Greeting(props) {
               <h1 className="greeting-text" style={{ color: theme.text }}>
                 {greeting.title}
               </h1>
-              {greeting.nickname && (
-                <h2 className="greeting-nickname" style={{ color: theme.text }}>
-                  ( {greeting.nickname} )
+              {greeting.pronouns && (
+                <h2 className="greeting-pronouns" style={{ color: theme.text }}>
+                  ( {greeting.pronouns} )
                 </h2>
               )}
               <p
@@ -32,7 +32,7 @@ export default function Greeting(props) {
                 <Button
                   text="⭐ See my Resume"
                   newTab={true}
-                  href={greeting.portfolio_repository}
+                  href={greeting.resumeLink}
                   theme={theme}
                   className="portfolio-repo-btn"
                 />
@@ -43,7 +43,7 @@ export default function Greeting(props) {
             {
               <img
                 alt="Deepak"
-                src={require("../../assests/images/deepak1.jpg")}
+                src={require("../../assests/images/pratik.jpg")}
                 width="500"
                 height="600"
               ></img>

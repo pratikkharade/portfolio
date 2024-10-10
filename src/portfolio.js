@@ -8,10 +8,11 @@ const settings = {
 //SEO Related settings
 const seo = {
   title: "Pratik's Portfolio",
-  description:
-    "Data wizard transforming raw data into actionable insights! Master of Information Systems and Python, with a passion for uncovering stories hidden in the numbers. Let's make data-driven decisions with a smile!",
+  description: "Innovative Software Engineer creating intuitive user experiences! With a Master’s in " +
+  "Computer Science and front-end expertise, I blend creativity and technology to build seamless " +
+  "applications that empower users to thrive in programming. Let’s code a better future!",
   og: {
-    title: "Deepak Dhole's Portfolio",
+    title: "Pratik Kharade's Portfolio",
     type: "website",
     url: "http://deepakdhole.com/",
   },
@@ -19,34 +20,33 @@ const seo = {
 
 //Home Page
 const greeting = {
-  title: "pk",
+  title: "Pratik Kharade",
   logo_name: "PratikKharade",
-  nickname: "he/him",
-  subTitle:
-    "Data wizard transforming raw data into actionable insights! Master of Information Systems and Python, with a passion for uncovering stories hidden in the numbers. Let's make data-driven decisions with a smile!",
-  resumeLink:
-    "https://drive.google.com/file/d/1NjnU6nY9L6YoBMhd392jSpe1d4QTQMh9/view?usp=sharing",
-  portfolio_repository:
-    "https://drive.google.com/file/d/1NjnU6nY9L6YoBMhd392jSpe1d4QTQMh9/view?usp=sharing",
-  githubProfile: "https://github.com/deepakdhole777",
+  pronouns: "he/him",
+  subTitle: "Innovative Software Engineer creating intuitive user experiences! With a Master’s in " +
+  "Computer Science and front-end expertise, I blend creativity and technology to build seamless " +
+  "applications that empower users to thrive in programming. Let’s code a better future!",
+  resumeLink: "https://drive.google.com/file/d/1elcQjou66nCiRu8AgqwMvmx-4QsibFln/view?usp=sharing",
+  // portfolio_repository: "https://drive.google.com/file/d/1elcQjou66nCiRu8AgqwMvmx-4QsibFln/view?usp=sharing",
+  // githubProfile: "https://github.com/pratikkharade/"
 };
 
 const socialMediaLinks = [
   {
     name: "Github",
-    link: "https://github.com/deepakdhole777",
+    link: "https://github.com/pratikkharade/",
     fontAwesomeIcon: "fa-github", // Reference https://fontawesome.com/icons/github?style=brands
     backgroundColor: "#181717", // Reference https://simpleicons.org/?q=github
   },
   {
     name: "LinkedIn",
-    link: "https://www.linkedin.com/in/deepakdhole",
+    link: "https://www.linkedin.com/in/kharadepratik/",
     fontAwesomeIcon: "fa-linkedin-in", // Reference https://fontawesome.com/icons/linkedin-in?style=brands
     backgroundColor: "#0077B5", // Reference https://simpleicons.org/?q=linkedin
   },
   {
     name: "Gmail",
-    link: "mailto:deepak.g.dhole@gmail.com",
+    link: "mailto:kharadepratik6@gmail.com",
     fontAwesomeIcon: "fa-google", // Reference https://fontawesome.com/icons/google?style=brands
     backgroundColor: "#D14836", // Reference https://simpleicons.org/?q=gmail
   },
@@ -251,38 +251,45 @@ const competitiveSites = {
 const degrees = {
   degrees: [
     {
-      title: "University of Maryland, College Park",
-      subtitle: "M.S. in Information Systems",
-      logo_path: "umd.svg",
-      alt_name: "UMD",
-      duration: "2022 - 2023",
+      title: "University of Utah, Salt Lake City",
+      subtitle: "M.S. in Computer Science",
+      logo_path: "uou.png",
+      alt_name: "UoU",
+      duration: "2022 - 2024",
       descriptions: [
         "-- Rewarded Graduate Assistantship along with tuition waiver",
         "-- Coursework:",
-        "⚡ Predictive Analytics and Data Mining",
-        "⚡ Relational Database Mangement",
-        "⚡ Data Visualization",
-        "⚡ Python for Data Analytics and Data Visualization",
-        "⚡ Project Mangement",
-        "⚡ Management in Information Systems",
-        "⚡ Applied Finance",
+        "⚡ Graduate Algorithms", 
+        "⚡ Computer Architecture", 
+        "⚡ Operating Systems", 
+        "⚡ Machine Learning", 
+        "⚡ Data Mining", 
+        "⚡ Manage Data for & with ML", 
+        "⚡ Business Aspects of Security & Privacy"
       ],
-      website_link: "http://umd.edu",
+      website_link: "http://utah.edu",
     },
     {
       title: "Vishwakarma Institute of Technology, Pune",
-      subtitle: "B.Tech. in Electronics Engineering",
+      subtitle: "B.Tech. in Computer Engineering",
       logo_path: "vit_logo.png",
       alt_name: "VIT Pune",
       duration: "2015 - 2019",
       descriptions: [
-        "-- Honors in Robotics and Embedded Systems",
+        // "-- Honors in Robotics and Embedded Systems",
         "-- Coursework:",
-        "⚡ Data Structures",
-        "⚡ Image Processing",
-        "⚡ Machine Learning",
-        "⚡ Statistics",
-        "⚡ Microprocessors",
+        "⚡ Operating Systems", 
+        "⚡ Computer Organization", 
+        "⚡ Data Structures", 
+        "⚡ Artificial Intelligence", 
+        "⚡ Internet of Things", 
+        "⚡ Computer Networks", 
+        '⚡ Web Technologies'
+        // "⚡ Data Structures",
+        // "⚡ Image Processing",
+        // "⚡ Machine Learning",
+        // "⚡ Statistics",
+        // "⚡ Microprocessors",
       ],
       website_link: "http://vit.edu",
     },
