@@ -9,16 +9,14 @@ import "./index.css";
 import App from "./App";
 import * as serviceWorker from "./serviceWorker";
 import "./assests/font-awesome/css/all.css";
-import { HashRouter as Router } from 'react-router-dom';
+
 
 const engine = new Styletron();
 
 ReactDOM.render(
   <StyletronProvider value={engine}>
     <BaseProvider theme={LightTheme}>
-      <Router>
-        <App />
-      </Router>
+      <App />
     </BaseProvider>
   </StyletronProvider>,
   document.getElementById("root")
