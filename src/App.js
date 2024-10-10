@@ -11,7 +11,7 @@ function App() {
     <ThemeProvider theme={chosenTheme}>
       <>
         <GlobalStyles />
-        <Router>
+        <Router basename="/portfolio">
           <div>
             <Main theme={chosenTheme} />
           </div>
