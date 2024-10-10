@@ -11,7 +11,7 @@ import Error404 from "../pages/errors/error404/Error";
 export default class Main extends Component {
   render() {
     return (
-      <HashRouter basename="/portfolio">
+      <HashRouter basename="/">
         <Switch>
           <Route
             path="/"
