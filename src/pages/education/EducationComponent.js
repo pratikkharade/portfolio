@@ -5,7 +5,7 @@ import TopButton from "../../components/topButton/TopButton";
 import Educations from "../../containers/education/Educations";
 import CompetitiveSites from "../../components/competitiveSites/CompetitiveSites";
 import EducationImg from "./EducationImg";
-import { competitiveSites } from "../../portfolio";
+import { competitiveSites, education } from "../../portfolio";
 import "./EducationComponent.css";
 import { Fade } from "react-reveal";
 
@@ -27,11 +27,15 @@ class Education extends Component {
               </div>
               <div className="heading-text-div">
                 <h1 className="heading-text" style={{ color: theme.text }}>
-                  Education
+                  {education?.title}
                 </h1>
-                <h3 className="text" style={{ color: theme.text }}>
-                  Equipped with a well-rounded education for success in technology and information management.
-                </h3>
+                {/* <h3 className="text" style={{ color: theme.text }}> */}
+                <p
+                  className="education-header-detail-text subTitle"
+                  style={{ color: theme.secondaryText }}
+                >
+                  {education?.description}
+                </p>
                 <CompetitiveSites logos={competitiveSites.competitiveSites} />
               </div>
             </div>

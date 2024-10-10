@@ -25,7 +25,7 @@ class Experience extends Component {
                   className="experience-heading-text"
                   style={{ color: theme.text }}
                 >
-                  {experience.title}
+                  { experience?.title }
                 </h1>
                 <h3
                   className="experience-heading-sub-text"
@@ -37,7 +37,7 @@ class Experience extends Component {
                   className="experience-header-detail-text subTitle"
                   style={{ color: theme.secondaryText }}
                 >
-                  {experience["description"]}
+                  { experience?.description }
                 </p>
               </div>
             </div>
