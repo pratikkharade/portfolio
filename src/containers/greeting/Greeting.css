@@ -38,7 +38,7 @@
   font-family: "Google Sans Bold";
 }
 
-.greeting-nickname {
+.greeting-pronouns {
   margin-top: 0;
   font-size: 30px;
   line-height: 30px;
@@ -78,7 +78,7 @@
     margin-top: 0px;
     text-align: center;
   }
-  .greeting-nickname {
+  .greeting-pronouns {
     font-size: 25px;
     text-align: center;
   }
