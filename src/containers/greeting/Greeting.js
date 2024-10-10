@@ -43,7 +43,7 @@ export default function Greeting(props) {
             {
               <img
                 alt="Deepak"
-                src={require("../../assests/images/pratik.jpg")}
+                src={require("../../assests/images/pratik.jpeg")}
                 width="500"
                 height="600"
               ></img>
