@@ -14,7 +14,7 @@ const seo = {
   og: {
     title: "Pratik Kharade's Portfolio",
     type: "website",
-    url: "http://deepakdhole.com/"
+    // url: "http://deepakdhole.com/"
   }
 };
 

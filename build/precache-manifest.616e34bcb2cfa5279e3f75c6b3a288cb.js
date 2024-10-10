@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "453c9646cae7479a1e56cbcdd365b7c9",
+    "revision": "f519c2f9513e935fe048e891f9960ec4",
     "url": "/portfolio/index.html"
   },
   {
-    "revision": "3448424c5ef91cc7d71f",
-    "url": "/portfolio/static/css/main.3885e937.chunk.css"
+    "revision": "7d972090b5cd9d2423c1",
+    "url": "/portfolio/static/css/main.354177cd.chunk.css"
   },
   {
-    "revision": "acd9b38dbd5e843a9a73",
-    "url": "/portfolio/static/js/2.a0073d8c.chunk.js"
+    "revision": "3140afa2a16dfd7facc8",
+    "url": "/portfolio/static/js/2.e5e26a09.chunk.js"
   },
   {
-    "revision": "3448424c5ef91cc7d71f",
-    "url": "/portfolio/static/js/main.a71a4e59.chunk.js"
+    "revision": "7d972090b5cd9d2423c1",
+    "url": "/portfolio/static/js/main.91c629cf.chunk.js"
   },
   {
     "revision": "e9a53cd8842aa965b30c",
@@ -114,6 +114,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "3bab7a9dc4324f1b2364d25a47fcfcf0",
     "url": "/portfolio/static/media/education.3bab7a9d.svg"
+  },
+  {
+    "revision": "63e6c7ba84f05efdee84e71365349708",
+    "url": "/portfolio/static/media/eq.63e6c7ba.png"
   },
   {
     "revision": "a00ede3f70759480e81f14f203edaa51",
@@ -240,6 +244,14 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/portfolio/static/media/nptel_logo.95a12a2b.png"
   },
   {
+    "revision": "140a4e6b586250860dd364c7833cafef",
+    "url": "/portfolio/static/media/nvidia.140a4e6b.svg"
+  },
+  {
+    "revision": "53874a32f5f706253940ab8bb90bc8d8",
+    "url": "/portfolio/static/media/nvidia.53874a32.jpg"
+  },
+  {
     "revision": "414dfbd98516b39255a3e22ed90b3f7d",
     "url": "/portfolio/static/media/portfolio.414dfbd9.gif"
   },
@@ -270,6 +282,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "71408db71465afd742233e4a96f06526",
     "url": "/portfolio/static/media/pwa.71408db7.png"
+  },
+  {
+    "revision": "0aee07d6296302c5eb05440fbe2fe77f",
+    "url": "/portfolio/static/media/ril.0aee07d6.png"
   },
   {
     "revision": "2c497738be3831492aeb6bdc43f19154",

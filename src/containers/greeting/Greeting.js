@@ -42,7 +42,7 @@ export default function Greeting(props) {
           <div className="greeting-image-div">
             {
               <img
-                alt="Deepak"
+                alt="Pratik"
                 src={require("../../assests/images/pratik.jpeg")}
                 width="500"
                 height="600"
