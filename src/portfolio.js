@@ -304,7 +304,7 @@ const experience = {
         {
           title: "System Software Intern",
           company: "Nvidia Corporation",
-          company_url: "https://www.utah.edu/",
+          company_url: "https://www.nvidia.com/",
           logo_path: "nvidia.svg",
           duration: "July 2018 - April 2019",
           location: "Pune, India",
@@ -323,7 +323,7 @@ const experience = {
         {
           title: "System Software Intern",
           company: "Reliance Industries Limited",
-          company_url: "https://www.utah.edu/",
+          company_url: "https://www.ril.com/",
           logo_path: "ril.png",
           duration: "June 2018 - July 2018",
           location: "Nagothane, India",
