@@ -69,38 +69,40 @@ class DegreeCard extends Component {
                   );
                 })}
               </ul>
-              {degree?.cert_link && (
-                <a
-                  href={degree.cert_link}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  <div
-                    className="visit-cert-btn"
-                    style={{ backgroundColor: theme.headerColor }}
+              <div className="degree-card-links">
+                {degree?.cert_link && (
+                  <a
+                    href={degree.cert_link}
+                    target="_blank"
+                    rel="noopener noreferrer"
                   >
-                    <p className="btn" style={{ color: theme.text }}>
-                      View Diploma
-                    </p>
-                  </div>
-                </a>
-              )}
-              {degree?.website_link && (
-                <a
-                  href={degree.website_link}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  <div
-                    className="visit-website-btn"
-                    style={{ backgroundColor: theme.headerColor }}
+                    <div
+                      className="visit-cert-btn"
+                      style={{ backgroundColor: theme.headerColor }}
+                    >
+                      <p className="btn" style={{ color: theme.text }}>
+                        View Diploma
+                      </p>
+                    </div>
+                  </a>
+                )}
+                {degree?.website_link && (
+                  <a
+                    href={degree.website_link}
+                    target="_blank"
+                    rel="noopener noreferrer"
                   >
-                    <p className="btn" style={{ color: theme.text }}>
-                      University Website
-                    </p>
-                  </div>
-                </a>
-              )}
+                    <div
+                      className="visit-website-btn"
+                      style={{ backgroundColor: theme.headerColor }}
+                    >
+                      <p className="btn" style={{ color: theme.text }}>
+                        University Website
+                      </p>
+                    </div>
+                  </a>
+                )}
+              </div>
             </div>
           </div>
         </Fade>
