@@ -15,11 +15,13 @@ class ExperienceCard extends Component {
       >
         <Fade left duration={2000} distance="40px">
           <div className="experience-card-logo-div">
-            <img
-              className="experience-card-logo"
-              src={require(`../../assests/images/${experience["logo_path"]}`)}
-              alt=""
-            />
+            <div className="experience-card-img">
+              <img
+                className="experience-card-logo"
+                src={require(`../../assests/images/${experience["logo_path"]}`)}
+                alt=""
+              />
+            </div>
           </div>
         </Fade>
         <div className="experience-card-stepper">
@@ -66,7 +68,7 @@ class ExperienceCard extends Component {
                     className="experience-card-title"
                     style={{ color: theme.text }}
                   >
-                    {experience["title"]}
+                    {experience?.title}
                   </h3>
                   <p
                     className="experience-card-company"
@@ -77,7 +79,7 @@ class ExperienceCard extends Component {
                       target="_blank"
                       rel="noopener noreferrer"
                     >
-                      {experience["company"]}
+                      {experience?.company}
                     </a>
                   </p>
                 </div>
@@ -87,25 +89,26 @@ class ExperienceCard extends Component {
                       className="experience-card-duration"
                       style={{ color: theme.secondaryText }}
                     >
-                      {experience["duration"]}
+                      {experience?.duration}
                     </p>
                     <p
                       className="experience-card-location"
                       style={{ color: theme.secondaryText }}
                     >
-                      {experience["location"]}
+                      {experience?.location}
                     </p>
                   </div>
                 </div>
               </div>
-              <div className="body-content" />
-              {experience.description.map((sentence, index) => {
-                return (
-                  <p key={index} className="content-list" style={{ color: theme.text }}>
-                    {sentence}
-                  </p>
-                );
-              })}
+              <ul className="body-content">
+                {experience.description.map((sentence, index) => {
+                  return (
+                    <li key={index} className="content-list" style={{ color: theme.text }}>
+                      {sentence}
+                    </li>
+                  );
+                })}
+              </ul>
             </div>
           </div>
         </Fade>

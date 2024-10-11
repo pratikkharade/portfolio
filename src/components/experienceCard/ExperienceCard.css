@@ -114,11 +114,20 @@
 
 .experience-card-logo-div {
   margin: 10px;
+  min-width: 20%;
   margin-top: -10px;
-  /* border-radius: 50%;
-  padding: 10px;
+}
+
+
+
+.experience-card-img {
+  width: 150px;
+  margin: auto;
+  height: 150px;
+  border-radius: 50%;
+  position: relative;
   border: 1px solid #d9dbdf;
-  box-shadow: 5px 5px 5px #d9dbdf; */
+  box-shadow: 5px 5px 5px #d9dbdf;
 }
 
 .experience-card-stepper {
@@ -140,11 +149,12 @@
 }
 
 .experience-card-logo {
-  height: 80px;
-  /* -webkit-box-shadow: 4px 3px 20px -2px grey;
-  -moz-box-shadow: 4px 3px 20px -2px grey;
-  box-shadow: 4px 3px 20px -2px grey;
-  border-radius: 50px; */
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  max-width: 100%;
+  max-height: 100%;
 }
 
 .experience-card-title {
@@ -300,10 +310,6 @@ transition: all 0.3s ease-in-out 0s;
 
   .experience-list-item {
       flex-direction: column;
-  }
-
-  .experience-card-logo {
-      height: 80px;
   }
 
   .experience-card-heading-left {

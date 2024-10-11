@@ -62,14 +62,19 @@
   padding: 10px;
   justify-content: center;
   align-items: center;
+  margin: 10px 0 0 10px;
   /* box-shadow: 5px 5px 5px #d3d3d3; */
 }
 
 .content-list {
   text-align: left;
-  padding-left: 10px;
+  padding-bottom: 10px;
   padding-right: 10px;
   font-family: "Google Sans Regular";
+}
+
+.content-list:last-child {
+  padding-bottom: 0;
 }
 
 .card-body {

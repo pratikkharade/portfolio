@@ -11,12 +11,12 @@ class ExperienceAccordion extends Component {
           return (
             <div className="accord-panel" key={section["title"]}>
               <div style={{ backgroundColor: theme.body }}>
-                {section["experiences"].map((experience, index) => {
+                {section?.experiences.map((experience, index) => {
                   return (
                     <ExperienceCard
                       key={index}
                       index={index}
-                      totalCards={section["experiences"].length}
+                      totalCards={section?.experiences?.length}
                       experience={experience}
                       theme={theme}
                     />

@@ -31,7 +31,7 @@ class Experience extends Component {
                   className="experience-heading-sub-text"
                   style={{ color: theme.text }}
                 >
-                  {experience["subtitle"]}
+                  { experience?.subtitle }
                 </h3>
                 <p
                   className="experience-header-detail-text subTitle"
@@ -43,7 +43,7 @@ class Experience extends Component {
             </div>
           </Fade>
         </div>
-        <ExperienceAccordion sections={experience["sections"]} theme={theme} />
+        <ExperienceAccordion sections={experience?.sections} theme={theme} />
         <Footer theme={this.props.theme} onToggle={this.props.onToggle} />
         <TopButton theme={this.props.theme} />
       </div>

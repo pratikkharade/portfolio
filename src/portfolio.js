@@ -8,9 +8,10 @@ const settings = {
 //SEO Related settings
 const seo = {
   title: "Pratik's Portfolio",
-  description: "Innovative Software Engineer creating intuitive user experiences! With a Master’s in " +
-    "Computer Science and front-end expertise, I blend creativity and technology to build seamless " +
-    "applications that empower users to thrive in programming. Let’s code a better future!",
+  description: "Innovative Software Engineer creating intuitive user experiences! " +
+    "With a Master’s in Computer Science and front-end expertise, I blend creativity " +
+    "and technology to build seamless applications that empower users to thrive in " +
+    "programming. Let’s code a better future!",
   og: {
     title: "Pratik Kharade's Portfolio",
     type: "website",
@@ -23,9 +24,10 @@ const greeting = {
   title: "Pratik Kharade",
   logo_name: "PratikKharade",
   pronouns: "he/him",
-  subTitle: "Innovative Software Engineer creating intuitive user experiences! With a Master’s in " +
-    "Computer Science and front-end expertise, I blend creativity and technology to build seamless " +
-    "applications that empower users to thrive in programming. Let’s code a better future!",
+  subTitle: "Innovative Software Engineer creating intuitive user experiences! With a " +
+    "Master’s in Computer Science and front-end expertise, I blend creativity and " +
+    "technology to build seamless applications that empower users to thrive in programming. " +
+    "Let’s code a better future!",
   resumeLink: "https://drive.google.com/file/d/1elcQjou66nCiRu8AgqwMvmx-4QsibFln/view?usp=sharing"
   // portfolio_repository: "https://drive.google.com/file/d/1elcQjou66nCiRu8AgqwMvmx-4QsibFln/view?usp=sharing",
   // githubProfile: "https://github.com/pratikkharade/"
@@ -99,7 +101,7 @@ const skills = {
         "⚡ Designing robust pipelines that extract, load, and transform data",
         "⚡ Achieving faster data transmission through techniques like micro-batching and parallel processing",
         "⚡ Securing data transfer using microservice-based architecture",
-        "⚡ Simplifying database deployment using integration of Oracle Wallet and Jenkins",
+        "⚡ Simplifying database deployment using integration of Oracle Wallet and Jenkins"
       ],
       softwareSkills: [
         {
@@ -131,7 +133,7 @@ const skills = {
       skills: [
         "⚡ Designing and implementing web applications",
         "⚡ Experience working with micro-services architecture",
-        "⚡ Implemented several data migration projects using Java and Spring Boot",
+        "⚡ Implemented several data migration projects using Java and Spring Boot"
       ],
       softwareSkills: [
         {
@@ -248,11 +250,16 @@ const experience = {
           duration: "July 2024 - Present",
           location: "Salt Lake City, UT",
           description: [
-            "- Designed and maintained Litigation Dashboard using Power BI and underlying stored procedures using MSSQL server to track NFCU’s pending and completed Litigations.",
-            "- Created deliquent start balances report for Credit Cards and Consumer Loans across various stages. This portfolio report and key takeaways are reported to Chief Lending Officer every start of the month.",
-            "- Developed a utility using Python to track bugs which facilitates migration of data from MSSQL to ASL.",
+            "Leading a research project to create an interactive learning platform " +
+            "using Generative AI (ChatGPT) to enhance coding education, targeting " +
+            "a 30% improvement in coding proficiency.",
+            "Developing the front end with React, JavaScript, HTML/CSS, and integrating " +
+            "Flask for running Python scripts.",
+            "Managing MySQL databases to streamline data handling, contributing to a 25% " +
+            "reduction in development time and a 20% increase in project efficiency, while " +
+            "guiding undergraduate students through development, experimentation, and analysis."
           ],
-          color: "#9b1578",
+          color: "#9b1578"
         },
         {
           title: "Teaching Assistant",
@@ -262,11 +269,17 @@ const experience = {
           duration: "Aug 2022 - May 2024",
           location: "Salt Lake City, UT",
           description: [
-            "- Designed and maintained Litigation Dashboard using Power BI and underlying stored procedures using MSSQL server to track NFCU’s pending and completed Litigations.",
-            "- Created deliquent start balances report for Credit Cards and Consumer Loans across various stages. This portfolio report and key takeaways are reported to Chief Lending Officer every start of the month.",
-            "- Developed a utility using Python to track bugs which facilitates migration of data from MSSQL to ASL.",
+            "Served as a Teaching Assistant for 4 semesters in undergraduate courses " +
+              "focused on Python, grading assignments and providing constructive feedback " +
+              "to help students enhance their coding and problem-solving skills.",
+            "Held weekly office hours to assist students with course material, clarify " +
+              "doubts, and guide them through challenging concepts, fostering a deeper " +
+              "understanding of Python programming.",
+            "Led lab sessions, facilitating hands-on learning and practical application " +
+              "of theoretical concepts, while creating a collaborative environment that " +
+              "encouraged student engagement and teamwork."
           ],
-          color: "#9b1578",
+          color: "#9b1578"
         },
         {
           title: "Software Engineer",
@@ -276,11 +289,17 @@ const experience = {
           duration: "July 2019 - June 2024",
           location: "Pune, India",
           description: [
-            "- Designed and maintained Litigation Dashboard using Power BI and underlying stored procedures using MSSQL server to track NFCU’s pending and completed Litigations.",
-            "- Created deliquent start balances report for Credit Cards and Consumer Loans across various stages. This portfolio report and key takeaways are reported to Chief Lending Officer every start of the month.",
-            "- Developed a utility using Python to track bugs which facilitates migration of data from MSSQL to ASL.",
+            "Directed the design, deployment, and maintenance of eQ Technologic's Data " +
+            "Visualization suite, improving real-time enterprise data analysis through " +
+            "JavaScript/jQuery, React JS, HTML, and CSS, leading to a 35% boost in user " +
+            "engagement and a 25% reduction in data processing time.",
+            "Spearheaded the creation and refinement of key UI features, elevating user " +
+            "satisfaction by 25 % and driving a 20 % increase in daily active users.",
+            "Assessed and compared various JavaScript frameworks, recommending a migration " +
+            "strategy that enhanced technological agility, reduced development time by 25 %, " +
+            "and significantly improved product scalability."
           ],
-          color: "#9b1578",
+          color: "#9b1578"
         },
         {
           title: "System Software Intern",
@@ -290,11 +309,16 @@ const experience = {
           duration: "July 2018 - April 2019",
           location: "Pune, India",
           description: [
-            "- Designed and maintained Litigation Dashboard using Power BI and underlying stored procedures using MSSQL server to track NFCU’s pending and completed Litigations.",
-            "- Created deliquent start balances report for Credit Cards and Consumer Loans across various stages. This portfolio report and key takeaways are reported to Chief Lending Officer every start of the month.",
-            "- Developed a utility using Python to track bugs which facilitates migration of data from MSSQL to ASL.",
+            "Designed, developed, and implemented web - based automation tools for " +
+            "developers at Nvidia, utilizing JavaScript(Frontend), Python(Backend), " +
+            "and HTML5 / CSS3.",
+            "Performed comprehensive analysis and standardized power consumption across " +
+            "15 GPU configurations and 10 testing scenarios, improving performance " +
+            "consistency by 20 % through Python scripting.",
+            "Debugged and resolved around 15 resource management issues using C, enhancing " +
+            "overall system reliability."
           ],
-          color: "#9b1578",
+          color: "#9b1578"
         },
         {
           title: "System Software Intern",
@@ -304,11 +328,11 @@ const experience = {
           duration: "June 2018 - July 2018",
           location: "Nagothane, India",
           description: [
-            "- Designed and maintained Litigation Dashboard using Power BI and underlying stored procedures using MSSQL server to track NFCU’s pending and completed Litigations.",
-            "- Created deliquent start balances report for Credit Cards and Consumer Loans across various stages. This portfolio report and key takeaways are reported to Chief Lending Officer every start of the month.",
-            "- Developed a utility using Python to track bugs which facilitates migration of data from MSSQL to ASL.",
+            "Architected and developed a comprehensive Inventory Management System using C# " +
+            "and ASP.NET, demonstrating strong system design and software engineering skills.",
+            "Led project execution, achieving a 30% boost in inventory tracking efficiency."
           ],
-          color: "#9b1578",
+          color: "#9b1578"
         }
       ]
     }
