@@ -8,7 +8,7 @@ class DegreeCard extends Component {
     const theme = this.props.theme;
     return (
       <div className="degree-card">
-        {degree.logo_path && (
+        {degree?.logo_path && (
           <Flip left duration={2000}>
             <div className="card-img">
               <img
@@ -17,8 +17,8 @@ class DegreeCard extends Component {
                   maxHeight: "100%",
                   transform: "scale(0.9)",
                 }}
-                src={require(`../../assests/images/${degree.logo_path}`)}
-                alt={degree.alt_name}
+                src={require(`../../assests/images/${degree?.logo_path}`)}
+                alt={degree?.alt_name}
               />
             </div>
           </Flip>
@@ -26,7 +26,7 @@ class DegreeCard extends Component {
         <Fade right duration={2000} distance="40px">
           <div
             className="card-body"
-            style={{ width: degree.logo_path ? "90%" : "100%" }}
+            style={{ width: degree?.logo_path ? "90%" : "100%" }}
           >
             <div
               className="body-header"
@@ -34,38 +34,69 @@ class DegreeCard extends Component {
             >
               <div className="body-header-title">
                 <h2 className="card-title" style={{ color: theme.text }}>
-                  {degree.title}
+                  {degree?.title}
                 </h2>
                 <h3 className="card-subtitle" style={{ color: theme.text }}>
-                  {degree.subtitle}
+                  {degree?.subtitle}
                 </h3>
               </div>
               <div className="body-header-duration">
                 <h3 className="duration" style={{ color: theme.text }}>
-                  {degree.duration}
+                  {degree?.duration}
                 </h3>
               </div>
             </div>
             <div className="body-content">
-              {degree.descriptions.map((sentence, index) => {
+              {degree?.descriptions?.map((sentence, index) => {
                 return (
-                  <p key={index} className="content-list" style={{ color: theme.text }}>
+                  <li key={index} className="content-list" style={{ color: theme.text }}>
                     {sentence}
-                  </p>
+                  </li>
                 );
               })}
-              {degree.website_link && (
+              {degree?.courses?.length > 0 &&
+                <li className="content-list" style={{ color: theme.text }}>
+                  Coursework:
+                </li>
+              }
+              <ul className="content-list-ul">
+
+                {degree?.courses?.map((sentence, index) => {
+                  return (
+                    <li key={index} className="content-list" style={{ color: theme.text }}>
+                      {sentence}
+                    </li>
+                  );
+                })}
+              </ul>
+              {degree?.cert_link && (
+                <a
+                  href={degree.cert_link}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <div
+                    className="visit-cert-btn"
+                    style={{ backgroundColor: theme.headerColor }}
+                  >
+                    <p className="btn" style={{ color: theme.text }}>
+                      View Diploma
+                    </p>
+                  </div>
+                </a>
+              )}
+              {degree?.website_link && (
                 <a
                   href={degree.website_link}
                   target="_blank"
                   rel="noopener noreferrer"
                 >
                   <div
-                    className="visit-btn"
+                    className="visit-website-btn"
                     style={{ backgroundColor: theme.headerColor }}
                   >
                     <p className="btn" style={{ color: theme.text }}>
-                      Visit Website
+                      University Website
                     </p>
                   </div>
                 </a>

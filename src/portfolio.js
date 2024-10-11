@@ -28,7 +28,7 @@ const greeting = {
     "Master’s in Computer Science and front-end expertise, I blend creativity and " +
     "technology to build seamless applications that empower users to thrive in programming. " +
     "Let’s code a better future!",
-  resumeLink: "https://drive.google.com/file/d/1elcQjou66nCiRu8AgqwMvmx-4QsibFln/view?usp=sharing"
+  resumeLink: "https://drive.google.com/file/d/1MkNqg1n4A4aOu3hyRs_-0ZDqEJpkcIAt/view?usp=sharing"
   // portfolio_repository: "https://drive.google.com/file/d/1elcQjou66nCiRu8AgqwMvmx-4QsibFln/view?usp=sharing",
   // githubProfile: "https://github.com/pratikkharade/"
 };
@@ -195,16 +195,18 @@ const education = {
       alt_name: "UoU",
       duration: "2022 - 2024",
       descriptions: [
-        "-- Rewarded Graduate Assistantship along with tuition waiver",
-        "-- Coursework:",
-        "⚡ Graduate Algorithms",
-        "⚡ Computer Architecture",
-        "⚡ Operating Systems",
-        "⚡ Machine Learning",
-        "⚡ Data Mining",
-        "⚡ Manage Data for & with ML",
-        "⚡ Business Aspects of Security & Privacy"
+        "Rewarded Graduate Assistantship along with tuition waiver"
       ],
+      courses: [
+        "Graduate Algorithms",
+        "Computer Architecture",
+        "Operating Systems",
+        "Machine Learning",
+        "Data Mining",
+        "Manage Data for & with ML",
+        "Business Aspects of Security & Privacy"
+      ],
+      cert_link: "https://drive.google.com/file/d/1tpR9w8Mb9wCULuK0GF5FmlQECGaOS_yP/view?usp=sharing",
       website_link: "http://utah.edu"
     },
     {
@@ -214,15 +216,18 @@ const education = {
       alt_name: "VIT Pune",
       duration: "2015 - 2019",
       descriptions: [
-        "-- Coursework:",
-        "⚡ Operating Systems",
-        "⚡ Computer Organization",
-        "⚡ Data Structures",
-        "⚡ Artificial Intelligence",
-        "⚡ Internet of Things",
-        "⚡ Computer Networks",
-        '⚡ Web Technologies'
+        "Rewarded Graduate Assistantship along with tuition waiver"
       ],
+      courses: [
+        "Operating Systems",
+        "Computer Organization",
+        "Data Structures",
+        "Artificial Intelligence",
+        "Internet of Things",
+        "Computer Networks",
+        'Web Technologies'
+      ],
+      cert_link: "https://drive.google.com/file/d/1Qi4RgY_r6V6D8UoJwYkjoVmtXijHbTL-/view?usp=sharing",
       website_link: "http://vit.edu"
     }
   ]
