@@ -24,6 +24,7 @@ const greeting = {
   title: "Pratik Kharade",
   logo_name: "PratikKharade",
   pronouns: "he/him",
+  image_path: "pratik.jpeg",
   subTitle: "Innovative Software Engineer creating intuitive user experiences! With a " +
     "Master’s in Computer Science and front-end expertise, I blend creativity and " +
     "technology to build seamless applications that empower users to thrive in programming. " +
@@ -58,7 +59,7 @@ const skills = {
   data: [
     {
       title: "Data Science & AI",
-      fileName: "DataScienceImg",
+      fileName: "data_science.svg",
       skills: [
         "⚡ Designing dashboards to provide strategic insigts from consumer lending data",
         "⚡ Crafting robust models for diverse deep learning and statistical applications",
@@ -186,7 +187,7 @@ const education = {
   title: "Education",
   description:
     "Equipped with a well-rounded education for success in technology and information management.",
-  avatar_image_path: "projects_image.svg",
+  // avatar_image_path: "projects_image.svg",
   degrees: [
     {
       title: "University of Utah, Salt Lake City",
@@ -241,7 +242,7 @@ const experience = {
     "🚀 Seasoned professional with expertise in developing scalable AI models, " +
     "executing complex data engineering projects, and optimizing critical KPIs " +
     "for impactful business outcomes.",
-  header_image_path: "experience.svg",
+  // header_image_path: "experience.svg",
   sections: [
     {
       title: "Work",
@@ -350,7 +351,7 @@ const projects = {
   description:
     "My projects makes use of vast variety of latest technology tools. My best experience is to " +
     "create Data Science projects and deploy them to web applications using cloud infrastructure.",
-  avatar_image_path: "projects_image.svg",
+  // avatar_image_path: "projects_image.svg",
 };
 
 export {
