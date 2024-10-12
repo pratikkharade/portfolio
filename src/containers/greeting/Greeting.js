@@ -43,7 +43,8 @@ export default function Greeting(props) {
             {
               <img
                 alt="Pratik"
-                src={require(`../../assests/images/${greeting?.image_path}`)}
+                // src={require(`../../assests/images/${greeting?.image_path}`)}
+                src={require('../../assests/images/pratik.jpeg')}
                 width="500"
                 height="600"
               ></img>
