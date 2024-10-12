@@ -1,37 +1,37 @@
-.projects-main {
+.myskills-main {
   width: 100%;
   text-align: center;
 }
 
-.basic-projects {
+.basic-myskills {
   margin-left: 5%;
   margin-right: 5%;
 }
 
-.projects-heading-div {
+.myskills-heading-div {
   display: flex;
 }
 
-.projects-heading-div > * {
+.myskills-heading-div > * {
   flex: 1;
 }
 
-.projects-heading-img-div {
+.myskills-heading-img-div {
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
-.projects-heading-text-div {
+.myskills-heading-text-div {
   text-align: center;
 }
 
-.projects-heading-img-div > * {
+.myskills-heading-img-div > * {
   max-width: 100%;
   height: auto;
 }
 
-.projects-heading-text {
+.myskills-heading-text {
   font-size: 56px;
   font-weight: 400;
   font-family: "Google Sans Medium";
@@ -40,14 +40,14 @@
   margin-top: 80px;
 }
 
-.projects-heading-sub-text {
+.myskills-heading-sub-text {
   font-size: 30px;
   font-family: "Google Sans Regular";
   text-align: center;
   margin-bottom: 10px;
 }
 
-.projects-header-detail-text {
+.myskills-header-detail-text {
   font-size: 20px;
   line-height: 30px;
   margin-top: 0px;
@@ -65,7 +65,7 @@
   font-size: 56px;
   font-weight: 600;
 } */
-.repo-cards-div-main {
+.skills-cards-div-main {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -76,31 +76,31 @@
 }
 
 @media (max-width: 1380px) {
-  .projects-heading-text {
+  .myskills-heading-text {
     font-size: 50px;
     margin-top: 80px;
   }
-  .projects-heading-sub-text {
+  .myskills-heading-sub-text {
     font-size: 25px;
   }
 }
 
 @media (max-width: 768px) {
-  .projects-heading-text {
+  .myskills-heading-text {
   /* .publications-heading-text { */
     font-size: 30px;
     margin-top: 20px;
   }
 
-  .projects-heading-sub-text {
+  .myskills-heading-sub-text {
     font-size: 20px;
   }
 
-  .projects-heading-div {
+  .myskills-heading-div {
     flex-direction: column;
   }
 
-  .projects-header-detail-text {
+  .myskills-header-detail-text {
     font-size: 16px;
     margin-right: 0px;
     margin-left: 0px;
@@ -108,7 +108,7 @@
     text-align: center;
   }
 
-  .repo-cards-div-main {
+  .skills-cards-div-main {
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     margin-left: 10px;
     margin-right: 10px;

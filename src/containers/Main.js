@@ -4,7 +4,8 @@ import Home from "../pages/home/HomeComponent";
 import Splash from "../pages/splash/Splash";
 import Education from "../pages/education/EducationComponent";
 import Experience from "../pages/experience/Experience";
-import Projects from "../pages/projects/Projects";
+import Projects from "../pages/projects/Projects.js";
+import MySkills from "../pages/myskills/MySkills.js";
 import { settings } from "../portfolio.js";
 
 export default class Main extends Component {
@@ -40,6 +41,14 @@ export default class Main extends Component {
               <Education {...props} theme={this.props.theme} />
             )}
           />
+          <Route
+            path="/projects"
+            render={(props) => <Projects {...props} theme={this.props.theme} />}
+          />
+          <Route
+            path="/myskills"
+            render={(props) => <MySkills {...props} theme={this.props.theme} />}
+          />
 
           {settings.isSplash && (
             <Route
@@ -48,10 +57,7 @@ export default class Main extends Component {
             />
           )}
 
-          <Route
-            path="/projects"
-            render={(props) => <Projects {...props} theme={this.props.theme} />}
-          />
+          
           <Route
             path="*"
             render={(props) => <Home {...props} theme={this.props.theme} />}

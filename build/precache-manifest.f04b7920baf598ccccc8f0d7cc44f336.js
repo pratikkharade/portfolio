@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "f04a95487952dfcc1c7860eda52a89dd",
+    "revision": "da6abdfc1de7949fa4c5c34446a7f5a7",
     "url": "/portfolio/index.html"
   },
   {
-    "revision": "350079a71494579ffb34",
+    "revision": "5380ee3ca221a7756bf5",
     "url": "/portfolio/static/css/main.5d7a254a.chunk.css"
   },
   {
@@ -12,8 +12,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/portfolio/static/js/2.2a5bcea3.chunk.js"
   },
   {
-    "revision": "350079a71494579ffb34",
-    "url": "/portfolio/static/js/main.ca278cc4.chunk.js"
+    "revision": "5380ee3ca221a7756bf5",
+    "url": "/portfolio/static/js/main.18769570.chunk.js"
   },
   {
     "revision": "e9a53cd8842aa965b30c",
@@ -76,6 +76,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/portfolio/static/media/_codeInLogo.fee92c18.png"
   },
   {
+    "revision": "5f915405511f649dad433a6db9adbff4",
+    "url": "/portfolio/static/media/_contactMail.5f915405.png"
+  },
+  {
     "revision": "ebf35d7f33ebbd4a4c6cff7e66e21fdb",
     "url": "/portfolio/static/media/_data_science.ebf35d7f.svg"
   },
@@ -120,8 +124,24 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/portfolio/static/media/_feelingProud.2936ce95.svg"
   },
   {
+    "revision": "fce6080726685cabdb4f75a0d8018325",
+    "url": "/portfolio/static/media/_fullstack.fce60807.svg"
+  },
+  {
+    "revision": "0ee7e8c9444cdfefc10f6d86e18b9b5b",
+    "url": "/portfolio/static/media/_gcp_logo.0ee7e8c9.png"
+  },
+  {
     "revision": "6eeb2e810d0fd9f3ca2dcd72de228e68",
     "url": "/portfolio/static/media/_github_logo.6eeb2e81.png"
+  },
+  {
+    "revision": "0c8a4c114ad00f7854e91550379b9b91",
+    "url": "/portfolio/static/media/_googleAssistant.0c8a4c11.jpg"
+  },
+  {
+    "revision": "a6addc3fb6605480614b992ede8cd434",
+    "url": "/portfolio/static/media/_googleAssistant.a6addc3f.svg"
   },
   {
     "revision": "d3fccbe1db76b96f4f320d9c0f7da30c",
@@ -140,8 +160,32 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/portfolio/static/media/_iu_logo.60ed0bd3.png"
   },
   {
+    "revision": "5b4a6449747ec61a6d9aa874f2a9ceba",
+    "url": "/portfolio/static/media/_jsFramework.5b4a6449.svg"
+  },
+  {
+    "revision": "c597fbded5de799dfb9abc3fc4f1c26f",
+    "url": "/portfolio/static/media/_legato_logo.c597fbde.png"
+  },
+  {
+    "revision": "83ac24fb968a474c6a63f7a4e9a8f62c",
+    "url": "/portfolio/static/media/_manOnTable.83ac24fb.svg"
+  },
+  {
+    "revision": "069938a84edd6ebf383c318e9feb5d4c",
+    "url": "/portfolio/static/media/_muffito_logo.069938a8.png"
+  },
+  {
+    "revision": "95a12a2b8c3149cce2175679755c4b4d",
+    "url": "/portfolio/static/media/_nptel_logo.95a12a2b.png"
+  },
+  {
     "revision": "53874a32f5f706253940ab8bb90bc8d8",
     "url": "/portfolio/static/media/_nvidia.53874a32.jpg"
+  },
+  {
+    "revision": "414dfbd98516b39255a3e22ed90b3f7d",
+    "url": "/portfolio/static/media/_portfolio.414dfbd9.gif"
   },
   {
     "revision": "16affd9c68d336ca3355de0f6be527b9",
@@ -156,12 +200,36 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/portfolio/static/media/_pratik1.cefe8b4e.jpg"
   },
   {
+    "revision": "5faf790badc18fa9030f94836ece1df1",
+    "url": "/portfolio/static/media/_programmer.5faf790b.svg"
+  },
+  {
     "revision": "b8ba948796d7ab532673c5ed2f315e74",
     "url": "/portfolio/static/media/_projects_image.b8ba9487.svg"
   },
   {
+    "revision": "71408db71465afd742233e4a96f06526",
+    "url": "/portfolio/static/media/_pwa.71408db7.png"
+  },
+  {
+    "revision": "2c497738be3831492aeb6bdc43f19154",
+    "url": "/portfolio/static/media/_stanford_logo.2c497738.png"
+  },
+  {
+    "revision": "6ac91b161c2c9934a44f72d75d18142d",
+    "url": "/portfolio/static/media/_talksCardBack.6ac91b16.svg"
+  },
+  {
+    "revision": "3fa5424232370e3d049c9555d9c440a4",
+    "url": "/portfolio/static/media/_talksCardBackAlt.3fa54242.svg"
+  },
+  {
     "revision": "0993e3246bf5146154391a0afef79b03",
     "url": "/portfolio/static/media/_tiktok_logo.0993e324.png"
+  },
+  {
+    "revision": "0af0b560ea5bea03103d8b66dfc1c907",
+    "url": "/portfolio/static/media/_tl.0af0b560.png"
   },
   {
     "revision": "d63630893eb8cb64af65f395d393c481",
@@ -174,10 +242,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "cad4d1e72ad7987eed2c3913dabd1a77",
     "url": "/portfolio/static/media/_whirlppol.cad4d1e7.png"
-  },
-  {
-    "revision": "5f915405511f649dad433a6db9adbff4",
-    "url": "/portfolio/static/media/contactMail.5f915405.png"
   },
   {
     "revision": "63e6c7ba84f05efdee84e71365349708",
@@ -244,79 +308,15 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/portfolio/static/media/fa-solid-900.8e4a6dcc.eot"
   },
   {
-    "revision": "fce6080726685cabdb4f75a0d8018325",
-    "url": "/portfolio/static/media/fullstack.fce60807.svg"
-  },
-  {
-    "revision": "0ee7e8c9444cdfefc10f6d86e18b9b5b",
-    "url": "/portfolio/static/media/gcp_logo.0ee7e8c9.png"
-  },
-  {
-    "revision": "0c8a4c114ad00f7854e91550379b9b91",
-    "url": "/portfolio/static/media/googleAssistant.0c8a4c11.jpg"
-  },
-  {
-    "revision": "a6addc3fb6605480614b992ede8cd434",
-    "url": "/portfolio/static/media/googleAssistant.a6addc3f.svg"
-  },
-  {
-    "revision": "5b4a6449747ec61a6d9aa874f2a9ceba",
-    "url": "/portfolio/static/media/jsFramework.5b4a6449.svg"
-  },
-  {
-    "revision": "c597fbded5de799dfb9abc3fc4f1c26f",
-    "url": "/portfolio/static/media/legato_logo.c597fbde.png"
-  },
-  {
-    "revision": "83ac24fb968a474c6a63f7a4e9a8f62c",
-    "url": "/portfolio/static/media/manOnTable.83ac24fb.svg"
-  },
-  {
-    "revision": "069938a84edd6ebf383c318e9feb5d4c",
-    "url": "/portfolio/static/media/muffito_logo.069938a8.png"
-  },
-  {
-    "revision": "95a12a2b8c3149cce2175679755c4b4d",
-    "url": "/portfolio/static/media/nptel_logo.95a12a2b.png"
-  },
-  {
     "revision": "140a4e6b586250860dd364c7833cafef",
     "url": "/portfolio/static/media/nvidia.140a4e6b.svg"
-  },
-  {
-    "revision": "414dfbd98516b39255a3e22ed90b3f7d",
-    "url": "/portfolio/static/media/portfolio.414dfbd9.gif"
   },
   {
     "revision": "a1aab39e5a298a9a520a52598df6c808",
     "url": "/portfolio/static/media/pratik.a1aab39e.jpeg"
   },
   {
-    "revision": "5faf790badc18fa9030f94836ece1df1",
-    "url": "/portfolio/static/media/programmer.5faf790b.svg"
-  },
-  {
-    "revision": "71408db71465afd742233e4a96f06526",
-    "url": "/portfolio/static/media/pwa.71408db7.png"
-  },
-  {
     "revision": "0aee07d6296302c5eb05440fbe2fe77f",
     "url": "/portfolio/static/media/ril.0aee07d6.png"
-  },
-  {
-    "revision": "2c497738be3831492aeb6bdc43f19154",
-    "url": "/portfolio/static/media/stanford_logo.2c497738.png"
-  },
-  {
-    "revision": "6ac91b161c2c9934a44f72d75d18142d",
-    "url": "/portfolio/static/media/talksCardBack.6ac91b16.svg"
-  },
-  {
-    "revision": "3fa5424232370e3d049c9555d9c440a4",
-    "url": "/portfolio/static/media/talksCardBackAlt.3fa54242.svg"
-  },
-  {
-    "revision": "0af0b560ea5bea03103d8b66dfc1c907",
-    "url": "/portfolio/static/media/tl.0af0b560.png"
   }
 ]);
