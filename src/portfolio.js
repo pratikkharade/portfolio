@@ -276,14 +276,14 @@ const experience = {
           location: "Salt Lake City, UT",
           description: [
             "Served as a Teaching Assistant for 4 semesters in undergraduate courses " +
-              "focused on Python, grading assignments and providing constructive feedback " +
-              "to help students enhance their coding and problem-solving skills.",
+            "focused on Python, grading assignments and providing constructive feedback " +
+            "to help students enhance their coding and problem-solving skills.",
             "Held weekly office hours to assist students with course material, clarify " +
-              "doubts, and guide them through challenging concepts, fostering a deeper " +
-              "understanding of Python programming.",
+            "doubts, and guide them through challenging concepts, fostering a deeper " +
+            "understanding of Python programming.",
             "Led lab sessions, facilitating hands-on learning and practical application " +
-              "of theoretical concepts, while creating a collaborative environment that " +
-              "encouraged student engagement and teamwork."
+            "of theoretical concepts, while creating a collaborative environment that " +
+            "encouraged student engagement and teamwork."
           ],
           color: "#9b1578"
         },
@@ -351,6 +351,140 @@ const projects = {
   description:
     "My projects makes use of vast variety of latest technology tools. My best experience is to " +
     "create Data Science projects and deploy them to web applications using cloud infrastructure.",
+  data: [
+    {
+      "id": "265fd6f5fe5244c3952448b24987ed0f651442ca",
+      "name": "business-analytics-of-food-mart",
+      "createdAt": "2022-03-13T20:41:33Z",
+      "url": "https://github.com/deepakdhole777/business-analytics-of-convenient-food-mart",
+      "description": "Python based data analytics and predictive analytics on a food mart data.",
+      "isFork": false,
+      "languages": [
+        {
+          "name": "Python",
+          "iconifyClass": "logos-python"
+        },
+        {
+          "name": "Machine Learning",
+          "iconifyClass": "eos-icons:machine-learning"
+        },
+        {
+          "name": "Scikit Learn",
+          "iconifyClass": "devicon:scikitlearn"
+        },
+        {
+          "name": "Data Analysis",
+          "iconifyClass": "streamline:money-graph-analytics-business-product-graph-data-chart-analysis"
+        }
+      ]
+    },
+    {
+      "id": "MDEwOlJlcG9zaXRvcnkyNDU0NjcyNzQ=",
+      "name": "vaccination-slots\n",
+      "createdAt": "2020-03-06T16:26:54Z",
+      "url": "https://github.com/deepakdhole777/vaccination-slots",
+      "description": "Created a small utility using Python and REST APIs to help people in India to book slots for COVID vaccination.",
+      "isFork": false,
+      "languages": [
+        {
+          "name": "Python",
+          "iconifyClass": "logos-python"
+        },
+        {
+          "name": "REST API",
+          "iconifyClass": "dashicons:rest-api"
+        }
+      ]
+    },
+    {
+      "id": "R_kgDOG0_8uQ",
+      "name": "airbnb-perfect-rating-score-prediction",
+      "createdAt": "2022-02-11T14:50:20Z",
+      "url": "https://github.com/deepakdhole777/airbnb-perfect-rating-score-prediction",
+      "description": "A machine learning utility to predict whether the Airbnb listing will get a 5 star rating from the user.",
+      "isFork": false,
+      "languages": [
+        {
+          "name": "R Programming",
+          "iconifyClass": "logos:r-lang"
+        },
+        {
+          "name": "Machine Learning",
+          "iconifyClass": "eos-icons:machine-learning"
+        },
+        {
+          "name": "Data Analysis",
+          "iconifyClass": "streamline:money-graph-analytics-business-product-graph-data-chart-analysis"
+        }
+      ]
+    },
+    {
+      "id": "R_kgDOGcPKSQ",
+      "name": "movie-recommendation-powerbi-dashboard",
+      "createdAt": "2021-11-26T17:56:07Z",
+      "url": "https://github.com/deepakdhole777/movie-recommendation-powerbi-dashboard",
+      "description": "Created a movie recommendation dashboard using Power BI",
+      "isFork": false,
+      "languages": [
+        {
+          "name": "Data Analysis",
+          "iconifyClass": "streamline:money-graph-analytics-business-product-graph-data-chart-analysis"
+        },
+        {
+          "name": "Power BI",
+          "iconifyClass": "logos:microsoft-power-bi"
+        }
+      ]
+    },
+    {
+      "id": "MDEwOlJlcG9zaXRvcnkyNDU0NjcyNzQ=",
+      "name": "masterPortfolio",
+      "createdAt": "2020-03-06T16:26:54Z",
+      "url": "https://github.com/deepakdhole777/masterPortfolio",
+      "description": "🔥 The Complete Customizable Software Developer Portfolio Template which lets you showcase your work and provides each and every detail about you as Software Developer.",
+      "isFork": false,
+      "languages": [
+        {
+          "name": "HTML",
+          "iconifyClass": "logos-html-5"
+        },
+        {
+          "name": "CSS",
+          "iconifyClass": "logos-css-3"
+        },
+        {
+          "name": "JavaScript",
+          "iconifyClass": "logos-javascript"
+        },
+        {
+          "name": "Dockerfile",
+          "iconifyClass": "simple-icons:docker"
+        }
+      ]
+    },
+    {
+      "id": "MDEwOlJlcG9zaXRvcnkzMjU5NDM1MTE=",
+      "name": "missing-knob-detection",
+      "createdAt": "2021-01-01T08:31:51Z",
+      "url": "https://github.com/deepakdhole777/missing-knob-detection",
+      "description": "A computer vision based utility to detect knobs from convery belt.",
+      "isFork": false,
+      "languages": [
+        {
+          "name": "Python",
+          "iconifyClass": "logos-python"
+        },
+        {
+          "name": "Machine Learning",
+          "iconifyClass": "eos-icons:machine-learning"
+        },
+        {
+          "name": "Open CV",
+          "iconifyClass": "logos:opencv"
+        }
+      ]
+    }
+  ]
   // avatar_image_path: "projects_image.svg",
 };
 
