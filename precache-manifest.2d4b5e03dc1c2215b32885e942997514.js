@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "e2d8723449df3b9dc21b9817c1428bd2",
+    "revision": "f04a95487952dfcc1c7860eda52a89dd",
     "url": "/portfolio/index.html"
   },
   {
-    "revision": "908dd6c356f3a8033988",
+    "revision": "350079a71494579ffb34",
     "url": "/portfolio/static/css/main.5d7a254a.chunk.css"
   },
   {
-    "revision": "3140afa2a16dfd7facc8",
-    "url": "/portfolio/static/js/2.e5e26a09.chunk.js"
+    "revision": "a995c482dbde60b175ee",
+    "url": "/portfolio/static/js/2.2a5bcea3.chunk.js"
   },
   {
-    "revision": "908dd6c356f3a8033988",
-    "url": "/portfolio/static/js/main.4ace43a0.chunk.js"
+    "revision": "350079a71494579ffb34",
+    "url": "/portfolio/static/js/main.ca278cc4.chunk.js"
   },
   {
     "revision": "e9a53cd8842aa965b30c",
@@ -53,75 +53,135 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   },
   {
     "revision": "16559172ca1d4d552390b48f19e102ba",
-    "url": "/portfolio/static/media/address_image.16559172.svg"
+    "url": "/portfolio/static/media/_address_image.16559172.svg"
   },
   {
     "revision": "eaf02c2d0158b6b4b8c2a0a0cf830a04",
-    "url": "/portfolio/static/media/animated_ashutosh.eaf02c2d.png"
+    "url": "/portfolio/static/media/_animated_ashutosh.eaf02c2d.png"
   },
   {
     "revision": "dcd6dee2bd7458a4a576dc131506fd83",
-    "url": "/portfolio/static/media/animated_logo.dcd6dee2.svg"
+    "url": "/portfolio/static/media/_animated_logo.dcd6dee2.svg"
   },
   {
     "revision": "058eca4cbdc03a1dad9a6bb943ac7831",
-    "url": "/portfolio/static/media/blogs_image.058eca4c.svg"
+    "url": "/portfolio/static/media/_blogs_image.058eca4c.svg"
   },
   {
     "revision": "cacbc42b661f39344af81c631d8d36a9",
-    "url": "/portfolio/static/media/cloud_infrastructure.cacbc42b.svg"
+    "url": "/portfolio/static/media/_cloud_infrastructure.cacbc42b.svg"
   },
   {
     "revision": "fee92c18b1cfbd1faa704c51047f113d",
-    "url": "/portfolio/static/media/codeInLogo.fee92c18.png"
+    "url": "/portfolio/static/media/_codeInLogo.fee92c18.png"
+  },
+  {
+    "revision": "ebf35d7f33ebbd4a4c6cff7e66e21fdb",
+    "url": "/portfolio/static/media/_data_science.ebf35d7f.svg"
+  },
+  {
+    "revision": "f0a618ab0c3e9ae75f297723fef1dd1f",
+    "url": "/portfolio/static/media/_deepak1.f0a618ab.jpg"
+  },
+  {
+    "revision": "c4dc08e401ae821670830dd54e195250",
+    "url": "/portfolio/static/media/_deepak2.c4dc08e4.jpg"
+  },
+  {
+    "revision": "d9907958c3eb62e2d47ded8a91c6cfce",
+    "url": "/portfolio/static/media/_deepak3.d9907958.jpg"
+  },
+  {
+    "revision": "ed1459be83dd113ea7ba03b39f9dadd3",
+    "url": "/portfolio/static/media/_deepak4.ed1459be.jpg"
+  },
+  {
+    "revision": "75a7107b7739a46950f66de29779eb52",
+    "url": "/portfolio/static/media/_deeplearning_ai_logo.75a7107b.png"
+  },
+  {
+    "revision": "3e23ca14e7a7c8a7b63d255466749000",
+    "url": "/portfolio/static/media/_developerActivity.3e23ca14.svg"
+  },
+  {
+    "revision": "63f707f224c8a842ac928c36e3be879a",
+    "url": "/portfolio/static/media/_dsc_logo.63f707f2.png"
+  },
+  {
+    "revision": "3bab7a9dc4324f1b2364d25a47fcfcf0",
+    "url": "/portfolio/static/media/_education.3bab7a9d.svg"
+  },
+  {
+    "revision": "a00ede3f70759480e81f14f203edaa51",
+    "url": "/portfolio/static/media/_experience.a00ede3f.svg"
+  },
+  {
+    "revision": "2936ce95f550e3feef7230ea543a4b60",
+    "url": "/portfolio/static/media/_feelingProud.2936ce95.svg"
+  },
+  {
+    "revision": "6eeb2e810d0fd9f3ca2dcd72de228e68",
+    "url": "/portfolio/static/media/_github_logo.6eeb2e81.png"
+  },
+  {
+    "revision": "d3fccbe1db76b96f4f320d9c0f7da30c",
+    "url": "/portfolio/static/media/_ibm_logo.d3fccbe1.png"
+  },
+  {
+    "revision": "571a8584e69ecfbe326c8b8385fbbf54",
+    "url": "/portfolio/static/media/_iiitk_logo.571a8584.png"
+  },
+  {
+    "revision": "29152cf756a1facead5393c32e373371",
+    "url": "/portfolio/static/media/_intel_logo.29152cf7.jpg"
+  },
+  {
+    "revision": "60ed0bd3f8b99ac1d29e74575f804aaa",
+    "url": "/portfolio/static/media/_iu_logo.60ed0bd3.png"
+  },
+  {
+    "revision": "53874a32f5f706253940ab8bb90bc8d8",
+    "url": "/portfolio/static/media/_nvidia.53874a32.jpg"
+  },
+  {
+    "revision": "16affd9c68d336ca3355de0f6be527b9",
+    "url": "/portfolio/static/media/_pratik.16affd9c.png"
+  },
+  {
+    "revision": "74c5f8b256f6f8c7eae59e50027348fb",
+    "url": "/portfolio/static/media/_pratik.74c5f8b2.jpg"
+  },
+  {
+    "revision": "cefe8b4e1bc0678b9192347b1805d9f4",
+    "url": "/portfolio/static/media/_pratik1.cefe8b4e.jpg"
+  },
+  {
+    "revision": "b8ba948796d7ab532673c5ed2f315e74",
+    "url": "/portfolio/static/media/_projects_image.b8ba9487.svg"
+  },
+  {
+    "revision": "0993e3246bf5146154391a0afef79b03",
+    "url": "/portfolio/static/media/_tiktok_logo.0993e324.png"
+  },
+  {
+    "revision": "d63630893eb8cb64af65f395d393c481",
+    "url": "/portfolio/static/media/_ui_ux_design.d6363089.svg"
+  },
+  {
+    "revision": "a29bd8907a358fdda1f15d8b7d0b127e",
+    "url": "/portfolio/static/media/_umd.a29bd890.svg"
+  },
+  {
+    "revision": "cad4d1e72ad7987eed2c3913dabd1a77",
+    "url": "/portfolio/static/media/_whirlppol.cad4d1e7.png"
   },
   {
     "revision": "5f915405511f649dad433a6db9adbff4",
     "url": "/portfolio/static/media/contactMail.5f915405.png"
   },
   {
-    "revision": "ebf35d7f33ebbd4a4c6cff7e66e21fdb",
-    "url": "/portfolio/static/media/data_science.ebf35d7f.svg"
-  },
-  {
-    "revision": "f0a618ab0c3e9ae75f297723fef1dd1f",
-    "url": "/portfolio/static/media/deepak1.f0a618ab.jpg"
-  },
-  {
-    "revision": "c4dc08e401ae821670830dd54e195250",
-    "url": "/portfolio/static/media/deepak2.c4dc08e4.jpg"
-  },
-  {
-    "revision": "d9907958c3eb62e2d47ded8a91c6cfce",
-    "url": "/portfolio/static/media/deepak3.d9907958.jpg"
-  },
-  {
-    "revision": "ed1459be83dd113ea7ba03b39f9dadd3",
-    "url": "/portfolio/static/media/deepak4.ed1459be.jpg"
-  },
-  {
-    "revision": "75a7107b7739a46950f66de29779eb52",
-    "url": "/portfolio/static/media/deeplearning_ai_logo.75a7107b.png"
-  },
-  {
-    "revision": "3e23ca14e7a7c8a7b63d255466749000",
-    "url": "/portfolio/static/media/developerActivity.3e23ca14.svg"
-  },
-  {
-    "revision": "63f707f224c8a842ac928c36e3be879a",
-    "url": "/portfolio/static/media/dsc_logo.63f707f2.png"
-  },
-  {
-    "revision": "3bab7a9dc4324f1b2364d25a47fcfcf0",
-    "url": "/portfolio/static/media/education.3bab7a9d.svg"
-  },
-  {
     "revision": "63e6c7ba84f05efdee84e71365349708",
     "url": "/portfolio/static/media/eq.63e6c7ba.png"
-  },
-  {
-    "revision": "a00ede3f70759480e81f14f203edaa51",
-    "url": "/portfolio/static/media/experience.a00ede3f.svg"
   },
   {
     "revision": "0017cc6de3f72f67753efa37bb796fbd",
@@ -184,10 +244,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/portfolio/static/media/fa-solid-900.8e4a6dcc.eot"
   },
   {
-    "revision": "2936ce95f550e3feef7230ea543a4b60",
-    "url": "/portfolio/static/media/feelingProud.2936ce95.svg"
-  },
-  {
     "revision": "fce6080726685cabdb4f75a0d8018325",
     "url": "/portfolio/static/media/fullstack.fce60807.svg"
   },
@@ -196,32 +252,12 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/portfolio/static/media/gcp_logo.0ee7e8c9.png"
   },
   {
-    "revision": "6eeb2e810d0fd9f3ca2dcd72de228e68",
-    "url": "/portfolio/static/media/github_logo.6eeb2e81.png"
-  },
-  {
     "revision": "0c8a4c114ad00f7854e91550379b9b91",
     "url": "/portfolio/static/media/googleAssistant.0c8a4c11.jpg"
   },
   {
     "revision": "a6addc3fb6605480614b992ede8cd434",
     "url": "/portfolio/static/media/googleAssistant.a6addc3f.svg"
-  },
-  {
-    "revision": "d3fccbe1db76b96f4f320d9c0f7da30c",
-    "url": "/portfolio/static/media/ibm_logo.d3fccbe1.png"
-  },
-  {
-    "revision": "571a8584e69ecfbe326c8b8385fbbf54",
-    "url": "/portfolio/static/media/iiitk_logo.571a8584.png"
-  },
-  {
-    "revision": "29152cf756a1facead5393c32e373371",
-    "url": "/portfolio/static/media/intel_logo.29152cf7.jpg"
-  },
-  {
-    "revision": "60ed0bd3f8b99ac1d29e74575f804aaa",
-    "url": "/portfolio/static/media/iu_logo.60ed0bd3.png"
   },
   {
     "revision": "5b4a6449747ec61a6d9aa874f2a9ceba",
@@ -248,36 +284,16 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/portfolio/static/media/nvidia.140a4e6b.svg"
   },
   {
-    "revision": "53874a32f5f706253940ab8bb90bc8d8",
-    "url": "/portfolio/static/media/nvidia.53874a32.jpg"
-  },
-  {
     "revision": "414dfbd98516b39255a3e22ed90b3f7d",
     "url": "/portfolio/static/media/portfolio.414dfbd9.gif"
-  },
-  {
-    "revision": "16affd9c68d336ca3355de0f6be527b9",
-    "url": "/portfolio/static/media/pratik.16affd9c.png"
-  },
-  {
-    "revision": "74c5f8b256f6f8c7eae59e50027348fb",
-    "url": "/portfolio/static/media/pratik.74c5f8b2.jpg"
   },
   {
     "revision": "a1aab39e5a298a9a520a52598df6c808",
     "url": "/portfolio/static/media/pratik.a1aab39e.jpeg"
   },
   {
-    "revision": "cefe8b4e1bc0678b9192347b1805d9f4",
-    "url": "/portfolio/static/media/pratik1.cefe8b4e.jpg"
-  },
-  {
     "revision": "5faf790badc18fa9030f94836ece1df1",
     "url": "/portfolio/static/media/programmer.5faf790b.svg"
-  },
-  {
-    "revision": "b8ba948796d7ab532673c5ed2f315e74",
-    "url": "/portfolio/static/media/projects_image.b8ba9487.svg"
   },
   {
     "revision": "71408db71465afd742233e4a96f06526",
@@ -300,23 +316,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/portfolio/static/media/talksCardBackAlt.3fa54242.svg"
   },
   {
-    "revision": "0993e3246bf5146154391a0afef79b03",
-    "url": "/portfolio/static/media/tiktok_logo.0993e324.png"
-  },
-  {
     "revision": "0af0b560ea5bea03103d8b66dfc1c907",
     "url": "/portfolio/static/media/tl.0af0b560.png"
-  },
-  {
-    "revision": "d63630893eb8cb64af65f395d393c481",
-    "url": "/portfolio/static/media/ui_ux_design.d6363089.svg"
-  },
-  {
-    "revision": "a29bd8907a358fdda1f15d8b7d0b127e",
-    "url": "/portfolio/static/media/umd.a29bd890.svg"
-  },
-  {
-    "revision": "cad4d1e72ad7987eed2c3913dabd1a77",
-    "url": "/portfolio/static/media/whirlppol.cad4d1e7.png"
   }
 ]);
