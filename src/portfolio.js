@@ -5,7 +5,7 @@ const settings = {
   isSplash: false // Change this to false if you don't want Splash screen.
 };
 
-//SEO Related settings
+// SEO Related settings
 const seo = {
   title: "Pratik's Portfolio",
   description: "Innovative Software Engineer creating intuitive user experiences! " +
@@ -19,7 +19,7 @@ const seo = {
   }
 };
 
-//Home Page
+// Home Page
 const greeting = {
   title: "Pratik Kharade",
   logo_name: "PratikKharade",
@@ -35,6 +35,7 @@ const greeting = {
   
 };
 
+// Social Media Links
 const socialMediaLinks = [
   {
     name: "Github",
@@ -187,9 +188,8 @@ const competitiveSites = {
 // Education Page
 const education = {
   title: "Education",
-  description:
-    "Equipped with a well-rounded education for success in technology and information management.",
-  // avatar_image_path: "projects_image.svg",
+  description: "🎓 Education is more than just acquiring knowledge—it's about " +
+    "fostering adaptability, curiosity, and a mindset for continuous growth.",
   degrees: [
     {
       title: "University of Utah, Salt Lake City",
@@ -240,11 +240,8 @@ const education = {
 const experience = {
   title: "Experience",
   subtitle: "",
-  description:
-    "🚀 Seasoned professional with expertise in developing scalable AI models, " +
-    "executing complex data engineering projects, and optimizing critical KPIs " +
-    "for impactful business outcomes.",
-  // header_image_path: "experience.svg",
+  description: "🖥️ With each experience, we refine our skills, learn from diverse " +
+    "situations, and gain a broader perspective on how to approach problems.",
   sections: [
     {
       title: "Work",
@@ -278,14 +275,14 @@ const experience = {
           location: "Salt Lake City, UT",
           description: [
             "Served as a Teaching Assistant for 4 semesters in undergraduate courses " +
-            "focused on Python, grading assignments and providing constructive feedback " +
-            "to help students enhance their coding and problem-solving skills.",
+              "focused on Python, grading assignments and providing constructive feedback " +
+              "to help students enhance their coding and problem-solving skills.",
             "Held weekly office hours to assist students with course material, clarify " +
-            "doubts, and guide them through challenging concepts, fostering a deeper " +
-            "understanding of Python programming.",
+              "doubts, and guide them through challenging concepts, fostering a deeper " +
+              "understanding of Python programming.",
             "Led lab sessions, facilitating hands-on learning and practical application " +
-            "of theoretical concepts, while creating a collaborative environment that " +
-            "encouraged student engagement and teamwork."
+              "of theoretical concepts, while creating a collaborative environment that " +
+              "encouraged student engagement and teamwork."
           ],
           color: "#9b1578"
         },
@@ -298,14 +295,14 @@ const experience = {
           location: "Pune, India",
           description: [
             "Directed the design, deployment, and maintenance of eQ Technologic's Data " +
-            "Visualization suite, improving real-time enterprise data analysis through " +
-            "JavaScript/jQuery, React JS, HTML, and CSS, leading to a 35% boost in user " +
-            "engagement and a 25% reduction in data processing time.",
+              "Visualization suite, improving real-time enterprise data analysis through " +
+              "JavaScript/jQuery, React JS, HTML, and CSS, leading to a 35% boost in user " +
+              "engagement and a 25% reduction in data processing time.",
             "Spearheaded the creation and refinement of key UI features, elevating user " +
-            "satisfaction by 25 % and driving a 20 % increase in daily active users.",
+              "satisfaction by 25 % and driving a 20 % increase in daily active users.",
             "Assessed and compared various JavaScript frameworks, recommending a migration " +
-            "strategy that enhanced technological agility, reduced development time by 25 %, " +
-            "and significantly improved product scalability."
+              "strategy that enhanced technological agility, reduced development time by 25 %, " +
+              "and significantly improved product scalability."
           ],
           color: "#9b1578"
         },
@@ -318,13 +315,13 @@ const experience = {
           location: "Pune, India",
           description: [
             "Designed, developed, and implemented web - based automation tools for " +
-            "developers at Nvidia, utilizing JavaScript(Frontend), Python(Backend), " +
-            "and HTML5 / CSS3.",
+              "developers at Nvidia, utilizing JavaScript(Frontend), Python(Backend), " +
+              "and HTML5 / CSS3.",
             "Performed comprehensive analysis and standardized power consumption across " +
-            "15 GPU configurations and 10 testing scenarios, improving performance " +
-            "consistency by 20 % through Python scripting.",
+              "15 GPU configurations and 10 testing scenarios, improving performance " +
+              "consistency by 20 % through Python scripting.",
             "Debugged and resolved around 15 resource management issues using C, enhancing " +
-            "overall system reliability."
+              "overall system reliability."
           ],
           color: "#9b1578"
         },
@@ -337,7 +334,7 @@ const experience = {
           location: "Nagothane, India",
           description: [
             "Architected and developed a comprehensive Inventory Management System using C# " +
-            "and ASP.NET, demonstrating strong system design and software engineering skills.",
+              "and ASP.NET, demonstrating strong system design and software engineering skills.",
             "Led project execution, achieving a 30% boost in inventory tracking efficiency."
           ],
           color: "#9b1578"
@@ -350,9 +347,9 @@ const experience = {
 // Projects Page
 const projects = {
   title: "Projects",
-  description:
-    "My projects makes use of vast variety of latest technology tools. My best experience is to " +
-    "create Data Science projects and deploy them to web applications using cloud infrastructure.",
+  description: "🚀 My projects makes use of vast variety of latest " +
+    "technology tools. My best experience is to create Data Science " +
+    "projects and deploy them to web applications using cloud infrastructure.",
   data: [
     {
       name: "Security Evaluation of Web Application Frameworks",
@@ -507,7 +504,9 @@ const projects = {
 // My Skills Page
 const mySkills = {
   title: "My Skills",
-  description: " My Skills placeholder",
+  description: "🛠️ The right skill set not only enhances creativity and " +
+    "problem-solving but also empowers individuals to leverage new " +
+    "opportunities in an ever-changing tech landscape.",
   data: [
     {
       category: "Programming",
@@ -630,7 +629,8 @@ const mySkills = {
       ]
     }
   ]
-}
+};
+
 export {
   seo,
   skills,
