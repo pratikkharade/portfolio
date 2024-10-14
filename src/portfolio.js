@@ -362,7 +362,7 @@ const projects = {
       report_url: "https://drive.google.com/file/d/1zQPGrO1jp8Fn6wLaCkiAZYkAHXjFfd5V/view?usp=sharing",
       poster_url: "",
       github_url: "",
-      url: "https://github.com/deepakdhole777/business-analytics-of-convenient-food-mart",
+      // url: "https://github.com/deepakdhole777/business-analytics-of-convenient-food-mart",
       description: "Assessed the security of prominent web application frameworks.",
       description1: "Engaged in a project assessing the security of prominent web " +
         "application frameworks like Django (Python), JavaScript frameworks (Express.js," +
@@ -388,13 +388,36 @@ const projects = {
       ]
     },
     {
+      name: "An Exploration of Privacy and Visibility in 2 STEAM Friend Networks",
+      startDate: "Aug 2023",
+      endDate: "Dec 2023",
+      report_url: "https://drive.google.com/file/d/1HbYHUGwWKbutYoNQxHH6uF7X4BlBoNBd/view?usp=sharing",
+      poster_url: "",
+      github_url: "",
+      // url: "https://github.com/deepakdhole777/vaccination-slots",
+      description: "Designed and developed a sentiment analysis model, optimizing " +
+        "preprocessing, merging datasets, and fine-tuning hyperparameters, resulting " +
+        "in a 15% increase in accuracy and a 20% reduction in training time across " +
+        "multiple classifiers.",
+      languages: [
+        {
+          "name": "Python",
+          "iconifyClass": "logos-python"
+        },
+        {
+          "name": "REST API",
+          "iconifyClass": "dashicons:rest-api"
+        }
+      ]
+    },
+    {
       name: "Sentiment Analysis of Movies",
       startDate: "Jan 2023",
       endDate: "May 2023",
       report_url: "https://drive.google.com/file/d/1hjzayW7aA9D82YMm2bqK5qiOWRzZRPyW/view?usp=sharing",
       poster_url: "",
       github_url: "https://github.com/pratikkharade/Sentiment-Analysis-of-Movies",
-      url: "https://github.com/deepakdhole777/vaccination-slots",
+      // url: "https://github.com/deepakdhole777/vaccination-slots",
       description: "Designed and developed a sentiment analysis model, optimizing " +
         "preprocessing, merging datasets, and fine-tuning hyperparameters, resulting " +
         "in a 15% increase in accuracy and a 20% reduction in training time across " +
@@ -440,7 +463,7 @@ const projects = {
       report_url: "",
       poster_url: "",
       github_url: "",
-      url: "https://github.com/deepakdhole777/vaccination-slots",
+      // url: "https://github.com/deepakdhole777/vaccination-slots",
       description: "Developed Python scripts to collect and analyze power " + 
         "consumption data across 15 GPU configurations and 10 testing scenarios, " +
         "identifying optimization strategies that reduced power consumption " +

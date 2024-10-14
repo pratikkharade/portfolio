@@ -3,7 +3,7 @@
   box-shadow: 5px 5px 5px #d9dbdf;
   border-radius: 7px;
   padding: 2rem;
-  cursor: pointer;
+  /* cursor: pointer; */
   flex: 1 1 25%;
 }
 .repo-card-div:hover {

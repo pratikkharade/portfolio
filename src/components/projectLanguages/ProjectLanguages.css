@@ -8,6 +8,7 @@
 }
 
 .software-skill-inline-languages {
+  cursor: pointer;
   display: inline-block;
   margin-right: 20px;
   margin-bottom: 0px;
