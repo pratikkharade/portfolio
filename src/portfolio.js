@@ -60,6 +60,52 @@ const socialMediaLinks = [
 const skills = {
   data: [
     {
+      title: "Software Development",
+      fileName: "DesignImg",
+      skills: [
+        "⚡ Designing and implementing web applications",
+        "⚡ Experience working with micro-services architecture",
+        "⚡ Implemented several data migration projects using Java and Spring Boot"
+      ],
+      softwareSkills: [
+        {
+          skillName: "Java",
+          imageSrc: "java-logo.png",
+          style: {
+            color: "#FF2BC2"
+          }
+        },
+        {
+          skillName: "Oracle SQL",
+          imageSrc: "oracle.svg",
+          style: {
+            color: "#F24E1E"
+          }
+        },
+        {
+          skillName: "R Programming Language",
+          imageSrc: "R_logo.png",
+          style: {
+            color: "#FF7C00"
+          }
+        },
+        {
+          skillName: "Microsoft SQL Server",
+          imageSrc: "mssql.png",
+          style: {
+            color: "#000000"
+          }
+        },
+        {
+          skillName: "InellIJ",
+          imageSrc: "IntelliJ.png",
+          style: {
+            color: "#000000"
+          }
+        }
+      ]
+    },
+    {
       title: "Data Science & AI",
       fileName: "data_science.svg",
       skills: [
@@ -126,52 +172,6 @@ const skills = {
           imageSrc: "jenkins.png",
           style: {
             color: "#1572B6"
-          }
-        }
-      ]
-    },
-    {
-      title: "Software Development",
-      fileName: "DesignImg",
-      skills: [
-        "⚡ Designing and implementing web applications",
-        "⚡ Experience working with micro-services architecture",
-        "⚡ Implemented several data migration projects using Java and Spring Boot"
-      ],
-      softwareSkills: [
-        {
-          skillName: "Java",
-          imageSrc: "java-logo.png",
-          style: {
-            color: "#FF2BC2"
-          }
-        },
-        {
-          skillName: "Oracle SQL",
-          imageSrc: "oracle.svg",
-          style: {
-            color: "#F24E1E"
-          }
-        },
-        {
-          skillName: "R Programming Language",
-          imageSrc: "R_logo.png",
-          style: {
-            color: "#FF7C00"
-          }
-        },
-        {
-          skillName: "Microsoft SQL Server",
-          imageSrc: "mssql.png",
-          style: {
-            color: "#000000"
-          }
-        },
-        {
-          skillName: "InellIJ",
-          imageSrc: "IntelliJ.png",
-          style: {
-            color: "#000000"
           }
         }
       ]
