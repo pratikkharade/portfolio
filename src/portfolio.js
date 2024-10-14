@@ -393,7 +393,7 @@ const projects = {
       endDate: "May 2023",
       report_url: "https://drive.google.com/file/d/1hjzayW7aA9D82YMm2bqK5qiOWRzZRPyW/view?usp=sharing",
       poster_url: "",
-      github_url: "",
+      github_url: "https://github.com/pratikkharade/Sentiment-Analysis-of-Movies",
       url: "https://github.com/deepakdhole777/vaccination-slots",
       description: "Designed and developed a sentiment analysis model, optimizing " +
         "preprocessing, merging datasets, and fine-tuning hyperparameters, resulting " +
@@ -416,8 +416,8 @@ const projects = {
       endDate: "May 2023",
       report_url: "https://drive.google.com/file/d/1inbruco_SG7W8e73R4eQSZFcEjUu4ljC/view?usp=sharing",
       poster_url: "https://drive.google.com/file/d/1eh-UBaP6wI7LDlghGkipMjr05WmNvTIA/view?usp=sharing",
-      github_url: "",
-      url: "https://github.com/deepakdhole777/vaccination-slots",
+      github_url: "https://github.com/pratikkharade/Formula-1-Race-Outcomes-Analysis-and-Predictions",
+      // url: "https://github.com/deepakdhole777/vaccination-slots",
       description: "Collected and analyzed Formula 1 race data to build a predictive " +
         "model for forecasting race outcomes, utilizing Machine Learning and Data " +
         "Mining techniques such as Regression, Clustering, and Gradient Descent, " +
