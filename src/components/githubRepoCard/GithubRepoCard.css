@@ -94,6 +94,11 @@
   margin-right: 0px;
 }
 
+.repo-urls {
+  display: flex;
+  column-gap: 1rem;
+}
+
 @media (max-width: 1200px) {
   .repo-card-div {
     flex: 1 1 40%;
@@ -119,5 +124,9 @@
 
   .repo-creation-date {
     font-size: 14px;
+  }
+
+  .repo-urls {
+    flex-direction: column;
   }
 }
