@@ -571,9 +571,9 @@ const projects = {
       poster_url: "",
       github_url: "",
       url: "https://github.com/deepakdhole777/vaccination-slots",
-      brief_desc: "Developed an Android app for delivery personnel, " +
-        "optimizing routes and package sequences using Dijkstra's Algorithm " +
-        "and a proprietary method to generate the most efficient delivery sequence.",
+      brief_desc: "Spearheaded the development of a C++ program that " +
+        "automated 3D object projection, increasing speed 50-fold and " +
+        "improving precision 1000 times over manual methods.",
       description: "I spearheaded the development of a C++ program aimed " +
         "at automating 3D object projection, streamlining the process and " +
         "minimizing errors. This initiative yielded a remarkable 50-fold " +
