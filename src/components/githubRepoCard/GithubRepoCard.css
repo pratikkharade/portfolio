@@ -4,7 +4,7 @@
   border-radius: 7px;
   padding: 2rem;
   /* cursor: pointer; */
-  flex: 1 1 25%;
+  flex: 1 1 40%;
 }
 .repo-card-div:hover {
   box-shadow: rgba(0, 0, 0, 0.2) 0px 20px 30px -10px;
@@ -71,7 +71,7 @@
   text-align: left;
   display: -webkit-box;
   font-family: "Google Sans Regular";
-  -webkit-line-clamp: 2;
+  -webkit-line-clamp: 4;
   -webkit-box-orient: vertical;
   margin-top: 0.8rem;
 }
@@ -116,6 +116,7 @@
 
   .repo-description {
     font-size: 14px;
+    -webkit-line-clamp: 6;
   }
 
   .repo-details {

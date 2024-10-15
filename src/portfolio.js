@@ -359,30 +359,31 @@ const projects = {
       report_url: "https://drive.google.com/file/d/1zQPGrO1jp8Fn6wLaCkiAZYkAHXjFfd5V/view?usp=sharing",
       poster_url: "",
       github_url: "",
-      // url: "https://github.com/deepakdhole777/business-analytics-of-convenient-food-mart",
-      description: "Assessed the security of prominent web application frameworks.",
-      description1: "Engaged in a project assessing the security of prominent web " +
+      brief_desc: "Evaluated the security of web frameworks like Django, Express.js, " +
+        "Angular.js, and Ruby on Rails to enhance defenses against cyber threats in " +
+        "sectors like finance, healthcare, and e-commerce.",
+      description: "Engaged in a project assessing the security of prominent web " +
         "application frameworks like Django (Python), JavaScript frameworks (Express.js," +
         " Angular.js), and Ruby on Rails, aimed at fortifying defenses against cyber " +
         "threats across sectors including finance, healthcare, and e-commerce.",
-      languages: [
-        {
-          "name": "Python",
-          "iconifyClass": "logos-python"
-        },
-        {
-          "name": "Machine Learning",
-          "iconifyClass": "eos-icons:machine-learning"
-        },
-        {
-          "name": "Scikit Learn",
-          "iconifyClass": "devicon:scikitlearn"
-        },
-        {
-          "name": "Data Analysis",
-          "iconifyClass": "streamline:money-graph-analytics-business-product-graph-data-chart-analysis"
-        }
-      ]
+      // languages: [
+      //   {
+      //     "name": "Python",
+      //     "iconifyClass": "logos-python"
+      //   },
+      //   {
+      //     "name": "Machine Learning",
+      //     "iconifyClass": "eos-icons:machine-learning"
+      //   },
+      //   {
+      //     "name": "Scikit Learn",
+      //     "iconifyClass": "devicon:scikitlearn"
+      //   },
+      //   {
+      //     "name": "Data Analysis",
+      //     "iconifyClass": "streamline:money-graph-analytics-business-product-graph-data-chart-analysis"
+      //   }
+      // ]
     },
     {
       name: "An Exploration of Privacy and Visibility in 2 STEAM Friend Networks",
@@ -391,21 +392,25 @@ const projects = {
       report_url: "https://drive.google.com/file/d/1HbYHUGwWKbutYoNQxHH6uF7X4BlBoNBd/view?usp=sharing",
       poster_url: "",
       github_url: "",
-      // url: "https://github.com/deepakdhole777/vaccination-slots",
-      description: "Designed and developed a sentiment analysis model, optimizing " +
-        "preprocessing, merging datasets, and fine-tuning hyperparameters, resulting " +
-        "in a 15% increase in accuracy and a 20% reduction in training time across " +
-        "multiple classifiers.",
-      languages: [
-        {
-          "name": "Python",
-          "iconifyClass": "logos-python"
-        },
-        {
-          "name": "REST API",
-          "iconifyClass": "dashicons:rest-api"
-        }
-      ]
+      brief_desc: "Analyzed how privacy settings and social connections " +
+        "on the STEAM platform influence users' sharing of personal information, " +
+        "uncovering patterns in profile visibility and data management.",
+      description: "In this project, I explored how privacy settings and " +
+        "social connections influence the sharing of personal information " +
+        "on the STEAM platform. By analyzing data collected through STEAM's " +
+        "Web API, I uncovered patterns in how users manage their privacy, " +
+        "particularly in relation to the visibility of profiles, real names, " +
+        "locations, and friends lists within the gaming community.",
+      // languages: [
+      //   {
+      //     "name": "Python",
+      //     "iconifyClass": "logos-python"
+      //   },
+      //   {
+      //     "name": "REST API",
+      //     "iconifyClass": "dashicons:rest-api"
+      //   }
+      // ]
     },
     {
       name: "Sentiment Analysis of Movies",
@@ -414,21 +419,21 @@ const projects = {
       report_url: "https://drive.google.com/file/d/1hjzayW7aA9D82YMm2bqK5qiOWRzZRPyW/view?usp=sharing",
       poster_url: "",
       github_url: "https://github.com/pratikkharade/Sentiment-Analysis-of-Movies",
-      // url: "https://github.com/deepakdhole777/vaccination-slots",
+      brief_desc: "Predicted movie review sentiment using machine learning classifiers, optimizing performance through preprocessing, hyperparameter tuning, and cross-validation.",
       description: "Designed and developed a sentiment analysis model, optimizing " +
         "preprocessing, merging datasets, and fine-tuning hyperparameters, resulting " +
         "in a 15% increase in accuracy and a 20% reduction in training time across " +
         "multiple classifiers.",
-      languages: [
-        {
-          "name": "Python",
-          "iconifyClass": "logos-python"
-        },
-        {
-          "name": "REST API",
-          "iconifyClass": "dashicons:rest-api"
-        }
-      ]
+      // languages: [
+      //   {
+      //     "name": "Python",
+      //     "iconifyClass": "logos-python"
+      //   },
+      //   {
+      //     "name": "REST API",
+      //     "iconifyClass": "dashicons:rest-api"
+      //   }
+      // ]
     },
     {
       name: "Formula 1 Race Outcomes – Analysis and Predictions",
@@ -437,21 +442,23 @@ const projects = {
       report_url: "https://drive.google.com/file/d/1inbruco_SG7W8e73R4eQSZFcEjUu4ljC/view?usp=sharing",
       poster_url: "https://drive.google.com/file/d/1eh-UBaP6wI7LDlghGkipMjr05WmNvTIA/view?usp=sharing",
       github_url: "https://github.com/pratikkharade/Formula-1-Race-Outcomes-Analysis-and-Predictions",
-      // url: "https://github.com/deepakdhole777/vaccination-slots",
+      brief_desc: "Built a predictive model for Formula 1 race outcomes using " +
+        "Machine Learning techniques like Regression, Clustering, and Gradient " +
+        "Descent, achieving 97% accuracy.",
       description: "Collected and analyzed Formula 1 race data to build a predictive " +
         "model for forecasting race outcomes, utilizing Machine Learning and Data " +
         "Mining techniques such as Regression, Clustering, and Gradient Descent, " +
         "achieving 97% accuracy.",
-      languages: [
-        {
-          "name": "Python",
-          "iconifyClass": "logos-python"
-        },
-        {
-          "name": "REST API",
-          "iconifyClass": "dashicons:rest-api"
-        }
-      ]
+      // languages: [
+      //   {
+      //     "name": "Python",
+      //     "iconifyClass": "logos-python"
+      //   },
+      //   {
+      //     "name": "REST API",
+      //     "iconifyClass": "dashicons:rest-api"
+      //   }
+      // ]
     },
     {
       name: "Power Profiling of Nvidia GPUs",
@@ -460,21 +467,21 @@ const projects = {
       report_url: "",
       poster_url: "",
       github_url: "",
-      // url: "https://github.com/deepakdhole777/vaccination-slots",
+      brief_desc: "Developed Python scripts to analyze power consumption across 15 GPU configurations and 10 scenarios, reducing power consumption disparities by 25%.",
       description: "Developed Python scripts to collect and analyze power " + 
         "consumption data across 15 GPU configurations and 10 testing scenarios, " +
         "identifying optimization strategies that reduced power consumption " +
         "disparities by 25%.",
-      languages: [
-        {
-          "name": "Python",
-          "iconifyClass": "logos-python"
-        },
-        {
-          "name": "REST API",
-          "iconifyClass": "dashicons:rest-api"
-        }
-      ]
+      // languages: [
+      //   {
+      //     "name": "Python",
+      //     "iconifyClass": "logos-python"
+      //   },
+      //   {
+      //     "name": "REST API",
+      //     "iconifyClass": "dashicons:rest-api"
+      //   }
+      // ]
     },
     {
       name: "Sorting Algorithms using Parallel Processing",
@@ -484,19 +491,19 @@ const projects = {
       poster_url: "",
       github_url: "",
       url: "https://github.com/deepakdhole777/vaccination-slots",
-      description: "Executed sorting algorithms on a substantial dataset of one " +
+      brief_desc: "Executed sorting algorithms on a substantial dataset of one " +
         "million items, leveraging Parallel Processing on CUDA to enhance computational " +
         "efficiency, resulting in a 40% reduction in response time.",
-      languages: [
-        {
-          "name": "Python",
-          "iconifyClass": "logos-python"
-        },
-        {
-          "name": "REST API",
-          "iconifyClass": "dashicons:rest-api"
-        }
-      ]
+      // languages: [
+      //   {
+      //     "name": "Python",
+      //     "iconifyClass": "logos-python"
+      //   },
+      //   {
+      //     "name": "REST API",
+      //     "iconifyClass": "dashicons:rest-api"
+      //   }
+      // ]
     }
   ]
 };

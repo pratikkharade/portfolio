@@ -32,7 +32,7 @@ export default function GithubRepoCard(props) {
           </p>
         </div>
         <p className="repo-description" style={{ color: theme.text }}>
-          {repo?.description}
+          {repo?.brief_desc}
         </p>
         <div className="repo-details">
           <p
@@ -41,10 +41,11 @@ export default function GithubRepoCard(props) {
           >
             {repo?.startDate} - {repo?.endDate}
           </p>
-          <ProjectLanguages
-            className="repo-languages"
-            logos={repo?.languages}
-          />
+          {repo.languages &&
+            <ProjectLanguages
+              className="repo-languages"
+              logos={repo?.languages}
+            />}
         </div>
         <div className="repo-urls">
           {repo?.report_url && (
