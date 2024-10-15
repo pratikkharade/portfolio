@@ -22,7 +22,7 @@ const seo = {
 // Home Page
 const greeting = {
   title: "Pratik Kharade",
-  logo_name: "pk",
+  logo_name: "PratikKharade",
   pronouns: "he/him",
   image_path: "pratik.jpeg",
   subTitle: "Innovative Software Engineer creating intuitive user experiences! With a " +
