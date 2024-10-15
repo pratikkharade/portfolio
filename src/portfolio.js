@@ -413,29 +413,6 @@ const projects = {
       // ]
     },
     {
-      name: "Sentiment Analysis of Movies",
-      startDate: "Jan 2023",
-      endDate: "May 2023",
-      report_url: "https://drive.google.com/file/d/1hjzayW7aA9D82YMm2bqK5qiOWRzZRPyW/view?usp=sharing",
-      poster_url: "",
-      github_url: "https://github.com/pratikkharade/Sentiment-Analysis-of-Movies",
-      brief_desc: "Predicted movie review sentiment using machine learning classifiers, optimizing performance through preprocessing, hyperparameter tuning, and cross-validation.",
-      description: "Designed and developed a sentiment analysis model, optimizing " +
-        "preprocessing, merging datasets, and fine-tuning hyperparameters, resulting " +
-        "in a 15% increase in accuracy and a 20% reduction in training time across " +
-        "multiple classifiers.",
-      // languages: [
-      //   {
-      //     "name": "Python",
-      //     "iconifyClass": "logos-python"
-      //   },
-      //   {
-      //     "name": "REST API",
-      //     "iconifyClass": "dashicons:rest-api"
-      //   }
-      // ]
-    },
-    {
       name: "Formula 1 Race Outcomes – Analysis and Predictions",
       startDate: "Jan 2023",
       endDate: "May 2023",
@@ -461,13 +438,65 @@ const projects = {
       // ]
     },
     {
+      name: "Sentiment Analysis of Movies",
+      startDate: "Jan 2023",
+      endDate: "May 2023",
+      report_url: "https://drive.google.com/file/d/1hjzayW7aA9D82YMm2bqK5qiOWRzZRPyW/view?usp=sharing",
+      poster_url: "",
+      github_url: "https://github.com/pratikkharade/Sentiment-Analysis-of-Movies",
+      brief_desc: "Predicted movie review sentiment using machine learning classifiers, optimizing performance through preprocessing, hyperparameter tuning, and cross-validation.",
+      description: "Designed and developed a sentiment analysis model, optimizing " +
+        "preprocessing, merging datasets, and fine-tuning hyperparameters, resulting " +
+        "in a 15% increase in accuracy and a 20% reduction in training time across " +
+        "multiple classifiers.",
+      // languages: [
+      //   {
+      //     "name": "Python",
+      //     "iconifyClass": "logos-python"
+      //   },
+      //   {
+      //     "name": "REST API",
+      //     "iconifyClass": "dashicons:rest-api"
+      //   }
+      // ]
+    },
+    {
+      name: "CT and PET-CT Lung Cancer Visualization",
+      startDate: "Jan 2023",
+      endDate: "May 2023",
+      report_url: "https://drive.google.com/file/d/1JX6b6LmR0BiK_lIssOO9HgNUAIppu8r-/view?usp=sharing",
+      poster_url: "",
+      github_url: "",
+      brief_desc: "Led the development of a patient-centric data visualization " +
+        "tool using advanced image processing with Paraview and Seg3D to help patients " +
+        "understand lung scans and visualize tumors, improving accessibility and comprehension.",
+      description: "Led the development of a patient-centric tool that helps " +
+        "individuals understand their lung scans using DICOM datasets, improving " +
+        "their grasp of their medical condition. By implementing advanced image " +
+        "processing techniques with Paraview and Seg3D, the project enhanced tumor " +
+        "visualization and detection of lung carcinoma, making medical information " +
+        "more accessible and easier to comprehend for patients.",
+      // languages: [
+      //   {
+      //     "name": "Python",
+      //     "iconifyClass": "logos-python"
+      //   },
+      //   {
+      //     "name": "REST API",
+      //     "iconifyClass": "dashicons:rest-api"
+      //   }
+      // ]
+    },
+    {
       name: "Power Profiling of Nvidia GPUs",
       startDate: "Jan 2019",
       endDate: "May 2019",
       report_url: "",
       poster_url: "",
       github_url: "",
-      brief_desc: "Developed Python scripts to analyze power consumption across 15 GPU configurations and 10 scenarios, reducing power consumption disparities by 25%.",
+      brief_desc: "Developed Python scripts to analyze power consumption " +
+        "across 15 GPU configurations and 10 scenarios, reducing power " +
+        "consumption disparities by 25%.",
       description: "Developed Python scripts to collect and analyze power " + 
         "consumption data across 15 GPU configurations and 10 testing scenarios, " +
         "identifying optimization strategies that reduced power consumption " +
@@ -494,6 +523,63 @@ const projects = {
       brief_desc: "Executed sorting algorithms on a substantial dataset of one " +
         "million items, leveraging Parallel Processing on CUDA to enhance computational " +
         "efficiency, resulting in a 40% reduction in response time.",
+      // languages: [
+      //   {
+      //     "name": "Python",
+      //     "iconifyClass": "logos-python"
+      //   },
+      //   {
+      //     "name": "REST API",
+      //     "iconifyClass": "dashicons:rest-api"
+      //   }
+      // ]
+    },
+    {
+      name: "Prioritize: An Android App",
+      startDate: "Jan 2017",
+      endDate: "May 2017",
+      report_url: "",
+      poster_url: "",
+      github_url: "",
+      url: "https://github.com/deepakdhole777/vaccination-slots",
+      brief_desc: "Developed an Android app for delivery personnel, optimizing " +
+        "routes and package sequences using Dijkstra's Algorithm and a proprietary " +
+        "method to generate the most efficient delivery sequence.",
+      description: "We developed an Android application designed to " +
+        "assist delivery personnel in optimizing their delivery routes " +
+        "by prioritizing package sequences. Incorporating package size " +
+        "and delivery location distances, our app employed Dijkstra’s Shortest " +
+        "Path Algorithm to calculate distances efficiently. We complemented this " +
+        "with a proprietary algorithm to generate the most optimal delivery sequence. " +
+        "This innovative solution was built using Android and Java technologies.",
+      // languages: [
+      //   {
+      //     "name": "Python",
+      //     "iconifyClass": "logos-python"
+      //   },
+      //   {
+      //     "name": "REST API",
+      //     "iconifyClass": "dashicons:rest-api"
+      //   }
+      // ]
+    },
+    {
+      name: "Graphical Protuberance",
+      startDate: "Jan 2016",
+      endDate: "May 2016",
+      report_url: "",
+      poster_url: "",
+      github_url: "",
+      url: "https://github.com/deepakdhole777/vaccination-slots",
+      brief_desc: "Developed an Android app for delivery personnel, " +
+        "optimizing routes and package sequences using Dijkstra's Algorithm " +
+        "and a proprietary method to generate the most efficient delivery sequence.",
+      description: "I spearheaded the development of a C++ program aimed " +
+        "at automating 3D object projection, streamlining the process and " +
+        "minimizing errors. This initiative yielded a remarkable 50-fold " +
+        "increase in projection speed and enhanced precision by a factor " +
+        "of 1000 compared to manual drawings. This achievement was made " +
+        "possible through the application of advanced C++ techniques.",
       // languages: [
       //   {
       //     "name": "Python",
