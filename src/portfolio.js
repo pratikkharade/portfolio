@@ -22,7 +22,7 @@ const seo = {
 // Home Page
 const greeting = {
   title: "Pratik Kharade",
-  logo_name: "PratikKharade",
+  logo_name: "pk",
   pronouns: "he/him",
   image_path: "pratik.jpeg",
   subTitle: "Innovative Software Engineer creating intuitive user experiences! With a " +
@@ -31,7 +31,6 @@ const greeting = {
     "Let’s code a better future!",
   githubProfile: "https://github.com/pratikkharade/",
   resumeLink: "https://drive.google.com/file/d/1MkNqg1n4A4aOu3hyRs_-0ZDqEJpkcIAt/view?usp=sharing"
-  // portfolio_repository: "https://drive.google.com/file/d/1elcQjou66nCiRu8AgqwMvmx-4QsibFln/view?usp=sharing",
   
 };
 
