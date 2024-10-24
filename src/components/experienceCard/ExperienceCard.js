@@ -75,9 +75,10 @@ class ExperienceCard extends Component {
                     style={{ color: theme.text }}
                   >
                     <a
-                      href={experience["company_url"]}
+                      href={experience?.company_url}
                       target="_blank"
                       rel="noopener noreferrer"
+                      style={{ color: theme.text }}
                     >
                       {experience?.company}
                     </a>
@@ -101,7 +102,7 @@ class ExperienceCard extends Component {
                 </div>
               </div>
               <ul className="body-content">
-                {experience.description.map((sentence, index) => {
+                {experience?.description?.map((sentence, index) => {
                   return (
                     <li key={index} className="content-list" style={{ color: theme.text }}>
                       {sentence}
