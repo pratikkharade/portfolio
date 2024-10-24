@@ -10,12 +10,16 @@ class DegreeCard extends Component {
       <div className="degree-card">
         {degree?.logo_path && (
           <Flip left duration={2000}>
-            <div className="card-img">
+            <div className="card-img" 
+                style={{
+                  borderColor: `${theme.headerColor}`,
+                  boxShadow: `5px 5px 5px ${theme.headerColor}`
+                }}>
               <img
                 style={{
                   maxWidth: "100%",
                   maxHeight: "100%",
-                  transform: "scale(0.9)",
+                  transform: "scale(0.9)"
                 }}
                 src={require(`../../assests/images/${degree?.logo_path}`)}
                 alt={degree?.alt_name}
@@ -26,7 +30,11 @@ class DegreeCard extends Component {
         <Fade right duration={2000} distance="40px">
           <div
             className="card-body"
-            style={{ width: degree?.logo_path ? "90%" : "100%" }}
+            style={{
+              width: degree?.logo_path ? "90%" : "100%",
+              borderColor: `${theme.headerColor}`,
+              boxShadow: `4px 3px 20px -2px ${theme.headerColor}`,
+            }}
           >
             <div
               className="body-header"

@@ -6,7 +6,6 @@ import Button from "../../components/button/Button.js";
 import TopButton from "../../components/topButton/TopButton.js";
 import { Fade } from "react-reveal";
 import { greeting, projects } from "../../portfolio.js";
-// import ProjectsData from "../../_shared/opensource/projects.json";
 import "./Projects.css";
 import ProjectsImg from "./ProjectsImg.js";
 

@@ -5,13 +5,12 @@ import { Fade } from "react-reveal";
 
 export default function GithubRepoCard(props) {
   const { repo, theme } = props;
-  function openRepoinNewTab(url) {
-    var win = window.open(url, "_blank");
-    win.focus();
-  }
-
+  
   return (
-    <div className="repo-card-div" style={{ backgroundColor: theme.highlight }}>
+    <div className="repo-card-div" style={{
+        backgroundColor: theme.highlight,
+        boxShadow: `4px 3px 20px -2px ${theme.headerColor}`
+      }}>
       <Fade bottom duration={2000} distance="40px">
         <div className="repo-name-div">
           <svg
@@ -53,6 +52,9 @@ export default function GithubRepoCard(props) {
               href={repo.report_url}
               target="_blank"
               rel="noopener noreferrer"
+              style={{
+                textDecorationColor: theme.text
+              }}
             >
               <p className="btn" style={{ color: theme.text }}>
                 Report
@@ -64,6 +66,9 @@ export default function GithubRepoCard(props) {
               href={repo.poster_url}
               target="_blank"
               rel="noopener noreferrer"
+              style={{
+                textDecorationColor: theme.text
+              }}
             >
               <p className="btn" style={{ color: theme.text }}>
                 Poster
@@ -75,6 +80,9 @@ export default function GithubRepoCard(props) {
               href={repo.github_url}
               target="_blank"
               rel="noopener noreferrer"
+              style={{
+                textDecorationColor: theme.text
+              }}
             >
               <p className="btn" style={{ color: theme.text }}>
                 Github

@@ -1,13 +1,10 @@
 import React, { Component } from "react";
 import Header from "../../components/header/Header.js";
 import Footer from "../../components/footer/Footer.js";
-import MySkillsCard from "../../components/mySkillsCard/MySkillsCard.js";
-// import Button from "../../components/button/Button.js";
 import TopButton from "../../components/topButton/TopButton.js";
+import MySkillsCard from "../../components/mySkillsCard/MySkillsCard.js";
 import { Fade } from "react-reveal";
 import { mySkills } from "../../portfolio.js";
-// import ProjectsData from "../../_shared/opensource/projects.json";
-// import "../projects/Projects.css";
 import "./MySkills.css";
 import MySkillsImg from "./MySkillsImg.js";
 

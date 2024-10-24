@@ -197,7 +197,9 @@ const education = {
       alt_name: "UoU",
       duration: "2022 - 2024",
       descriptions: [
-        "Rewarded Graduate Assistantship along with tuition waiver"
+        "Rewarded Graduate Teaching Assistantship for all 4 semesters.",
+        "Vice-President of Indian Student Association '23-'24",
+        "Committee Member of Indian Student Association '22-'23"
       ],
       courses: [
         "Graduate Algorithms",
@@ -218,7 +220,8 @@ const education = {
       alt_name: "VIT Pune",
       duration: "2015 - 2019",
       descriptions: [
-        "Rewarded Graduate Assistantship along with tuition waiver"
+        "Website Development Team Head, Vishwakarma - Entrepreneurship Development Cell (V-EDC).",
+        "Member of VIT Socials (NSS Cell)."
       ],
       courses: [
         "Operating Systems",

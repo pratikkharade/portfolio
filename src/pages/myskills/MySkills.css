@@ -55,24 +55,13 @@
   margin-right: 20px;
   font-family: "Google Sans Medium";
 }
-/* .publications-heading-text-div {
-  text-align: center;
-  font-family: "Google Sans Regular";
-  margin-top: 70px;
-}
 
-.publications-heading-text {
-  font-size: 56px;
-  font-weight: 600;
-} */
 .skills-cards-div-main {
   display: flex;
-  flex-direction: row;
+  gap: 2rem 2rem;
   flex-wrap: wrap;
-  gap: 1rem 1rem;
-  margin-left: 40px;
-  margin-right: 40px;
-  margin-top: 60px;
+  flex-direction: row;
+  margin: 30px 20px 0 20px;
 }
 
 @media (max-width: 1380px) {
@@ -87,7 +76,6 @@
 
 @media (max-width: 768px) {
   .myskills-heading-text {
-  /* .publications-heading-text { */
     font-size: 30px;
     margin-top: 20px;
   }

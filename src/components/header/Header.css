@@ -3,16 +3,15 @@
 .header {
   display: block;
   max-width: 90%;
-  padding: 20px 10px;
   margin: 0px auto;
+  padding: 20px 10px;
 }
 
 .header ul {
   margin: 0;
   padding: 0;
-  list-style: none;
   overflow: hidden;
-  /* background-color: #fff; */
+  list-style: none;
 }
 .grey-color {
   color: #868e96;
@@ -21,28 +20,22 @@
 .header li a {
   display: block;
   padding: 20px 20px;
-  /* color: black; */
   text-decoration: none;
-}
-
-.header li a:hover,
-.header .menu-btn:hover {
-  /* background-color: #A6E1FA; */
 }
 
 .header .logo {
-  display: block;
   float: left;
+  display: block;
   font-size: 1.5em;
-  text-decoration: none;
   margin-top: 10px;
   line-height: normal;
+  text-decoration: none;
 }
+
 .header .logo-name {
-  font-family: "Agustina Regular";
-  font-weight: bold;
   padding: 0 10px;
-  /* color: #55198b; */
+  font-weight: bold;
+  font-family: "Agustina Regular";
 }
 
 /* menu */
@@ -60,32 +53,32 @@
 /* menu icon */
 
 .header .menu-icon {
-  cursor: pointer;
-  display: inline-block;
   float: right;
+  cursor: pointer;
+  user-select: none;
   padding: 28px 20px;
   position: relative;
-  user-select: none;
+  display: inline-block;
 }
 
 .header .menu-icon .navicon {
-  background: #333;
-  display: block;
+  width: 18px;
   height: 2px;
+  display: block;
+  background: #333;
   position: relative;
   transition: background 0.2s ease-out;
-  width: 18px;
 }
 
 .header .menu-icon .navicon:before,
 .header .menu-icon .navicon:after {
-  background: #333;
-  content: "";
-  display: block;
-  height: 100%;
-  position: absolute;
-  transition: all 0.2s ease-out;
   width: 100%;
+  content: "";
+  height: 100%;
+  display: block;
+  position: absolute;
+  background: inherit;
+  transition: all 0.2s ease-out;
 }
 
 .header .menu-icon .navicon:before {

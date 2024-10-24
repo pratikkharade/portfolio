@@ -1,17 +1,15 @@
 import React from "react";
-import ProjectLanguages from "../../components/projectLanguages/ProjectLanguages";
 import "./MySkillsCard.css";
 import { Fade } from "react-reveal";
 
 export default function MySkillsCard(props) {
     const { skill, theme } = props;
-    function openRepoinNewTab(url) {
-        var win = window.open(url, "_blank");
-        win.focus();
-    }
-
+    
     return (
-        <div className="skill-card-div" style={{ backgroundColor: theme.highlight }}>
+        <div className="skill-card-div" style={{
+                backgroundColor: theme.highlight,
+                boxShadow: `4px 3px 20px -2px ${theme.headerColor}`
+            }}>
             <Fade bottom duration={2000} distance="40px">
                 <div className="skill-category-div">
                     <svg

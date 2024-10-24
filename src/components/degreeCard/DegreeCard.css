@@ -1,77 +1,67 @@
 .degree-card {
-  display: flex;
   width: 100%;
+  display: flex;
   column-gap: 1rem;
-  justify-content: center;
   align-items: center;
+  justify-content: center;
 }
 
 .card-title {
-  font-family: "Google Sans Medium";
   font-size: 23px;
-  /* color: #000000; */
+  font-family: "Google Sans Medium";
 }
 
 .card-subtitle {
-  font-family: "Google Sans Medium";
   font-size: 18px;
-  /* color: #000000; */
   margin-top: 7px;
   margin-bottom: 5px;
+  font-family: "Google Sans Medium";
 }
 
 .card-img {
   width: 200px;
   height: auto;
-  border-radius: 50%;
   padding: 10px;
-  border: 1px solid #d9dbdf;
-  /* background-color: #6c63ff; */
-  /* background: transparent; */
-  box-shadow: 5px 5px 5px #d9dbdf;
+  border: 1px solid;
+  border-radius: 50%;
 }
 
 .body-header {
-  max-width: inherit;
-  display: flex;
-  /* width: 100%; */
-  /* background-color:#6c63ff99; */
-  border-radius: 7px 7px 0px 0px;
   padding: 10px;
+  display: flex;
+  max-width: inherit;
+  border-radius: 7px 7px 0px 0px;
 }
 
 .body-header-title {
-  align-items: flex-start;
   width: 80%;
+  align-items: flex-start;
 }
 
 .body-header-duration {
   width: 20%;
 }
 .duration {
-  font-family: "Google Sans Regular";
-  font-size: 16px;
-  /* color: #212121; */
-  padding-right: 10px;
   float: right;
+  font-size: 16px;
+  padding-right: 10px;
+  font-family: "Google Sans Regular";
 }
 
 .body-content {
-  max-width: inherit;
-  /* width: 100%; */
-  border-radius: 0px 0px 7px 7px;
   padding: 10px;
-  justify-content: center;
+  max-width: inherit;
   align-items: center;
   margin: 10px 0 0 10px;
-  /* box-shadow: 5px 5px 5px #d3d3d3; */
+  justify-content: center;
+  border-radius: 0px 0px 7px 7px;
 }
 
 .content-list {
   margin: 0;
   text-align: left;
-  padding-bottom: 10px;
   padding-right: 10px;
+  padding-bottom: 10px;
   font-family: "Google Sans Regular";
 }
 
@@ -84,33 +74,29 @@
 }
 
 .card-body {
-  /* background-color: #00FF00; */
-  border-bottom: 1px solid #d9dbdf;
-  border-left: 1px solid #d9dbdf;
-  border-right: 1px solid #d9dbdf;
-  border-radius: 7px;
   margin: 10px;
-  box-shadow: 5px 5px 5px #d9dbdf;
+  border: 1px solid;
+  border-radius: 7px;
+  border-top: 0;
 }
 
 .visit-website-btn {
-  /* background-color: #6c63ff99; */
-  display: inline-block;
-  margin: 10px 10px 10px 0px;
-  padding: 10px;
-  border-radius: 7px;
   border: 0px;
   float: right;
+  padding: 10px;
+  border-radius: 7px;
+  display: inline-block;
+  margin: 10px 10px 10px 0px;
 }
 
 .visit-cert-btn {
   /* background-color: #6c63ff99; */
-  display: inline-block;
-  margin: 10px 10px 10px 0px;
-  padding: 10px;
-  border-radius: 7px;
   border: 0px;
   float: left;
+  padding: 10px;
+  border-radius: 7px;
+  display: inline-block;
+  margin: 10px 10px 10px 0px;
 }
 
 .visit-btn:hover {
@@ -121,7 +107,6 @@
   margin: 0px;
   padding: 0px;
   font-family: "Google Sans Regular";
-  /* color: #000000; */
 }
 
 @media (max-width: 1380px) {
@@ -129,7 +114,12 @@
 
 @media (max-width: 768px) {
   .degree-card {
+    row-gap: 1rem;
+    margin-bottom: 50px;
     flex-direction: column;
+  }
+  .degree-card:last-child {
+    margin-bottom: 0;
   }
 
   .body-header {
@@ -148,9 +138,9 @@
   }
 
   .duration {
-    padding: 0px;
-    margin: 0px;
     float: none;
+    margin: 0px;
+    padding: 0px;
   }
 
   .card-img {
