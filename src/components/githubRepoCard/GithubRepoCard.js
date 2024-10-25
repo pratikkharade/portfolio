@@ -1,5 +1,4 @@
 import React from "react";
-import ProjectLanguages from "../../components/projectLanguages/ProjectLanguages";
 import "./GithubRepoCard.css";
 import { Fade } from "react-reveal";
 
@@ -27,13 +26,6 @@ export default function GithubRepoCard(props) {
         </div>
         <div className="repo-description" style={{ color: theme.text }}>
           {repo?.brief_desc}
-        </div>
-        <div className="repo-languages">
-          {repo.languages &&
-            <ProjectLanguages
-              className="repo-languages"
-              logos={repo?.languages}
-            />}
         </div>
         <div className="repo-urls">
           {repo?.report_url && (

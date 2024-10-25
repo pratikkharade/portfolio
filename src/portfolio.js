@@ -180,11 +180,6 @@ const skills = {
 };
 
 // Education Page
-const competitiveSites = {
-  competitiveSites: [],
-};
-
-// Education Page
 const education = {
   title: "Education",
   description: "🎓 Education is more than just acquiring knowledge—it's about " +
@@ -690,6 +685,5 @@ export {
   settings,
   education,
   experience,
-  socialMediaLinks,
-  competitiveSites
+  socialMediaLinks
 };
