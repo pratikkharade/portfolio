@@ -61,7 +61,7 @@
     gap: 2rem 2rem;
     flex-wrap: wrap;
     flex-direction: row;
-    margin: 60px 40px;
+    margin: 30px 40px;
 }
 
 @media (max-width: 1380px) {

@@ -47,6 +47,7 @@
 .header .menu {
   clear: both;
   max-height: 0;
+  cursor: pointer;
   transition: max-height 0.2s ease-out;
 }
 
