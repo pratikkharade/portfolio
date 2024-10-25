@@ -31,7 +31,7 @@ const greeting = {
     "Let’s code a better future!",
   githubProfile: "https://github.com/pratikkharade/",
   resumeLink: "https://drive.google.com/file/d/1MkNqg1n4A4aOu3hyRs_-0ZDqEJpkcIAt/view?usp=sharing"
-  
+
 };
 
 // Social Media Links
@@ -277,14 +277,14 @@ const experience = {
           location: "Salt Lake City, UT",
           description: [
             "Served as a Teaching Assistant for 4 semesters in undergraduate courses " +
-              "focused on Python, grading assignments and providing constructive feedback " +
-              "to help students enhance their coding and problem-solving skills.",
+            "focused on Python, grading assignments and providing constructive feedback " +
+            "to help students enhance their coding and problem-solving skills.",
             "Held weekly office hours to assist students with course material, clarify " +
-              "doubts, and guide them through challenging concepts, fostering a deeper " +
-              "understanding of Python programming.",
+            "doubts, and guide them through challenging concepts, fostering a deeper " +
+            "understanding of Python programming.",
             "Led lab sessions, facilitating hands-on learning and practical application " +
-              "of theoretical concepts, while creating a collaborative environment that " +
-              "encouraged student engagement and teamwork."
+            "of theoretical concepts, while creating a collaborative environment that " +
+            "encouraged student engagement and teamwork."
           ],
           color: "#9b1578"
         },
@@ -297,14 +297,14 @@ const experience = {
           location: "Pune, India",
           description: [
             "Directed the design, deployment, and maintenance of eQ Technologic's Data " +
-              "Visualization suite, improving real-time enterprise data analysis through " +
-              "JavaScript/jQuery, React JS, HTML, and CSS, leading to a 35% boost in user " +
-              "engagement and a 25% reduction in data processing time.",
+            "Visualization suite, improving real-time enterprise data analysis through " +
+            "JavaScript/jQuery, React JS, HTML, and CSS, leading to a 35% boost in user " +
+            "engagement and a 25% reduction in data processing time.",
             "Spearheaded the creation and refinement of key UI features, elevating user " +
-              "satisfaction by 25 % and driving a 20 % increase in daily active users.",
+            "satisfaction by 25 % and driving a 20 % increase in daily active users.",
             "Assessed and compared various JavaScript frameworks, recommending a migration " +
-              "strategy that enhanced technological agility, reduced development time by 25 %, " +
-              "and significantly improved product scalability."
+            "strategy that enhanced technological agility, reduced development time by 25 %, " +
+            "and significantly improved product scalability."
           ],
           color: "#9b1578"
         },
@@ -317,13 +317,13 @@ const experience = {
           location: "Pune, India",
           description: [
             "Designed, developed, and implemented web - based automation tools for " +
-              "developers at Nvidia, utilizing JavaScript(Frontend), Python(Backend), " +
-              "and HTML5 / CSS3.",
+            "developers at Nvidia, utilizing JavaScript(Frontend), Python(Backend), " +
+            "and HTML5 / CSS3.",
             "Performed comprehensive analysis and standardized power consumption across " +
-              "15 GPU configurations and 10 testing scenarios, improving performance " +
-              "consistency by 20 % through Python scripting.",
+            "15 GPU configurations and 10 testing scenarios, improving performance " +
+            "consistency by 20 % through Python scripting.",
             "Debugged and resolved around 15 resource management issues using C, enhancing " +
-              "overall system reliability."
+            "overall system reliability."
           ],
           color: "#9b1578"
         },
@@ -336,7 +336,7 @@ const experience = {
           location: "Nagothane, India",
           description: [
             "Architected and developed a comprehensive Inventory Management System using C# " +
-              "and ASP.NET, demonstrating strong system design and software engineering skills.",
+            "and ASP.NET, demonstrating strong system design and software engineering skills.",
             "Led project execution, achieving a 30% boost in inventory tracking efficiency."
           ],
           color: "#9b1578"
@@ -499,7 +499,7 @@ const projects = {
       brief_desc: "Developed Python scripts to analyze power consumption " +
         "across 15 GPU configurations and 10 scenarios, reducing power " +
         "consumption disparities by 25%.",
-      description: "Developed Python scripts to collect and analyze power " + 
+      description: "Developed Python scripts to collect and analyze power " +
         "consumption data across 15 GPU configurations and 10 testing scenarios, " +
         "identifying optimization strategies that reduced power consumption " +
         "disparities by 25%.",
@@ -602,133 +602,88 @@ const mySkills = {
   description: "🛠️ The right skill set not only enhances creativity and " +
     "problem-solving but also empowers individuals to leverage new " +
     "opportunities in an ever-changing tech landscape.",
-  data: [
-    {
-      category: "Programming",
-      description: "My programming skills",
-      skills: [
-        {
-          "name": "C",
-          "iconifyClass": "logos-python"
-        },
-        {
-          "name": "C++",
-          "iconifyClass": "logos-python"
-        },
-        {
-          "name": "Python",
-          "iconifyClass": "logos-python"
-        },
-        {
-          "name": "Java",
-          "iconifyClass": "logos-python"
-        }
-      ]
-    },
-    {
-      category: "Front End Development",
-      description: "My Frond End skills",
-      skills: [
-        {
-          "name": "JavaScript",
-          "iconifyClass": "logos-python"
-        },
-        {
-          "name": "jQuery",
-          "iconifyClass": "logos-python"
-        },
-        {
-          "name": "React",
-          "iconifyClass": "logos-python"
-        },
-        {
-          "name": "HTML",
-          "iconifyClass": "logos-python"
-        },
-        {
-          "name": "CSS",
-          "iconifyClass": "logos-python"
-        },
-        {
-          "name": "TypeScript",
-          "iconifyClass": "logos-python"
-        },
-        {
-          "name": "SASS/SCSS",
-          "iconifyClass": "logos-python"
-        }
-      ]
-    },
-    {
-      category: "Back End Development",
-      description: "My Back End skills",
-      skills: [
-        {
-          "name": "PHP",
-          "iconifyClass": "logos-python"
-        },
-        {
-          "name": "MySQL",
-          "iconifyClass": "logos-python"
-        },
-        {
-          "name": "Python",
-          "iconifyClass": "logos-python"
-        },
-        {
-          "name": "MongoDB",
-          "iconifyClass": "logos-python"
-        },
-        {
-          "name": "Oracle",
-          "iconifyClass": "logos-python"
-        },
-        {
-          "name": "PostgreSQL",
-          "iconifyClass": "logos-python"
-        },
-        {
-          "name": "ASP.NET",
-          "iconifyClass": "logos-python"
-        }
-      ]
-    },
-    {
-      category: "Machine Learning",
-      description: "My ML skills",
-      skills: [
-        {
-          "name": "Pandas",
-          "iconifyClass": "logos-python"
-        },
-        {
-          "name": "Apache Spark",
-          "iconifyClass": "logos-python"
-        },
-        {
-          "name": "NumPy",
-          "iconifyClass": "logos-python"
-        },
-        {
-          "name": "PyTorch",
-          "iconifyClass": "logos-python"
-        },
-        {
-          "name": "TensorFlow",
-          "iconifyClass": "logos-python"
-        },
-        {
-          "name": "Scikit-learn",
-          "iconifyClass": "logos-python"
-        }
-      ]
-    }
-  ]
+  data: [{
+    category: "Programming",
+    iconClass: 'fa-solid fa-code',
+    description: "My programming skills",
+    skills: [
+      "C",
+      "C++",
+      "Python",
+      "Java",
+    ]
+  }, {
+    category: "Front End Development",
+    description: "My Frond End skills",
+    iconClass: "fa-brands fa-react",
+    skills: [
+      "JavaScript",
+      "TypeScript",
+      "React JS",
+      "HTML5 / CSS3",
+      "SASS / SCSS"
+    ]
+  }, {
+    category: "Back End Development",
+    description: "My Back End skills",
+    iconClass: "fa-solid fa-server",
+    skills: [
+      "Flask",
+      "PHP",
+      "ASP.NET",
+      "Ezpress.js",
+      "Django",
+    ]
+  }, {
+    category: "Databases",
+    description: "My Databases skills",
+    iconClass: "fa-solid fa-database",
+    skills: [
+      "MySQL",
+      "MongoDB",
+      "Oracle",
+      "PostgreSQL",
+    ]
+  }, {
+    category: "Machine Learning",
+    description: "My ML skills",
+    iconClass: "fa-brands fa-connectdevelop",
+    skills: [
+      "Pandas",
+      "Apache Spark",
+      "NumPy",
+      "PyTorch",
+      "TensorFlow",
+      "Scikit-learn"
+    ]
+  }, {
+    category: "Development Tools",
+    description: "My dev tools skills",
+    iconClass: "fa-dev fa-brands",
+    skills: [
+      "Git",
+      "SVN",
+      "JIRA",
+      "Jenkins",
+      "Redmine",
+      "CI/CD Pipelines"
+    ]
+  }]
+};
+
+// Contact Page
+const contact = {
+  title: "Contact Me",
+  description: "Feel free to reach out to me! 💬",
+  address: "Salt Lake City,\nUtah, USA, 84102",
+  email: "pratik.kharade@utah.edu\nkharadepratik6@gmail.com",
+  phone: "+1-385-457-7822\n+91-7219219994"
 };
 
 export {
   seo,
   skills,
+  contact,
   mySkills,
   projects,
   greeting,

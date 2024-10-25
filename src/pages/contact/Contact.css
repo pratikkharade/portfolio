@@ -1,0 +1,104 @@
+.contact-main {
+    width: 100%;
+    text-align: center;
+}
+
+.basic-contact {
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.contact-heading-div {
+    display: flex;
+}
+
+.contact-heading-div>* {
+    flex: 1;
+}
+
+.contact-heading-img-div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contact-heading-text-div {
+    text-align: center;
+}
+
+.contact-heading-img-div>* {
+    max-width: 100%;
+    height: auto;
+}
+
+.contact-heading-text {
+    font-size: 56px;
+    font-weight: 400;
+    font-family: "Google Sans Medium";
+    line-height: 1.1;
+    text-align: center;
+    margin-top: 80px;
+}
+
+.contact-heading-sub-text {
+    font-size: 30px;
+    font-family: "Google Sans Regular";
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.contact-header-detail-text {
+    font-size: 20px;
+    line-height: 30px;
+    margin-top: 0px;
+    margin-left: 20px;
+    margin-right: 20px;
+    font-family: "Google Sans Medium";
+}
+
+.contact-cards-div-main {
+    display: flex;
+    gap: 2rem 2rem;
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin: 60px 40px 0 40px;
+}
+
+@media (max-width: 1380px) {
+    .contact-heading-text {
+        font-size: 50px;
+        margin-top: 80px;
+    }
+
+    .contact-heading-sub-text {
+        font-size: 25px;
+    }
+}
+
+@media (max-width: 768px) {
+    .contact-heading-text {
+        font-size: 30px;
+        margin-top: 20px;
+    }
+
+    .contact-heading-sub-text {
+        font-size: 20px;
+    }
+
+    .contact-heading-div {
+        flex-direction: column;
+    }
+
+    .contact-header-detail-text {
+        font-size: 16px;
+        margin-right: 0px;
+        margin-left: 0px;
+        line-height: normal;
+        text-align: center;
+    }
+
+    .skills-cards-div-main {
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+        margin: 30px 20px 0 20px;
+    }
+}

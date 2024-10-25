@@ -3,7 +3,7 @@
   box-shadow: 5px 5px 5px #d9dbdf;
   border-radius: 7px;
   padding: 2rem;
-  /* cursor: pointer; */
+  position: relative;
   flex: 1 1 25%;
 }
 
@@ -70,15 +70,16 @@
   font-family: "Google Sans Regular";
   -webkit-line-clamp: 6;
   -webkit-box-orient: vertical;
-  margin-top: 0.8rem;
+  margin: 0.8rem 0;
 }
 
-.repo-details {
+.repo-dates {
   display: flex;
+  font-size: medium;
   flex-direction: row;
 }
 
-.repo-creation-date {
+.repo-date-para {
   margin: 0;
   font-family: "Google Sans Regular";
   font-weight: 400;
@@ -93,7 +94,15 @@
 
 .repo-urls {
   display: flex;
+  font-size: small;
   column-gap: 1rem;
+  position: absolute;
+  bottom: 1rem;
+}
+
+.repo-urls-new-tab-icon {
+  font-size: smaller;
+  margin-left: 4px;
 }
 
 @media (max-width: 1200px) {
@@ -115,15 +124,18 @@
     font-size: 14px;
   }
 
-  .repo-details {
+  .repo-dates {
     flex-direction: column;
   }
 
-  .repo-creation-date {
+  .repo-date-para {
     font-size: 14px;
   }
 
   .repo-urls {
+    margin: auto;
+    font-size: 14px;
+    width: fit-content;
     flex-direction: column;
   }
 }

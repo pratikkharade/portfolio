@@ -6,6 +6,7 @@ import Education from "../pages/education/EducationComponent";
 import Experience from "../pages/experience/Experience";
 import Projects from "../pages/projects/Projects.js";
 import MySkills from "../pages/myskills/MySkills.js";
+import Contact from "../pages/contact/Contact.js";
 import { settings } from "../portfolio.js";
 
 export default class Main extends Component {
@@ -49,11 +50,15 @@ export default class Main extends Component {
             path="/myskills"
             render={(props) => <MySkills {...props} theme={this.props.theme} />}
           />
+          <Route
+            path="/contact"
+            render={(props) => <Contact {...props} theme={this.props.theme} />}
+          />
 
           {settings.isSplash && (
             <Route
               path="/splash"
-              render={(props) => <Splash {...props} theme={this.props.theme} />}
+              render={(props) => <Contact {...props} theme={this.props.theme} />}
             />
           )}
 
