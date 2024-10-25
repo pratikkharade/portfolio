@@ -2,9 +2,9 @@ import React, { useState, useEffect } from "react";
 import ApolloClient from "apollo-boost";
 import { gql } from "apollo-boost";
 import "./Project.css";
-import GithubRepoCard from "../../components/githubRepoCard/GithubRepoCard";
-import Button from "../../components/button/Button";
-import { openSource } from "../../portfolio";
+import ProjectCard from "../../components/projectCard/ProjectCard.js";
+import Button from "../../components/button/Button.js";
+import { openSource } from "../../portfolio.js";
 import { greeting } from "../../portfolio.js";
 
 export default function Projects() {
@@ -71,7 +71,7 @@ export default function Projects() {
       <h1 className="project-title">Open Source Projects</h1>
       <div className="repo-cards-div-main">
         {repo.map((v, i) => {
-          return <GithubRepoCard repo={v} key={v.node.id} />;
+          return <ProjectCard repo={v} key={v.node.id} />;
         })}
       </div>
       <Button

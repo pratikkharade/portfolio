@@ -1,6 +1,5 @@
 import React, { Component } from "react";
 import Header from "../../components/header/Header.js";
-import Footer from "../../components/footer/Footer.js";
 import TopButton from "../../components/topButton/TopButton.js";
 import MySkillsCard from "../../components/mySkillsCard/MySkillsCard.js";
 import { Fade } from "react-reveal";
@@ -42,7 +41,6 @@ class MySkills extends Component {
             return <MySkillsCard key={index} skill={skill} theme={theme} />;
           })}
         </div>
-        <Footer theme={this.props.theme} onToggle={this.props.onToggle} />
         <TopButton theme={this.props.theme} />
       </div>
     );

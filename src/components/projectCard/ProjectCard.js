@@ -1,33 +1,34 @@
 import React from "react";
-import "./GithubRepoCard.css";
+import "./ProjectCard.css";
 import { Fade } from "react-reveal";
 
-export default function GithubRepoCard(props) {
+export default function ProjectCard(props) {
   const { repo, theme } = props;
   
   return (
-    <div className="repo-card-div" style={{
+    <div className="project-card-div" style={{
         backgroundColor: theme.highlight,
         boxShadow: `4px 3px 20px -2px ${theme.headerColor}`
       }}>
       <Fade bottom duration={2000} distance="40px">
-        <div className="repo-name-div">
-          <p className="repo-name" style={{ color: theme.text }}>
+        <div className="project-name-div">
+          <p className="project-name" style={{ color: theme.text }}>
+            <i className="project-name-icon fa-solid fa-rocket"></i>
             {repo?.name}
           </p>
         </div>
-        <div className="repo-dates">
+        <div className="project-dates">
           <p
-            className="repo-date-para subTitle"
+            className="project-date-para subTitle"
             style={{ color: theme.secondaryText }}
           >
             {repo?.startDate} - {repo?.endDate}
           </p>
         </div>
-        <div className="repo-description" style={{ color: theme.text }}>
+        <div className="project-description" style={{ color: theme.text }}>
           {repo?.brief_desc}
         </div>
-        <div className="repo-urls">
+        <div className="project-urls">
           {repo?.report_url && (
             <a
               href={repo.report_url}
@@ -39,7 +40,7 @@ export default function GithubRepoCard(props) {
             >
               <p className="btn" style={{ color: theme.secondaryText }}>
                 Report
-                <i className="fa-solid fa-up-right-from-square repo-urls-new-tab-icon"></i>
+                <i className="fa-solid fa-up-right-from-square project-urls-new-tab-icon"></i>
               </p>
             </a>
           )}
@@ -54,7 +55,7 @@ export default function GithubRepoCard(props) {
             >
               <p className="btn" style={{ color: theme.secondaryText }}>
                 Poster
-                <i className="fa-solid fa-up-right-from-square repo-urls-new-tab-icon"></i>
+                <i className="fa-solid fa-up-right-from-square project-urls-new-tab-icon"></i>
               </p>
             </a>
           )}
@@ -69,7 +70,7 @@ export default function GithubRepoCard(props) {
             >
               <p className="btn" style={{ color: theme.secondaryText }}>
                 Github
-                <i className="fa-solid fa-up-right-from-square repo-urls-new-tab-icon"></i>
+                <i className="fa-solid fa-up-right-from-square project-urls-new-tab-icon"></i>
               </p>
             </a>
           )}

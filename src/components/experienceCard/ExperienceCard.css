@@ -115,13 +115,10 @@
   margin-top: -10px;
 }
 
-
-
 .experience-card-img {
   width: 100%;
   margin: auto;
   aspect-ratio: 1;
-  border: 1px solid;
   position: relative;
   border-radius: 50%;
 }

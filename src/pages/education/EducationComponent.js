@@ -1,6 +1,5 @@
 import React, { Component } from "react";
 import Header from "../../components/header/Header";
-import Footer from "../../components/footer/Footer";
 import TopButton from "../../components/topButton/TopButton";
 import Educations from "../../containers/education/Educations";
 import EducationImg from "./EducationImg";
@@ -35,7 +34,6 @@ class Education extends Component {
           </Fade>
           <Educations theme={this.props.theme} />
         </div>
-        <Footer theme={this.props.theme} />
         <TopButton theme={this.props.theme} />
       </div>
     );

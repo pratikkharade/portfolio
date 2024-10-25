@@ -3,7 +3,7 @@ import "./MySkillsCard.css";
 import { Fade } from "react-reveal";
 
 export default function MySkillsCard(props) {
-    const { iconClass, skill, theme } = props;
+    const { skill, theme } = props;
     const iconClassName = "skill-category-icon " + skill?.iconClass;
     return (
         <div className="skill-card-div" style={{

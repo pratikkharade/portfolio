@@ -42,6 +42,7 @@
     white-space: pre;
     margin-top: 0.8rem;
     flex-direction: row;
+    text-decoration: none;
 }
 
 .contact-social-media {

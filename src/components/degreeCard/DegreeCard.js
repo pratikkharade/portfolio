@@ -11,10 +11,7 @@ class DegreeCard extends Component {
         {degree?.logo_path && (
           <Flip left duration={2000}>
             <div className="card-img" 
-                style={{
-                  borderColor: `${theme.headerColor}`,
-                  boxShadow: `5px 5px 5px ${theme.headerColor}`
-                }}>
+                style={{ boxShadow: `5px 5px 5px ${theme.headerColor}` }}>
               <img
                 style={{
                   maxWidth: "100%",
@@ -32,7 +29,7 @@ class DegreeCard extends Component {
             className="card-body"
             style={{
               width: degree?.logo_path ? "90%" : "100%",
-              borderColor: `${theme.headerColor}`,
+              // borderColor: `${theme.headerColor}`,
               boxShadow: `4px 3px 20px -2px ${theme.headerColor}`,
             }}
           >

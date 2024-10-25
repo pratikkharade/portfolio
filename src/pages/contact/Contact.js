@@ -1,6 +1,5 @@
 import React, { Component } from "react";
 import Header from "../../components/header/Header.js";
-import Footer from "../../components/footer/Footer.js";
 import TopButton from "../../components/topButton/TopButton.js";
 import { Fade } from "react-reveal";
 import { contact } from "../../portfolio.js";
@@ -47,7 +46,6 @@ class Contact extends Component {
                 <div className="contact-social-media">
                     <SocialMedia theme={theme} />
                 </div>
-                <Footer theme={this.props.theme} onToggle={this.props.onToggle} />
                 <TopButton theme={this.props.theme} />
             </div>
         );

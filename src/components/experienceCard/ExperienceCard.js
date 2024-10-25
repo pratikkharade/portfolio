@@ -16,10 +16,7 @@ class ExperienceCard extends Component {
         <Fade left duration={2000} distance="40px">
           <div className="experience-card-logo-div">
             <div className="experience-card-img" 
-                style={{
-                  borderColor: `${theme.headerColor}`,
-                  boxShadow: `5px 5px 5px ${theme.headerColor}`
-                }}>
+                style={{ boxShadow: `5px 5px 5px ${theme.headerColor}` }}>
               <img
                 className="experience-card-logo"
                 src={require(`../../assests/images/${experience["logo_path"]}`)}

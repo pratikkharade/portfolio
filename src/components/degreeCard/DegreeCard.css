@@ -22,7 +22,6 @@
   width: 200px;
   height: auto;
   padding: 10px;
-  border: 1px solid;
   border-radius: 50%;
 }
 
@@ -75,7 +74,6 @@
 
 .card-body {
   margin: 10px;
-  border: 1px solid;
   border-radius: 7px;
   border-top: 0;
 }
@@ -90,17 +88,12 @@
 }
 
 .visit-cert-btn {
-  /* background-color: #6c63ff99; */
   border: 0px;
   float: left;
   padding: 10px;
   border-radius: 7px;
   display: inline-block;
   margin: 10px 10px 10px 0px;
-}
-
-.visit-btn:hover {
-  /* background-color:#6c63ffcc; */
 }
 
 .btn {
