@@ -61,7 +61,7 @@
     gap: 2rem 2rem;
     flex-wrap: wrap;
     flex-direction: row;
-    margin: 60px 40px 0 40px;
+    margin: 60px 40px;
 }
 
 @media (max-width: 1380px) {
@@ -97,8 +97,8 @@
         text-align: center;
     }
 
-    .skills-cards-div-main {
+    .contact-cards-div-main {
         grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-        margin: 30px 20px 0 20px;
+        margin: 30px 20px;
     }
 }

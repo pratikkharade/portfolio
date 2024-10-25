@@ -56,8 +56,8 @@ const socialMediaLinks = [
   }
 ];
 
-// Skills for Home Page
-const skills = {
+// WhatIDo for Home Page
+const whatIDo = {
   data: [
     {
       title: "Software Development",
@@ -677,7 +677,7 @@ const contact = {
 
 export {
   seo,
-  skills,
+  whatIDo,
   contact,
   mySkills,
   projects,
