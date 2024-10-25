@@ -56,12 +56,16 @@
     font-family: "Google Sans Medium";
 }
 
+.contact-social-media {
+    margin-top: 2rem;
+}
+
 .contact-cards-div-main {
     display: flex;
     gap: 2rem 2rem;
     flex-wrap: wrap;
     flex-direction: row;
-    margin: 30px 40px;
+    margin: 60px 40px;
 }
 
 @media (max-width: 1380px) {

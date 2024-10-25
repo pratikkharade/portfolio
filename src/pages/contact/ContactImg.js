@@ -8,9 +8,9 @@ export default class ContactImg extends Component {
         id="aaafdec0-95c8-49a3-a8f8-64216c6da511"
         data-name="Layer 1"
         xmlns="http://www.w3.org/2000/svg"
-        width="1013.44925"
-        height="610.28138"
-        viewBox="0 0 1013.44925 610.28138"
+        width="1103.79"
+        height="707.8"
+        viewBox="0 0 1103.79 707.8"
       >
         <title>message sent</title>
         <path

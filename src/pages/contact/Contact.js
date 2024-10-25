@@ -27,24 +27,24 @@ class Contact extends Component {
                                 >
                                     {contact?.title}
                                 </h1>
-                                <p
+                                <div
                                     className="contact-header-detail-text subTitle"
                                     style={{ color: theme.secondaryText }}
                                 >
                                     {contact?.description}
-                                </p>
+                                    <div className="contact-social-media">
+                                        <SocialMedia theme={theme} />
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </Fade>
                 </div>
-                
+
                 <div className="contact-cards-div-main">
-                    { contact?.address && <ContactCard theme={theme} title="Address" text={contact?.address} iconClass="fa-location-dot"/> }
-                    { contact?.email && <ContactCard theme={theme} title="Email" text={contact?.email} iconClass="fa-envelope"/> }
-                    { contact?.phone && <ContactCard theme={theme} title="Phone" text={contact?.phone} iconClass="fa-phone"/> }
-                </div>
-                <div className="contact-social-media">
-                    <SocialMedia theme={theme} />
+                    {contact?.address && <ContactCard theme={theme} title="Address" text={contact?.address} iconClass="fa-location-dot" />}
+                    {contact?.email && <ContactCard theme={theme} title="Email" text={contact?.email} iconClass="fa-envelope" />}
+                    {contact?.phone && <ContactCard theme={theme} title="Phone" text={contact?.phone} iconClass="fa-phone" />}
                 </div>
                 <TopButton theme={this.props.theme} />
             </div>
