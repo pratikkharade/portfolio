@@ -57,7 +57,68 @@ const socialMediaLinks = [
 ];
 
 // WhatIDo for Home Page
-const whatIDo = {
+const whatIDo = [{
+  title: "Software Development",
+  fileName: "DesignImg",
+  skills: [
+    "⚡ Develop scalable, maintainable software solutions " +
+    "through rigorous design and code review practices.",
+    "⚡ Collaborate with cross-functional teams to build end-to-end " +
+    "systems from requirements gathering to deployment.",
+    "⚡ Optimize software performance, implement security best practices, " +
+    "and ensure code reliability with testing and version control."
+  ],
+  techStack: [
+    // "fa-brands fa-python",
+    // "fa-brands fa-java"
+  ]
+}, {
+  title: "Front End Development",
+  fileName: "FullStackImg",
+  skills: [
+    "⚡ Craft responsive and visually appealing user interfaces " +
+    "with React, Angular.js, and TypeScript.",
+    "⚡ Enhance user experience with dynamic, interactive elements " +
+    "using JavaScript, jQuery, and CSS frameworks like SASS/SCSS.",
+    "⚡ Implement efficient state management and optimize load times " +
+    "for high-performance applications."
+  ]
+}, {
+  title: "Machine Learning & Data Analysis",
+  fileName: "DataScienceImg",
+  skills: [
+    "⚡ Develop ML models and pipelines to draw insights from " +
+      "structured and unstructured data.",
+    "⚡ Perform data preprocessing, feature engineering, and " +
+      "data visualization.",
+    "⚡ Fine-tune hyperparameters and evaluate model performance " +
+      "to ensure high accuracy."
+  ]
+}, {
+  title: "Back End Development",
+  fileName: "FullStackImg",
+  skills: [
+    "⚡ Build RESTful APIs and microservices to handle business " +
+      "logic and data flow.",
+    "⚡ Ensure secure and scalable server-side code using frameworks " +
+      "like Express.js, Django, and ASP.NET.",
+    "⚡ Manage database interactions and optimize queries for " +
+      "efficient data handling."
+  ]
+}, {
+  title: "AI-driven Learning Solutions",
+  fileName: "DesignImg",
+  skills: [
+    "⚡ Design interactive environments for coding practice, " +
+    "enhancing student learning experiences.",
+    "⚡ Integrate natural language processing (NLP) features " +
+    "to provide contextual hints and assistance.",
+    "⚡ Support development teams in building applications that " +
+    "combine educational tools with AI insights."
+  ]
+}]
+
+const whatIDo1 = {
   data: [
     {
       title: "Software Development",
@@ -107,7 +168,7 @@ const whatIDo = {
     },
     {
       title: "Data Science & AI",
-      fileName: "data_science.svg",
+      fileName: "DataScienceImg",
       skills: [
         "⚡ Designing dashboards to provide strategic insigts from consumer lending data",
         "⚡ Crafting robust models for diverse deep learning and statistical applications",

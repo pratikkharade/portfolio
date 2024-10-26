@@ -22,7 +22,7 @@ class WhatIDoSection extends Component {
     const theme = this.props.theme;
     return (
       <div>
-        {whatIDo.data.map((skill, i) => {
+        {whatIDo?.map((skill, i) => {
           return (
             <div key={i} className="whatIDo-main-div">
               <Fade left duration={2000}>
@@ -36,8 +36,11 @@ class WhatIDoSection extends Component {
                   <h1 className="whatIDo-heading" style={{ color: theme.text }}>
                     {skill.title}
                   </h1>
-                </Fade>
-                <Fade right duration={2000}>
+                  <div>
+                    {skill?.techStack?.map((tech, i) => (
+                      <i key={i} className={tech}></i>
+                    ))}
+                  </div>
                   <div>
                     {skill.skills.map((skillSentence, i) => {
                       return (
