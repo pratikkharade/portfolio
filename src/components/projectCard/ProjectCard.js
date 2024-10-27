@@ -19,7 +19,7 @@ export default function ProjectCard(props) {
         </div>
         <div className="project-dates">
           <p
-            className="project-date-para subTitle"
+            className="project-date-para"
             style={{ color: theme.secondaryText }}
           >
             {repo?.startDate} - {repo?.endDate}

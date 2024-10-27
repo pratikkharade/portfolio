@@ -4,28 +4,24 @@ import "./ExperienceAccordion.css";
 
 class ExperienceAccordion extends Component {
   render() {
-    const theme = this.props.theme;
+    const {theme, experiences} = this.props;
     return (
       <div className="experience-accord">
-        {this.props.sections.map((section) => {
-          return (
-            <div className="accord-panel" key={section["title"]}>
-              <div style={{ backgroundColor: theme.body }}>
-                {section?.experiences.map((experience, index) => {
-                  return (
-                    <ExperienceCard
-                      key={index}
-                      index={index}
-                      totalCards={section?.experiences?.length}
-                      experience={experience}
-                      theme={theme}
-                    />
-                  );
-                })}
-              </div>
-            </div>
-          );
-        })}
+        <div className="accord-panel">
+          <div style={{ backgroundColor: theme.body }}>
+            {experiences.map((experience, index) => {
+              return (
+                <ExperienceCard
+                  key={index}
+                  index={index}
+                  totalCards={experiences?.length}
+                  experience={experience}
+                  theme={theme}
+                />
+              );
+            })}
+          </div>
+        </div>
       </div>
     );
   }

@@ -6,7 +6,7 @@ import { Fade } from "react-reveal";
 export default function WhatIDo(props) {
   const theme = props.theme;
   return (
-    <div className="main" id="whatIDo">
+    <div className="whatIDo-main" id="whatIDo">
       <div className="whatIDo-header-div">
         <Fade bottom duration={2000} distance="20px">
           <h1 className="whatIDo-header" style={{ color: theme.text }}>

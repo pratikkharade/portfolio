@@ -25,36 +25,33 @@ const greeting = {
   logo_name: "PratikKharade",
   pronouns: "he/him",
   image_path: "pratik.jpeg",
-  subTitle: "Innovative Software Engineer creating intuitive user experiences! With a " +
-    "Master’s in Computer Science and front-end expertise, I blend creativity and " +
-    "technology to build seamless applications that empower users to thrive in programming. " +
-    "Let’s code a better future!",
+  subTitle: "Innovative Software Engineer creating intuitive " +
+    "user experiences! With a Master’s in Computer Science and " +
+    "front-end expertise, I blend creativity and technology to " +
+    "build seamless applications that empower users to thrive " +
+    "in programming. Let’s code a better future!",
   githubProfile: "https://github.com/pratikkharade/",
   resumeLink: "https://drive.google.com/file/d/1MkNqg1n4A4aOu3hyRs_-0ZDqEJpkcIAt/view?usp=sharing"
 
 };
 
 // Social Media Links
-const socialMediaLinks = [
-  {
-    name: "Github",
-    link: "https://github.com/pratikkharade/",
-    fontAwesomeIcon: "fa-github", // Reference https://fontawesome.com/icons/github?style=brands
-    backgroundColor: "#181717" // Reference https://simpleicons.org/?q=github
-  },
-  {
-    name: "LinkedIn",
-    link: "https://www.linkedin.com/in/kharadepratik/",
-    fontAwesomeIcon: "fa-linkedin-in", // Reference https://fontawesome.com/icons/linkedin-in?style=brands
-    backgroundColor: "#0077B5" // Reference https://simpleicons.org/?q=linkedin
-  },
-  {
-    name: "Gmail",
-    link: "mailto:kharadepratik6@gmail.com",
-    fontAwesomeIcon: "fa-google", // Reference https://fontawesome.com/icons/google?style=brands
-    backgroundColor: "#D14836" // Reference https://simpleicons.org/?q=gmail
-  }
-];
+const socialMediaLinks = [{
+  name: "Github",
+  link: "https://github.com/pratikkharade/",
+  fontAwesomeIcon: "fa-github",
+  backgroundColor: "#181717"
+}, {
+  name: "LinkedIn",
+  link: "https://www.linkedin.com/in/kharadepratik/",
+  fontAwesomeIcon: "fa-linkedin-in",
+  backgroundColor: "#0077B5"
+}, {
+  name: "Gmail",
+  link: "mailto:kharadepratik6@gmail.com",
+  fontAwesomeIcon: "fa-google",
+  backgroundColor: "#D14836"
+}];
 
 // WhatIDo for Home Page
 const whatIDo = [{
@@ -62,11 +59,11 @@ const whatIDo = [{
   fileName: "DesignImg",
   skills: [
     "⚡ Develop scalable, maintainable software solutions " +
-    "through rigorous design and code review practices.",
+      "through rigorous design and code review practices.",
     "⚡ Collaborate with cross-functional teams to build end-to-end " +
-    "systems from requirements gathering to deployment.",
+      "systems from requirements gathering to deployment.",
     "⚡ Optimize software performance, implement security best practices, " +
-    "and ensure code reliability with testing and version control."
+      "and ensure code reliability with testing and version control."
   ],
   techStack: [{
     name: "Python",
@@ -196,161 +193,140 @@ const education = {
   title: "Education",
   description: "🎓 Education is more than just acquiring knowledge—it's about " +
     "fostering adaptability, curiosity, and a mindset for continuous growth.",
-  degrees: [
-    {
-      title: "University of Utah, Salt Lake City",
-      subtitle: "M.S. in Computer Science",
-      logo_path: "uou.png",
-      alt_name: "UoU",
-      duration: "2022 - 2024",
-      descriptions: [
-        "Rewarded Graduate Teaching Assistantship for all 4 semesters.",
-        "Vice-President of Indian Student Association '23-'24",
-        "Committee Member of Indian Student Association '22-'23"
-      ],
-      courses: [
-        "Graduate Algorithms",
-        "Computer Architecture",
-        "Operating Systems",
-        "Machine Learning",
-        "Data Mining",
-        "Manage Data for & with ML",
-        "Business Aspects of Security & Privacy"
-      ],
-      cert_link: "https://drive.google.com/file/d/1tpR9w8Mb9wCULuK0GF5FmlQECGaOS_yP/view?usp=sharing",
-      website_link: "http://utah.edu"
-    },
-    {
-      title: "Vishwakarma Institute of Technology, Pune",
-      subtitle: "B.Tech. in Computer Engineering",
-      logo_path: "vit_logo.png",
-      alt_name: "VIT Pune",
-      duration: "2015 - 2019",
-      descriptions: [
-        "Website Development Team Head, Vishwakarma - Entrepreneurship Development Cell (V-EDC).",
-        "Member of VIT Socials (NSS Cell)."
-      ],
-      courses: [
-        "Operating Systems",
-        "Computer Organization",
-        "Data Structures",
-        "Artificial Intelligence",
-        "Internet of Things",
-        "Computer Networks",
-        'Web Technologies'
-      ],
-      cert_link: "https://drive.google.com/file/d/1Qi4RgY_r6V6D8UoJwYkjoVmtXijHbTL-/view?usp=sharing",
-      website_link: "http://vit.edu"
-    }
-  ]
+  degrees: [{
+    title: "University of Utah, Salt Lake City",
+    subtitle: "M.S. in Computer Science",
+    logo_path: "uou.png",
+    alt_name: "UoU",
+    duration: "2022 - 2024",
+    descriptions: [
+      "Rewarded Graduate Teaching Assistantship for all 4 semesters.",
+      "Vice-President of Indian Student Association '23-'24",
+      "Committee Member of Indian Student Association '22-'23"
+    ],
+    courses: [
+      "Graduate Algorithms",
+      "Computer Architecture",
+      "Operating Systems",
+      "Machine Learning",
+      "Data Mining",
+      "Manage Data for & with ML",
+      "Business Aspects of Security & Privacy"
+    ],
+    cert_link: "https://drive.google.com/file/d/1tpR9w8Mb9wCULuK0GF5FmlQECGaOS_yP/view?usp=sharing",
+    website_link: "http://utah.edu"
+  }, {
+    title: "Vishwakarma Institute of Technology, Pune",
+    subtitle: "B.Tech. in Computer Engineering",
+    logo_path: "vit_logo.png",
+    alt_name: "VIT Pune",
+    duration: "2015 - 2019",
+    descriptions: [
+      "Website Development Team Head, Vishwakarma - Entrepreneurship Development Cell (V-EDC).",
+      "Member of VIT Socials (NSS Cell)."
+    ],
+    courses: [
+      "Operating Systems",
+      "Computer Organization",
+      "Data Structures",
+      "Artificial Intelligence",
+      "Internet of Things",
+      "Computer Networks",
+      'Web Technologies'
+    ],
+    cert_link: "https://drive.google.com/file/d/1Qi4RgY_r6V6D8UoJwYkjoVmtXijHbTL-/view?usp=sharing",
+    website_link: "http://vit.edu"
+  }]
 };
 
 // Experience Page
 const experience = {
   title: "Experience",
-  subtitle: "",
   description: "🖥️ With each experience, we refine our skills, learn from diverse " +
     "situations, and gain a broader perspective on how to approach problems.",
-  sections: [
-    {
-      title: "Work",
-      work: true,
-      experiences: [
-        {
-          title: "Researcher",
-          company: "University of Utah",
-          company_url: "https://www.utah.edu/",
-          logo_path: "uou.png",
-          duration: "July 2024 - Present",
-          location: "Salt Lake City, UT",
-          description: [
-            "Leading a research project to create an interactive learning platform " +
-            "using Generative AI (ChatGPT) to enhance coding education, targeting " +
-            "a 30% improvement in coding proficiency.",
-            "Developing the front end with React, JavaScript, HTML/CSS, and integrating " +
-            "Flask for running Python scripts.",
-            "Managing MySQL databases to streamline data handling, contributing to a 25% " +
-            "reduction in development time and a 20% increase in project efficiency, while " +
-            "guiding undergraduate students through development, experimentation, and analysis."
-          ],
-          color: "#9b1578"
-        },
-        {
-          title: "Graduate Teaching Assistant",
-          company: "University of Utah",
-          company_url: "https://www.utah.edu/",
-          logo_path: "uou.png",
-          duration: "Aug 2022 - May 2024",
-          location: "Salt Lake City, UT",
-          description: [
-            "Served as a Teaching Assistant for 4 semesters in undergraduate courses " +
-            "focused on Python, grading assignments and providing constructive feedback " +
-            "to help students enhance their coding and problem-solving skills.",
-            "Held weekly office hours to assist students with course material, clarify " +
-            "doubts, and guide them through challenging concepts, fostering a deeper " +
-            "understanding of Python programming.",
-            "Led lab sessions, facilitating hands-on learning and practical application " +
-            "of theoretical concepts, while creating a collaborative environment that " +
-            "encouraged student engagement and teamwork."
-          ],
-          color: "#9b1578"
-        },
-        {
-          title: "Software Engineer",
-          company: "eQ Technologic",
-          company_url: "https://www.1eq.com/",
-          logo_path: "eq.png",
-          duration: "July 2019 - June 2024",
-          location: "Pune, India",
-          description: [
-            "Directed the design, deployment, and maintenance of eQ Technologic's Data " +
-            "Visualization suite, improving real-time enterprise data analysis through " +
-            "JavaScript/jQuery, React JS, HTML, and CSS, leading to a 35% boost in user " +
-            "engagement and a 25% reduction in data processing time.",
-            "Spearheaded the creation and refinement of key UI features, elevating user " +
-            "satisfaction by 25 % and driving a 20 % increase in daily active users.",
-            "Assessed and compared various JavaScript frameworks, recommending a migration " +
-            "strategy that enhanced technological agility, reduced development time by 25 %, " +
-            "and significantly improved product scalability."
-          ],
-          color: "#9b1578"
-        },
-        {
-          title: "System Software Intern",
-          company: "Nvidia Corporation",
-          company_url: "https://www.nvidia.com/",
-          logo_path: "nvidia.svg",
-          duration: "July 2018 - April 2019",
-          location: "Pune, India",
-          description: [
-            "Designed, developed, and implemented web - based automation tools for " +
-            "developers at Nvidia, utilizing JavaScript(Frontend), Python(Backend), " +
-            "and HTML5 / CSS3.",
-            "Performed comprehensive analysis and standardized power consumption across " +
-            "15 GPU configurations and 10 testing scenarios, improving performance " +
-            "consistency by 20 % through Python scripting.",
-            "Debugged and resolved around 15 resource management issues using C, enhancing " +
-            "overall system reliability."
-          ],
-          color: "#9b1578"
-        },
-        {
-          title: "System Software Intern",
-          company: "Reliance Industries Limited",
-          company_url: "https://www.ril.com/",
-          logo_path: "ril.png",
-          duration: "June 2018 - July 2018",
-          location: "Nagothane, India",
-          description: [
-            "Architected and developed a comprehensive Inventory Management System using C# " +
-            "and ASP.NET, demonstrating strong system design and software engineering skills.",
-            "Led project execution, achieving a 30% boost in inventory tracking efficiency."
-          ],
-          color: "#9b1578"
-        }
-      ]
-    }
-  ]
+  experiences: [{
+    title: "Researcher",
+    company: "University of Utah",
+    company_url: "https://www.utah.edu/",
+    logo_path: "uou.png",
+    duration: "July 2024 - Present",
+    location: "Salt Lake City, UT",
+    description: [
+      "Leading a research project to create an interactive learning platform " +
+        "using Generative AI (ChatGPT) to enhance coding education, targeting " +
+        "a 30% improvement in coding proficiency.",
+      "Developing the front end with React, JavaScript, HTML/CSS, and integrating " +
+        "Flask for running Python scripts.",
+      "Managing MySQL databases to streamline data handling, contributing to a 25% " +
+        "reduction in development time and a 20% increase in project efficiency, while " +
+        "guiding undergraduate students through development, experimentation, and analysis."
+    ]
+  }, {
+    title: "Graduate Teaching Assistant",
+    company: "University of Utah",
+    company_url: "https://www.utah.edu/",
+    logo_path: "uou.png",
+    duration: "Aug 2022 - May 2024",
+    location: "Salt Lake City, UT",
+    description: [
+      "Served as a Teaching Assistant for 4 semesters in undergraduate courses " +
+        "focused on Python, grading assignments and providing constructive feedback " +
+        "to help students enhance their coding and problem-solving skills.",
+      "Held weekly office hours to assist students with course material, clarify " +
+        "doubts, and guide them through challenging concepts, fostering a deeper " +
+        "understanding of Python programming.",
+      "Led lab sessions, facilitating hands-on learning and practical application " +
+        "of theoretical concepts, while creating a collaborative environment that " +
+        "encouraged student engagement and teamwork."
+    ]
+  }, {
+    title: "Software Engineer",
+    company: "eQ Technologic",
+    company_url: "https://www.1eq.com/",
+    logo_path: "eq.png",
+    duration: "July 2019 - June 2024",
+    location: "Pune, India",
+    description: [
+      "Directed the design, deployment, and maintenance of eQ Technologic's Data " +
+        "Visualization suite, improving real-time enterprise data analysis through " +
+        "JavaScript/jQuery, React JS, HTML, and CSS, leading to a 35% boost in user " +
+        "engagement and a 25% reduction in data processing time.",
+      "Spearheaded the creation and refinement of key UI features, elevating user " +
+        "satisfaction by 25 % and driving a 20 % increase in daily active users.",
+      "Assessed and compared various JavaScript frameworks, recommending a migration " +
+        "strategy that enhanced technological agility, reduced development time by 25 %, " +
+        "and significantly improved product scalability."
+    ]
+  }, {
+    title: "System Software Intern",
+    company: "Nvidia Corporation",
+    company_url: "https://www.nvidia.com/",
+    logo_path: "nvidia.svg",
+    duration: "July 2018 - April 2019",
+    location: "Pune, India",
+    description: [
+      "Designed, developed, and implemented web - based automation tools for " +
+        "developers at Nvidia, utilizing JavaScript(Frontend), Python(Backend), " +
+        "and HTML5 / CSS3.",
+      "Performed comprehensive analysis and standardized power consumption across " +
+        "15 GPU configurations and 10 testing scenarios, improving performance " +
+        "consistency by 20 % through Python scripting.",
+      "Debugged and resolved around 15 resource management issues using C, enhancing " +
+        "overall system reliability."
+    ]
+  }, {
+    title: "System Software Intern",
+    company: "Reliance Industries Limited",
+    company_url: "https://www.ril.com/",
+    logo_path: "ril.png",
+    duration: "June 2018 - July 2018",
+    location: "Nagothane, India",
+    description: [
+      "Architected and developed a comprehensive Inventory Management System using C# " +
+        "and ASP.NET, demonstrating strong system design and software engineering skills.",
+      "Led project execution, achieving a 30% boost in inventory tracking efficiency."
+    ]
+  }]
 };
 
 // Projects Page

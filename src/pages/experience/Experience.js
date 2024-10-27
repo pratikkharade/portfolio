@@ -26,14 +26,8 @@ class Experience extends Component {
                 >
                   { experience?.title }
                 </h1>
-                <h3
-                  className="experience-heading-sub-text"
-                  style={{ color: theme.text }}
-                >
-                  { experience?.subtitle }
-                </h3>
                 <p
-                  className="experience-header-detail-text subTitle"
+                  className="experience-header-detail-text"
                   style={{ color: theme.secondaryText }}
                 >
                   { experience?.description }
@@ -42,7 +36,7 @@ class Experience extends Component {
             </div>
           </Fade>
         </div>
-        <ExperienceAccordion sections={experience?.sections} theme={theme} />
+        <ExperienceAccordion experiences={experience?.experiences} theme={theme} />
         <TopButton theme={this.props.theme} />
       </div>
     );
