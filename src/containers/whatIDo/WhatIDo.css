@@ -1,5 +1,6 @@
 .whatIDo-main {
-  margin: 0px 120px;
+  width: 90%;
+  margin: 60px auto;
 }
 
 .whatIDo-main-div {
@@ -85,9 +86,6 @@
   .whatIdo-tech-stack-logos {
     height: 1.8rem;
   }
-  .whatIDo-main {
-    margin: 0px 80px;
-  }
 }
 @media (max-width: 850px) {
   .whatIdo-tech-stack-logos {
@@ -130,16 +128,10 @@
   .whatIdo-tech-stack-logos {
     height: 2rem;
   }
-  .whatIDo-main {
-    margin: 0px 40px;
-  }
 }
 
 @media (max-width: 500px) {
   .whatIdo-tech-stack-logos {
     height: 1.5rem;
-  }
-  .whatIDo-main {
-    margin: 0px 20px;
   }
 }
