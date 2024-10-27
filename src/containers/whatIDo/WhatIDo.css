@@ -57,6 +57,24 @@
     height: 2.5rem;
   }
 }
+
+@media (max-width: 1100px) {
+  .whatIdo-tech-stack-logos {
+    height: 2rem;
+  }
+}
+
+@media (max-width: 930px) {
+  .whatIdo-tech-stack-logos {
+    height: 1.8rem;
+  }
+}
+@media (max-width: 850px) {
+  .whatIdo-tech-stack-logos {
+    height: 1.6rem;
+  }
+}
+
 @media (max-width: 768px) {
   .whatIDo-heading {
     font-size: 30px;

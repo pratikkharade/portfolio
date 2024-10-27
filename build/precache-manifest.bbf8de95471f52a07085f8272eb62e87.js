@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "c5f497cb5eed6adbe98f91b73aa6af4f",
+    "revision": "6754371f28e1b1a7a79671dfb7a826d5",
     "url": "/portfolio/index.html"
   },
   {
-    "revision": "611d01d711f67c6e1f1b",
+    "revision": "86f3a391e2c3a3193d61",
     "url": "/portfolio/static/css/main.d0a6e8b1.chunk.css"
   },
   {
-    "revision": "0c7cf34a07d8ddeb7a1a",
-    "url": "/portfolio/static/js/2.b820b733.chunk.js"
+    "revision": "a892985c916f9c994625",
+    "url": "/portfolio/static/js/2.f3e8c7a9.chunk.js"
   },
   {
-    "revision": "611d01d711f67c6e1f1b",
-    "url": "/portfolio/static/js/main.cd750274.chunk.js"
+    "revision": "86f3a391e2c3a3193d61",
+    "url": "/portfolio/static/js/main.bd76efae.chunk.js"
   },
   {
     "revision": "e9a53cd8842aa965b30c",
@@ -132,6 +132,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/portfolio/static/media/flask.d98463ab.svg"
   },
   {
+    "revision": "ea76ba6c2785210d491fff489a090fe9",
+    "url": "/portfolio/static/media/github.ea76ba6c.webp"
+  },
+  {
     "revision": "b94a4cdd6f8386f8547a1e2dd2a82c8f",
     "url": "/portfolio/static/media/intellij.b94a4cdd.png"
   },
@@ -142,6 +146,14 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "0cded3a3276425911d55a2552bf361bf",
     "url": "/portfolio/static/media/javascript.0cded3a3.png"
+  },
+  {
+    "revision": "13e4018586748149b8dfc968be05bd05",
+    "url": "/portfolio/static/media/jenkins.13e40185.png"
+  },
+  {
+    "revision": "801235b36e16253fa01236b5afd7d761",
+    "url": "/portfolio/static/media/jira.801235b3.png"
   },
   {
     "revision": "633c1cfbc721398cad8af056057955a9",
@@ -158,6 +170,14 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "140a4e6b586250860dd364c7833cafef",
     "url": "/portfolio/static/media/nvidia.140a4e6b.svg"
+  },
+  {
+    "revision": "24872d8f101a01a8bbea8eb67f0e2457",
+    "url": "/portfolio/static/media/openai.24872d8f.png"
+  },
+  {
+    "revision": "5bfb83a8fa0ba1703b88d28535807a90",
+    "url": "/portfolio/static/media/openai.5bfb83a8.webp"
   },
   {
     "revision": "e71d1ba8858967443dd768baa259032f",
@@ -210,6 +230,14 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "a4ae2966f9418bac07d3e0932bae11ad",
     "url": "/portfolio/static/media/scikitlearn.a4ae2966.png"
+  },
+  {
+    "revision": "0274a6a8c947de2bdb9bc0ec0db84e83",
+    "url": "/portfolio/static/media/tortoisesvn.0274a6a8.png"
+  },
+  {
+    "revision": "f84e3879770d51e04d20371e16065262",
+    "url": "/portfolio/static/media/tortoisesvn.f84e3879.webp"
   },
   {
     "revision": "18e175012b553419223cde088997b88c",

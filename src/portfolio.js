@@ -170,9 +170,6 @@ const whatIDo = [{
   }, {
     name: "Mongo DB",
     iconClass: "mongodb.svg"
-  // }, {
-  //   name: "PostgreSQL",
-  //   iconClass: "postgresql.png"
   }]
 }, {
   title: "AI-driven Learning Solutions",
@@ -193,128 +190,6 @@ const whatIDo = [{
     iconClass: "openai.webp"
   }]
 }]
-
-const whatIDo1 = {
-  data: [
-    {
-      title: "Software Development",
-      fileName: "DesignImg",
-      skills: [
-        "⚡ Designing and implementing web applications",
-        "⚡ Experience working with micro-services architecture",
-        "⚡ Implemented several data migration projects using Java and Spring Boot"
-      ],
-      softwareSkills: [
-        {
-          skillName: "Java",
-          imageSrc: "java-logo.png",
-          style: {
-            color: "#FF2BC2"
-          }
-        },
-        {
-          skillName: "Oracle SQL",
-          imageSrc: "oracle.svg",
-          style: {
-            color: "#F24E1E"
-          }
-        },
-        {
-          skillName: "R Programming Language",
-          imageSrc: "R_logo.png",
-          style: {
-            color: "#FF7C00"
-          }
-        },
-        {
-          skillName: "Microsoft SQL Server",
-          imageSrc: "mssql.png",
-          style: {
-            color: "#000000"
-          }
-        },
-        {
-          skillName: "InellIJ",
-          imageSrc: "IntelliJ.png",
-          style: {
-            color: "#000000"
-          }
-        }
-      ]
-    },
-    {
-      title: "Data Science & AI",
-      fileName: "DataScienceImg",
-      skills: [
-        "⚡ Designing dashboards to provide strategic insigts from consumer lending data",
-        "⚡ Crafting robust models for diverse deep learning and statistical applications",
-        "⚡ Experience of working with Computer Vision and NLP projects",
-        "⚡ Complex quantitative modelling for dynamic forecasting and time series analysis"
-      ],
-      softwareSkills: [
-        {
-          skillName: "Tensorflow",
-          fontAwesomeClassname: "logos-tensorflow",
-          style: {
-            backgroundColor: "transparent"
-          }
-        },
-        {
-          skillName: "PyTorch",
-          fontAwesomeClassname: "logos-pytorch",
-          style: {
-            backgroundColor: "transparent"
-          }
-        },
-        {
-          skillName: "Python",
-          fontAwesomeClassname: "ion-logo-python",
-          style: {
-            backgroundColor: "transparent",
-            color: "#3776AB"
-          }
-        },
-        {
-          skillName: "Power Bi",
-          imageSrc: "powerbi.png"
-        }
-      ]
-    },
-    {
-      title: "Data Engineering & Pipelines",
-      fileName: "FullStackImg",
-      skills: [
-        "⚡ Designing robust pipelines that extract, load, and transform data",
-        "⚡ Achieving faster data transmission through techniques like micro-batching and parallel processing",
-        "⚡ Securing data transfer using microservice-based architecture",
-        "⚡ Simplifying database deployment using integration of Oracle Wallet and Jenkins"
-      ],
-      softwareSkills: [
-        {
-          skillName: "SQL Server",
-          imageSrc: "mssql.png",
-          style: {
-            color: "#E34F26"
-          }
-        },
-        {
-          skillName: "Apache Spark",
-          imageSrc: "spark.png",
-          style: {
-            color: "#E34F26"
-          }
-        },
-        {
-          skillName: "Jenkins",
-          imageSrc: "jenkins.png",
-          style: {
-            color: "#1572B6"
-          }
-        }
-      ]
-    }
-  ]
-};
 
 // Education Page
 const education = {
