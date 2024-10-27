@@ -82,7 +82,7 @@ const whatIDo = [{
 }, {
   title: "Front End Development",
   fileName: "FullStackImg",
-  img: "frontend1.avif",
+  img: "frontend.avif",
   skills: [
     "⚡ Craft responsive and visually appealing user interfaces " +
     "with React, Angular.js, and TypeScript.",

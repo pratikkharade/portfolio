@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "d4fb7ef666759b19d0cd4363f468bc55",
+    "revision": "6f45fe5991b977bbd04f10c58cb3d466",
     "url": "/portfolio/index.html"
   },
   {
-    "revision": "877268d46be4b76f78c9",
-    "url": "/portfolio/static/css/main.84813ca7.chunk.css"
+    "revision": "0a24f09d08e9d1f088d0",
+    "url": "/portfolio/static/css/main.942c39f6.chunk.css"
   },
   {
-    "revision": "a892985c916f9c994625",
-    "url": "/portfolio/static/js/2.f3e8c7a9.chunk.js"
+    "revision": "13a0d8bb0f0f2cf7f919",
+    "url": "/portfolio/static/js/2.a5db4245.chunk.js"
   },
   {
-    "revision": "877268d46be4b76f78c9",
-    "url": "/portfolio/static/js/main.a8949eb8.chunk.js"
+    "revision": "0a24f09d08e9d1f088d0",
+    "url": "/portfolio/static/js/main.6caa8cc6.chunk.js"
   },
   {
     "revision": "e9a53cd8842aa965b30c",
@@ -50,6 +50,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "ee6539921d713482b8ccd4d0d23961bb",
     "url": "/portfolio/static/media/Montserrat-Regular.ee653992.ttf"
+  },
+  {
+    "revision": "6e27a26cd9f5e52c28a27244aeb81072",
+    "url": "/portfolio/static/media/backend.6e27a26c.png"
   },
   {
     "revision": "b1b2685a5c313fb0900002e40745cb80",
@@ -132,6 +136,14 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/portfolio/static/media/flask.d98463ab.svg"
   },
   {
+    "revision": "083a529ab31d209cdf9791761a3dde8f",
+    "url": "/portfolio/static/media/frontend.083a529a.jpg"
+  },
+  {
+    "revision": "76d732ce579346cbdadc86dd6c2080a8",
+    "url": "/portfolio/static/media/frontend1.76d732ce.avif"
+  },
+  {
     "revision": "ea76ba6c2785210d491fff489a090fe9",
     "url": "/portfolio/static/media/github.ea76ba6c.webp"
   },
@@ -154,6 +166,14 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "801235b36e16253fa01236b5afd7d761",
     "url": "/portfolio/static/media/jira.801235b3.png"
+  },
+  {
+    "revision": "933bd54804f16675574e98dd64f50587",
+    "url": "/portfolio/static/media/learningsolutions.933bd548.png"
+  },
+  {
+    "revision": "ac508c08889f7e53b33d600e5fff5250",
+    "url": "/portfolio/static/media/ml.ac508c08.webp"
   },
   {
     "revision": "633c1cfbc721398cad8af056057955a9",
@@ -230,6 +250,14 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "a4ae2966f9418bac07d3e0932bae11ad",
     "url": "/portfolio/static/media/scikitlearn.a4ae2966.png"
+  },
+  {
+    "revision": "655cd173b49cab94150fd24b56ec528e",
+    "url": "/portfolio/static/media/software.655cd173.webp"
+  },
+  {
+    "revision": "66fd0bdc61efd3ba39f0faaec7e8ddb8",
+    "url": "/portfolio/static/media/software.66fd0bdc.png"
   },
   {
     "revision": "0274a6a8c947de2bdb9bc0ec0db84e83",
