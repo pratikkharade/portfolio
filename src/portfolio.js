@@ -184,7 +184,14 @@ const whatIDo = [{
     "to provide contextual hints and assistance.",
     "⚡ Support development teams in building applications that " +
     "combine educational tools with AI insights."
-  ]
+  ],
+  techStack: [{
+    name: "OpenAI",
+    iconClass: "openai.png"
+  }, {
+    name: "OpenAI",
+    iconClass: "openai.webp"
+  }]
 }]
 
 const whatIDo1 = {
@@ -840,9 +847,6 @@ const mySkills = {
       "Scikit-learn"
     ],
     techStack: [{
-    //   name: "Pandas",
-    //   iconClass: "pandas.png"
-    // }, {
       name: "NumPy",
       iconClass: "numpy.png"
     }, {
@@ -866,7 +870,23 @@ const mySkills = {
       "Jenkins",
       "Redmine",
       "CI/CD Pipelines"
-    ]
+    ],
+    techStack: [{
+      name: "Github",
+      iconClass: "github.webp"
+    }, {
+      name: "Tortoise SVN",
+      iconClass: "tortoisesvn.png"
+    }, {
+      name: "JIRA",
+      iconClass: "jira.png"
+    }, {
+      name: "Jenkins",
+      iconClass: "jenkins.png"
+    }, {
+      name: "Redmine",
+      iconClass: "redmine.png"
+    }]
   }]
 };
 

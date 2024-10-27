@@ -26,7 +26,7 @@ class WhatIDoSection extends Component {
         {whatIDo?.map((skill, i) => {
           return (
             <div key={i} className="whatIDo-main-div">
-              <Fade left duration={2000}>
+              <Fade left duration={1000}>
                 <div className="whatIDo-image-div">
                   <GetSkillSvg fileName={skill.fileName} theme={theme} />
                 </div>
@@ -38,7 +38,7 @@ class WhatIDoSection extends Component {
                     {skill.title}
                   </h1>
                   <div className="whatIdo-tech-stack-logos">
-                  {skill.techStack && <SkillIcons icons={skill.techStack} />}
+                    {skill.techStack && <SkillIcons icons={skill.techStack} />}
                   </div>
                   <div>
                     {skill.skills.map((skillSentence, i) => {
