@@ -82,7 +82,11 @@ class ExperienceCard extends Component {
                       style={{ color: theme.text }}
                     >
                       {experience?.company}
+                      <i 
+                        style={{ color: theme.secondaryText }}
+                        className="fa-solid fa-up-right-from-square expo-compary-url-icon"></i>
                     </a>
+                    
                   </p>
                 </div>
                 <div>

@@ -7,12 +7,12 @@
 }
 
 .skill-card-header {
-    padding: 1.5rem 2rem;
+    padding: 20px;
     border-radius: 10px 10px 0 0;
 }
 
 .skill-card-body {
-    padding: 1rem 2rem 3.5rem;
+    padding: 10px 20px 55px;
 }
 
 .skill-category-div {

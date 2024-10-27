@@ -8,15 +8,14 @@
 }
 
 .card-title {
-  margin: 1rem 0;
+  margin: 0 0 1rem;
   font-size: 23px;
   font-family: "Google Sans Medium";
 }
 
 .card-subtitle {
+  margin: 0;
   font-size: 18px;
-  margin-top: 7px;
-  margin-bottom: 5px;
   font-family: "Google Sans Medium";
 }
 
@@ -28,7 +27,7 @@
 }
 
 .body-header {
-  padding: 10px;
+  padding: 20px;
   display: flex;
   max-width: inherit;
   border-radius: 10px 10px 0px 0px;
@@ -43,17 +42,17 @@
   width: 25%;
 }
 .duration {
-  margin: 1rem 0;
+  margin: 0;
   float: right;
   font-size: 16px;
   font-family: "Google Sans Regular";
 }
 
 .body-content {
-  padding: 10px;
+  margin: 0;
   max-width: inherit;
   align-items: center;
-  margin: 10px 0 0 10px;
+  padding: 20px 20px 0;
   justify-content: center;
   border-radius: 0px 0px 10px 10px;
 }
@@ -80,22 +79,17 @@
   border-top: 0;
 }
 
+.visit-cert-btn,
 .visit-website-btn {
   border: 0px;
-  float: right;
   padding: 10px;
   border-radius: 10px;
   display: inline-block;
-  margin: 10px 10px 10px 0px;
+  margin: 20px 0;
 }
 
-.visit-cert-btn {
-  border: 0px;
-  float: left;
-  padding: 10px;
-  border-radius: 10px;
-  display: inline-block;
-  margin: 10px 10px 10px 0px;
+.visit-website-btn {
+  float: right;
 }
 
 .btn {
@@ -159,6 +153,9 @@
     display: flex;
     align-items: center;
     flex-direction: column;
+  }
+  .visit-cert-btn {
+    margin-bottom: 0;
   }
 }
 

@@ -2,7 +2,7 @@
   color: rgb(88, 96, 105);
   box-shadow: 5px 5px 5px #d9dbdf;
   border-radius: 10px;
-  padding: 2rem;
+  padding: 20px;
   position: relative;
   flex: 1 1 25%;
 }
@@ -36,7 +36,7 @@
   font-family: "Google Sans Regular";
   -webkit-line-clamp: 6;
   -webkit-box-orient: vertical;
-  margin: 0.8rem 0;
+  margin: 1rem 0;
 }
 
 .project-dates {
