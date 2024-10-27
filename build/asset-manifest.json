@@ -1,26 +1,25 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.942c39f6.chunk.css",
-    "main.js": "/portfolio/static/js/main.6caa8cc6.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.6caa8cc6.chunk.js.map",
+    "main.js": "/portfolio/static/js/main.4e565249.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.4e565249.chunk.js.map",
     "runtime-main.js": "/portfolio/static/js/runtime-main.3685d967.js",
     "runtime-main.js.map": "/portfolio/static/js/runtime-main.3685d967.js.map",
-    "static/js/2.a5db4245.chunk.js": "/portfolio/static/js/2.a5db4245.chunk.js",
-    "static/js/2.a5db4245.chunk.js.map": "/portfolio/static/js/2.a5db4245.chunk.js.map",
+    "static/js/2.bbee8d78.chunk.js": "/portfolio/static/js/2.bbee8d78.chunk.js",
+    "static/js/2.bbee8d78.chunk.js.map": "/portfolio/static/js/2.bbee8d78.chunk.js.map",
     "index.html": "/portfolio/index.html",
-    "precache-manifest.5011ab4ced3899c3e6a29bf18c9e5844.js": "/portfolio/precache-manifest.5011ab4ced3899c3e6a29bf18c9e5844.js",
+    "precache-manifest.d7972b89afd44f63fc95ecaa6dc7da9a.js": "/portfolio/precache-manifest.d7972b89afd44f63fc95ecaa6dc7da9a.js",
     "service-worker.js": "/portfolio/service-worker.js",
     "static/css/main.942c39f6.chunk.css.map": "/portfolio/static/css/main.942c39f6.chunk.css.map",
     "static/media/index.css": "/portfolio/static/media/Montserrat-Regular.ee653992.ttf",
-    "static/media/backend.png": "/portfolio/static/media/backend.6e27a26c.png",
+    "static/media/backend.png": "/portfolio/static/media/backend.66fd0bdc.png",
     "static/media/css3.svg": "/portfolio/static/media/css3.b1b2685a.svg",
     "static/media/django.svg": "/portfolio/static/media/django.da233e2d.svg",
     "static/media/eq.png": "/portfolio/static/media/eq.63e6c7ba.png",
     "static/media/expressjs.png": "/portfolio/static/media/expressjs.62f84be9.png",
     "static/media/all.css": "/portfolio/static/media/fa-solid-900.8e4a6dcc.eot",
     "static/media/flask.svg": "/portfolio/static/media/flask.d98463ab.svg",
-    "static/media/frontend.jpg": "/portfolio/static/media/frontend.083a529a.jpg",
-    "static/media/frontend1.avif": "/portfolio/static/media/frontend1.76d732ce.avif",
+    "static/media/frontend.avif": "/portfolio/static/media/frontend.76d732ce.avif",
     "static/media/github.webp": "/portfolio/static/media/github.ea76ba6c.webp",
     "static/media/intellij.png": "/portfolio/static/media/intellij.b94a4cdd.png",
     "static/media/java.png": "/portfolio/static/media/java.e7868999.png",
@@ -48,16 +47,15 @@
     "static/media/ril.png": "/portfolio/static/media/ril.0aee07d6.png",
     "static/media/sass.png": "/portfolio/static/media/sass.fbd9f99f.png",
     "static/media/scikitlearn.png": "/portfolio/static/media/scikitlearn.a4ae2966.png",
-    "static/media/software.webp": "/portfolio/static/media/software.655cd173.webp",
-    "static/media/software.png": "/portfolio/static/media/software.66fd0bdc.png",
+    "static/media/software.png": "/portfolio/static/media/software.6e27a26c.png",
     "static/media/tortoisesvn.png": "/portfolio/static/media/tortoisesvn.0274a6a8.png",
     "static/media/tortoisesvn.webp": "/portfolio/static/media/tortoisesvn.f84e3879.webp",
     "static/media/typescript.png": "/portfolio/static/media/typescript.18e17501.png"
   },
   "entrypoints": [
     "static/js/runtime-main.3685d967.js",
-    "static/js/2.a5db4245.chunk.js",
+    "static/js/2.bbee8d78.chunk.js",
     "static/css/main.942c39f6.chunk.css",
-    "static/js/main.6caa8cc6.chunk.js"
+    "static/js/main.4e565249.chunk.js"
   ]
 }

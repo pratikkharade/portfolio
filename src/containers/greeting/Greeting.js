@@ -12,7 +12,7 @@ export default function Greeting(props) {
       <div className="greet-main" id="greeting">
         <div className="greeting-main">
           <div className="greeting-text-div">
-            <div>
+            <div className="greeting-name">
               <h1 className="greeting-text" style={{ color: theme.text }}>
                 {greeting.title}
               </h1>
@@ -21,6 +21,8 @@ export default function Greeting(props) {
                   ( {greeting.pronouns} )
                 </h2>
               )}
+            </div>
+            <div className="greeting-desc">
               <p
                 className="greeting-text-p subTitle"
                 style={{ color: theme.secondaryText }}
@@ -43,8 +45,7 @@ export default function Greeting(props) {
             {
               <img
                 alt="Pratik"
-                // src={require(`../../assests/images/${greeting?.image_path}`)}
-                src={require('../../assests/images/pratik.jpeg')}
+                src={require(`../../assests/images/${greeting?.image_path}`)}
                 width="500"
                 height="600"
               ></img>
