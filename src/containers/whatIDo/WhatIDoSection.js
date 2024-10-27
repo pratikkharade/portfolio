@@ -21,11 +21,14 @@ function GetSkillSvg(props) {
 class WhatIDoSection extends Component {
   render() {
     const theme = this.props.theme;
+    console.log(theme);
     return (
       <div>
         {whatIDo?.map((skill, i) => {
           return (
-            <div key={i} className="whatIDo-main-div">
+            <div key={i} className="whatIDo-main-div" style={{
+              boxShadow: `${theme.secondaryText} 0 0 20px -8px`
+            }}>
               <Fade left duration={1000}>
                 <div className="whatIDo-image-div">
                   <GetSkillSvg fileName={skill.fileName} theme={theme} />

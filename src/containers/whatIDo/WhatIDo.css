@@ -1,6 +1,14 @@
 .whatIDo-main-div {
   display: flex;
   overflow: hidden;
+  box-shadow: grey 4px 3px 20px -2px;
+  margin-bottom: 2rem;
+  border-radius: 5px;
+  padding: 1rem;
+}
+
+.whatIDo-main-div:last-child {
+  margin-bottom: 0;
 }
 
 .whatIDo-header {
@@ -78,6 +86,7 @@
 @media (max-width: 768px) {
   .whatIDo-heading {
     font-size: 30px;
+    margin: 0 0 1rem;
   }
   .whatIDo-header {
     font-size: 30px;
