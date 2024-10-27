@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.5a91c5b6.chunk.css",
+    "main.css": "/portfolio/static/css/main.84813ca7.chunk.css",
     "main.js": "/portfolio/static/js/main.a8949eb8.chunk.js",
     "main.js.map": "/portfolio/static/js/main.a8949eb8.chunk.js.map",
     "runtime-main.js": "/portfolio/static/js/runtime-main.3685d967.js",
@@ -8,9 +8,9 @@
     "static/js/2.f3e8c7a9.chunk.js": "/portfolio/static/js/2.f3e8c7a9.chunk.js",
     "static/js/2.f3e8c7a9.chunk.js.map": "/portfolio/static/js/2.f3e8c7a9.chunk.js.map",
     "index.html": "/portfolio/index.html",
-    "precache-manifest.f8c9fc43347e50aa316e4d8fb18f0c73.js": "/portfolio/precache-manifest.f8c9fc43347e50aa316e4d8fb18f0c73.js",
+    "precache-manifest.d8bff845ae6dbb1f145e2a3081091cdf.js": "/portfolio/precache-manifest.d8bff845ae6dbb1f145e2a3081091cdf.js",
     "service-worker.js": "/portfolio/service-worker.js",
-    "static/css/main.5a91c5b6.chunk.css.map": "/portfolio/static/css/main.5a91c5b6.chunk.css.map",
+    "static/css/main.84813ca7.chunk.css.map": "/portfolio/static/css/main.84813ca7.chunk.css.map",
     "static/media/index.css": "/portfolio/static/media/Montserrat-Regular.ee653992.ttf",
     "static/media/css3.svg": "/portfolio/static/media/css3.b1b2685a.svg",
     "static/media/django.svg": "/portfolio/static/media/django.da233e2d.svg",
@@ -50,7 +50,7 @@
   "entrypoints": [
     "static/js/runtime-main.3685d967.js",
     "static/js/2.f3e8c7a9.chunk.js",
-    "static/css/main.5a91c5b6.chunk.css",
+    "static/css/main.84813ca7.chunk.css",
     "static/js/main.a8949eb8.chunk.js"
   ]
 }

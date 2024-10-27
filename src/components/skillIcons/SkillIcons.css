@@ -9,6 +9,10 @@
     margin-right: 1rem;
 }
 
+.skill-icon:last-child {
+    margin-right: 0;
+}
+
 @media (max-width: 1380px) {
     .skill-icon {
         margin-right: 0.75rem;

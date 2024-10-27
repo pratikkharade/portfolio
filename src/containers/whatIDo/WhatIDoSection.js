@@ -21,7 +21,7 @@ function GetSkillSvg(props) {
 class WhatIDoSection extends Component {
   render() {
     const theme = this.props.theme;
-    console.log(theme);
+    
     return (
       <div>
         {whatIDo?.map((skill, i) => {
@@ -31,7 +31,11 @@ class WhatIDoSection extends Component {
             }}>
               <Fade left duration={1000}>
                 <div className="whatIDo-image-div">
-                  <GetSkillSvg fileName={skill.fileName} theme={theme} />
+                  <img
+                    className="whatIDo-image"
+                    src={require(`../../assests/whatIDo/${skill?.img}`)}
+                    alt=""
+                  />
                 </div>
               </Fade>
 

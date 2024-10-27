@@ -57,6 +57,7 @@ const socialMediaLinks = [{
 const whatIDo = [{
   title: "Software Development",
   fileName: "DesignImg",
+  img: "software.png",
   skills: [
     "⚡ Develop scalable, maintainable software solutions " +
       "through rigorous design and code review practices.",
@@ -81,6 +82,7 @@ const whatIDo = [{
 }, {
   title: "Front End Development",
   fileName: "FullStackImg",
+  img: "frontend1.avif",
   skills: [
     "⚡ Craft responsive and visually appealing user interfaces " +
     "with React, Angular.js, and TypeScript.",
@@ -111,6 +113,7 @@ const whatIDo = [{
 }, {
   title: "Machine Learning & Data Analysis",
   fileName: "DataScienceImg",
+  img: "ml.webp",
   skills: [
     "⚡ Develop ML models and pipelines to draw insights from " +
       "structured and unstructured data.",
@@ -138,6 +141,7 @@ const whatIDo = [{
 }, {
   title: "Back End Development",
   fileName: "FullStackImg",
+  img: "backend.png",
   skills: [
     "⚡ Build RESTful APIs and microservices to handle business " +
       "logic and data flow.",
@@ -171,6 +175,7 @@ const whatIDo = [{
 }, {
   title: "AI-driven Learning Solutions",
   fileName: "DesignImg",
+  img: "learningsolutions.png",
   skills: [
     "⚡ Design interactive environments for coding practice, " +
     "enhancing student learning experiences.",
