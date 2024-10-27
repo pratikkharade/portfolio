@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "6f45fe5991b977bbd04f10c58cb3d466",
+    "revision": "5ef79e8f4ee81b58de78e3a6ec7486f6",
     "url": "/portfolio/index.html"
   },
   {
-    "revision": "0a24f09d08e9d1f088d0",
+    "revision": "1dd5bf3cb7257a5aeb08",
     "url": "/portfolio/static/css/main.942c39f6.chunk.css"
   },
   {
-    "revision": "13a0d8bb0f0f2cf7f919",
-    "url": "/portfolio/static/js/2.a5db4245.chunk.js"
+    "revision": "91c47af4393ef018002f",
+    "url": "/portfolio/static/js/2.bbee8d78.chunk.js"
   },
   {
-    "revision": "0a24f09d08e9d1f088d0",
-    "url": "/portfolio/static/js/main.6caa8cc6.chunk.js"
+    "revision": "1dd5bf3cb7257a5aeb08",
+    "url": "/portfolio/static/js/main.4e565249.chunk.js"
   },
   {
     "revision": "e9a53cd8842aa965b30c",
@@ -52,8 +52,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/portfolio/static/media/Montserrat-Regular.ee653992.ttf"
   },
   {
-    "revision": "6e27a26cd9f5e52c28a27244aeb81072",
-    "url": "/portfolio/static/media/backend.6e27a26c.png"
+    "revision": "66fd0bdc61efd3ba39f0faaec7e8ddb8",
+    "url": "/portfolio/static/media/backend.66fd0bdc.png"
   },
   {
     "revision": "b1b2685a5c313fb0900002e40745cb80",
@@ -136,12 +136,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/portfolio/static/media/flask.d98463ab.svg"
   },
   {
-    "revision": "083a529ab31d209cdf9791761a3dde8f",
-    "url": "/portfolio/static/media/frontend.083a529a.jpg"
-  },
-  {
     "revision": "76d732ce579346cbdadc86dd6c2080a8",
-    "url": "/portfolio/static/media/frontend1.76d732ce.avif"
+    "url": "/portfolio/static/media/frontend.76d732ce.avif"
   },
   {
     "revision": "ea76ba6c2785210d491fff489a090fe9",
@@ -252,12 +248,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/portfolio/static/media/scikitlearn.a4ae2966.png"
   },
   {
-    "revision": "655cd173b49cab94150fd24b56ec528e",
-    "url": "/portfolio/static/media/software.655cd173.webp"
-  },
-  {
-    "revision": "66fd0bdc61efd3ba39f0faaec7e8ddb8",
-    "url": "/portfolio/static/media/software.66fd0bdc.png"
+    "revision": "6e27a26cd9f5e52c28a27244aeb81072",
+    "url": "/portfolio/static/media/software.6e27a26c.png"
   },
   {
     "revision": "0274a6a8c947de2bdb9bc0ec0db84e83",
