@@ -14,7 +14,7 @@ class MySkills extends Component {
       <div className="myskills-main">
         <Header theme={theme} />
         <div className="basic-myskills">
-          <Fade bottom duration={2000} distance="40px">
+          <Fade bottom duration={1000} distance="40px">
             <div className="myskills-heading-div">
               <div className="myskills-heading-img-div">
                 <MySkillsImg theme={theme} />

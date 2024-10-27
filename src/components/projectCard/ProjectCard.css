@@ -97,6 +97,6 @@
     margin: auto;
     font-size: 14px;
     width: fit-content;
-    flex-direction: column;
+    /* flex-direction: column; */
   }
 }

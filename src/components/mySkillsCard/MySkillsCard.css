@@ -1,9 +1,18 @@
 .skill-card-div {
     flex: 1 1 30%;
-    padding: 2rem;
+    /* padding: 2rem; */
     border-radius: 7px;
     color: rgb(88, 96, 105);
     box-shadow: 5px 5px 5px #d9dbdf;
+}
+
+.skill-card-header {
+    padding: 1.5rem 2rem;
+    border-radius: 7px 7px 0 0;
+}
+
+.skill-card-body {
+    padding: 1rem 2rem 3.5rem;
 }
 
 .skill-category-div {
@@ -44,7 +53,7 @@
 
 .skill-details > ul {
     padding-left: 15px;
-    margin: 0.8rem 0 0;
+    margin: 0;
 }
 
 .skill-category-icon {
@@ -54,6 +63,8 @@
 .myskill-skill-icons {
     height: 2rem;
     margin-top: 1rem;
+    position: absolute;
+    bottom: 1rem;
 }
 
 @media (max-width: 1380px) {

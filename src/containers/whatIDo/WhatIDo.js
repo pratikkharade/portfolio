@@ -8,7 +8,7 @@ export default function WhatIDo(props) {
   return (
     <div className="whatIDo-main" id="whatIDo">
       <div className="whatIDo-header-div">
-        <Fade bottom duration={2000} distance="20px">
+        <Fade bottom duration={1000} distance="20px">
           <h1 className="whatIDo-header" style={{ color: theme.text }}>
             What I Do?
           </h1>

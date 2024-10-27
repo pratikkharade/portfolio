@@ -18,16 +18,13 @@
   cursor: pointer;
   letter-spacing: 2px;
 }
+
 .main-button:hover {
   /* background-color: #ffffff; */
   /* color: black; */
   transition: ease-in 0.3s;
 }
-.project-button {
-  display: flex;
-  justify-content: center;
-  margin-top: 20px;
-}
+
 /* Media Query */
 @media (max-width: 768px) {
   .main-button {

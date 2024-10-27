@@ -704,7 +704,7 @@ const mySkills = {
     ],
     techStack: [{
       name: "NumPy",
-      iconClass: "numpy.png"
+      iconClass: "numpy.svg"
     }, {
       name: "PyTorch",
       iconClass: "pytorch.svg",

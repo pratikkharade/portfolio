@@ -7,10 +7,10 @@ export default function ProjectCard(props) {
   
   return (
     <div className="project-card-div" style={{
-        backgroundColor: theme.highlight,
+        background: theme.body,
         boxShadow: `4px 3px 20px -2px ${theme.headerColor}`
       }}>
-      <Fade bottom duration={2000} distance="40px">
+      <Fade bottom duration={1000} distance="40px">
         <div className="project-name-div">
           <p className="project-name" style={{ color: theme.text }}>
             <i className="project-name-icon fa-solid fa-rocket"></i>

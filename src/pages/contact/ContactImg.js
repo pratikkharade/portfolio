@@ -10,7 +10,7 @@ export default class ContactImg extends Component {
         xmlns="http://www.w3.org/2000/svg"
         width="1103.79"
         height="707.8"
-        viewBox="0 0 1103.79 707.8"
+        viewBox="-75 0 1103.79 707.8"
       >
         <title>message sent</title>
         <path

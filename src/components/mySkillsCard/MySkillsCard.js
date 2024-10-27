@@ -7,31 +7,38 @@ export default function MySkillsCard(props) {
     const { skill, theme } = props;
     const iconClassName = "skill-category-icon " + skill?.iconClass;
     return (
-        <div className="skill-card-div" style={{
+        <Fade bottom duration={1000} distance="40px">
+            <div className="skill-card-div" style={{
                 backgroundColor: theme.highlight,
                 boxShadow: `4px 3px 20px -2px ${theme.headerColor}`
             }}>
-            <Fade bottom duration={2000} distance="40px">
-                <div className="skill-category-div">
-                    <p className="skill-category" style={{ color: theme.text }}>
-                        <i className={iconClassName}></i>
-                        {skill?.category}
-                    </p>
+
+                <div className="skill-card-header"
+                    style={{ background: `${theme.headerColor}` }}
+                >
+                    <div className="skill-category-div">
+                        <p className="skill-category" style={{ color: theme.text }}>
+                            <i className={iconClassName}></i>
+                            {skill?.category}
+                        </p>
+                    </div>
+                    {/* <p className="skill-description" style={{ color: theme.secondaryText }}>
+                        {skill?.description}
+                    </p> */}
                 </div>
-                <p className="skill-description" style={{ color: theme.secondaryText }}>
-                    {skill?.description}
-                </p>
-                <div className="skill-details">
-                    <ul>
-                        {skill?.skills?.map((skill, index) => (
-                            <li key={index} style={{ color: theme.text }}>{skill}</li>
-                        ))}
-                    </ul>
+                <div className="skill-card-body">
+                    <div className="skill-details">
+                        <ul>
+                            {skill?.skills?.map((skill, index) => (
+                                <li key={index} style={{ color: theme.text }}>{skill}</li>
+                            ))}
+                        </ul>
+                    </div>
+                    <div className="myskill-skill-icons">
+                        {skill?.techStack && <SkillIcons icons={skill.techStack} />}
+                    </div>
                 </div>
-                <div className="myskill-skill-icons">
-                    {skill?.techStack && <SkillIcons icons={skill.techStack} />}
-                </div>
-            </Fade>
-        </div>
+            </div>
+        </Fade>
     );
 }
