@@ -7,7 +7,6 @@
   width: max-content;
   padding: 13px 22px;
   margin-right: 0px;
-  /* text-transform: uppercase; */
   border-radius: 6px;
   text-align: center;
   text-decoration: none;
@@ -20,8 +19,6 @@
 }
 
 .main-button:hover {
-  /* background-color: #ffffff; */
-  /* color: black; */
   transition: ease-in 0.3s;
 }
 
