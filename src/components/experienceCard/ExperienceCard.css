@@ -109,14 +109,14 @@
 }
 
 .experience-card-logo-div {
-  /* width: 150px; */
+  width: 150px;
   margin: 10px;
   min-width: 15%;
   margin-top: -10px;
 }
 
 .experience-card-img {
-  width: 180px;
+  width: 100%;
   margin: auto;
   aspect-ratio: 1;
   position: relative;
