@@ -109,14 +109,14 @@
 }
 
 .experience-card-logo-div {
-  width: 150px;
+  /* width: 150px; */
   margin: 10px;
   min-width: 15%;
   margin-top: -10px;
 }
 
 .experience-card-img {
-  width: 100%;
+  width: 180px;
   margin: auto;
   aspect-ratio: 1;
   position: relative;
@@ -296,5 +296,12 @@
       margin-left: 14px;
       margin-right: 14px;
       text-align: justify;
+  }
+}
+
+@media(max-width: 500px) {
+  .experience-card-duration,
+  .experience-card-location {
+    font-size: small;
   }
 }

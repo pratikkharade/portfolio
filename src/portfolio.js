@@ -199,7 +199,7 @@ const education = {
   description: "🎓 Education is more than just acquiring knowledge—it's about " +
     "fostering adaptability, curiosity, and a mindset for continuous growth.",
   degrees: [{
-    title: "University of Utah, Salt Lake City",
+    title: "University of Utah,\nSalt Lake City",
     subtitle: "M.S. in Computer Science",
     logo_path: "uou.png",
     alt_name: "UoU",
@@ -221,7 +221,7 @@ const education = {
     cert_link: "https://drive.google.com/file/d/1tpR9w8Mb9wCULuK0GF5FmlQECGaOS_yP/view?usp=sharing",
     website_link: "http://utah.edu"
   }, {
-    title: "Vishwakarma Institute of Technology, Pune",
+    title: "Vishwakarma Institute of Technology,\nPune",
     subtitle: "B.Tech. in Computer Engineering",
     logo_path: "vit_logo.png",
     alt_name: "VIT Pune",
