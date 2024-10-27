@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "95ea8f59b7d966d9d5f92f888a65f4bd",
+    "revision": "c5f497cb5eed6adbe98f91b73aa6af4f",
     "url": "/portfolio/index.html"
   },
   {
-    "revision": "b16be5873b36da6624ed",
-    "url": "/portfolio/static/css/main.bd6781db.chunk.css"
+    "revision": "611d01d711f67c6e1f1b",
+    "url": "/portfolio/static/css/main.d0a6e8b1.chunk.css"
   },
   {
-    "revision": "38116964b729a114ac3e",
-    "url": "/portfolio/static/js/2.51d52e40.chunk.js"
+    "revision": "0c7cf34a07d8ddeb7a1a",
+    "url": "/portfolio/static/js/2.b820b733.chunk.js"
   },
   {
-    "revision": "b16be5873b36da6624ed",
-    "url": "/portfolio/static/js/main.f4024b7f.chunk.js"
+    "revision": "611d01d711f67c6e1f1b",
+    "url": "/portfolio/static/js/main.cd750274.chunk.js"
   },
   {
     "revision": "e9a53cd8842aa965b30c",
@@ -52,8 +52,20 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/portfolio/static/media/Montserrat-Regular.ee653992.ttf"
   },
   {
+    "revision": "b1b2685a5c313fb0900002e40745cb80",
+    "url": "/portfolio/static/media/css3.b1b2685a.svg"
+  },
+  {
+    "revision": "da233e2d2eb2fa886848d04ef1665456",
+    "url": "/portfolio/static/media/django.da233e2d.svg"
+  },
+  {
     "revision": "63e6c7ba84f05efdee84e71365349708",
     "url": "/portfolio/static/media/eq.63e6c7ba.png"
+  },
+  {
+    "revision": "62f84be9d285840343566ff75ac8fe9a",
+    "url": "/portfolio/static/media/expressjs.62f84be9.png"
   },
   {
     "revision": "0017cc6de3f72f67753efa37bb796fbd",
@@ -116,15 +128,91 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/portfolio/static/media/fa-solid-900.8e4a6dcc.eot"
   },
   {
+    "revision": "d98463abd102acdc2b1eb8d5eb70b2d2",
+    "url": "/portfolio/static/media/flask.d98463ab.svg"
+  },
+  {
+    "revision": "b94a4cdd6f8386f8547a1e2dd2a82c8f",
+    "url": "/portfolio/static/media/intellij.b94a4cdd.png"
+  },
+  {
+    "revision": "e7868999b5fff273a1342a96c21cce09",
+    "url": "/portfolio/static/media/java.e7868999.png"
+  },
+  {
+    "revision": "0cded3a3276425911d55a2552bf361bf",
+    "url": "/portfolio/static/media/javascript.0cded3a3.png"
+  },
+  {
+    "revision": "633c1cfbc721398cad8af056057955a9",
+    "url": "/portfolio/static/media/mongodb.633c1cfb.svg"
+  },
+  {
+    "revision": "c89c837abfabd927ecb42421b6fcd576",
+    "url": "/portfolio/static/media/mysql.c89c837a.png"
+  },
+  {
+    "revision": "a06f0f96d608900d91e5fc1a930044bf",
+    "url": "/portfolio/static/media/numpy.a06f0f96.png"
+  },
+  {
     "revision": "140a4e6b586250860dd364c7833cafef",
     "url": "/portfolio/static/media/nvidia.140a4e6b.svg"
+  },
+  {
+    "revision": "e71d1ba8858967443dd768baa259032f",
+    "url": "/portfolio/static/media/oracle.e71d1ba8.png"
+  },
+  {
+    "revision": "24a9a77968e5b67e5dcbcde5214c4380",
+    "url": "/portfolio/static/media/pandas.24a9a779.svg"
+  },
+  {
+    "revision": "3e24eae8fad8a41694ab1cd447fb2bb2",
+    "url": "/portfolio/static/media/pandas.3e24eae8.png"
+  },
+  {
+    "revision": "b187e3b1985b0aa738093d97ce028ab6",
+    "url": "/portfolio/static/media/php.b187e3b1.png"
+  },
+  {
+    "revision": "9400e9de2b78861c6fdbbf5f789392af",
+    "url": "/portfolio/static/media/postgresql.9400e9de.png"
   },
   {
     "revision": "a1aab39e5a298a9a520a52598df6c808",
     "url": "/portfolio/static/media/pratik.a1aab39e.jpeg"
   },
   {
+    "revision": "5c99b85753e287438b5e9b423bc638ba",
+    "url": "/portfolio/static/media/pycharm.5c99b857.png"
+  },
+  {
+    "revision": "19e43c1141b4f35fc9aae15f8df1ecc6",
+    "url": "/portfolio/static/media/python.19e43c11.webp"
+  },
+  {
+    "revision": "8df89aabe3d25683771fb5f4a3613543",
+    "url": "/portfolio/static/media/pytorch.8df89aab.svg"
+  },
+  {
+    "revision": "2bee11a830bacc5ae9006df56b20c33a",
+    "url": "/portfolio/static/media/react.2bee11a8.png"
+  },
+  {
     "revision": "0aee07d6296302c5eb05440fbe2fe77f",
     "url": "/portfolio/static/media/ril.0aee07d6.png"
+  },
+  {
+    "revision": "fbd9f99f20d589bbaaab593f6f8b0873",
+    "url": "/portfolio/static/media/sass.fbd9f99f.png"
+  },
+  {
+    "revision": "a4ae2966f9418bac07d3e0932bae11ad",
+    "url": "/portfolio/static/media/scikitlearn.a4ae2966.png"
+  },
+  {
+    "revision": "18e175012b553419223cde088997b88c",
+    "url": "/portfolio/static/media/typescript.18e17501.png"
   }
 ]);
