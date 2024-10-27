@@ -99,9 +99,8 @@
 
 .experience-card-logo-div {
   width: 150px;
-  margin: 10px;
   min-width: 10%;
-  margin-top: -10px;
+  margin-right: 20px;
 }
 
 .experience-card-img {
@@ -225,6 +224,7 @@
 
 .experience-list-item {
   display: flex;
+  margin-top: 50px;
   align-items: center;
   flex-direction: row;
 }
@@ -253,11 +253,12 @@
 }
 
 @media (max-width: 768px) {
-  .experience-card{
+  .experience-card {
+    margin-left: 0;
+    min-width: auto;
     text-align: center;
-      flex-direction:column;
+    flex-direction: column;
   }
-
   .arrow-left {
       display: none;
   }
@@ -291,6 +292,9 @@
       margin-left: 14px;
       margin-right: 14px;
       text-align: justify;
+  }
+  .experience-card-logo-div {
+    margin: 0;
   }
 }
 

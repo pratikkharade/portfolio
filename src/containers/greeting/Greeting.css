@@ -1,8 +1,5 @@
 .main {
-  width: 90%;
-  padding: 20px 10px;
-  margin: 0px auto;
-  margin-top: 4rem;
+  margin: 60px 120px;
 }
 
 .greet-main {
@@ -75,6 +72,12 @@
   }
 }
 
+@media (max-width: 968px) {
+  .main {
+    margin: 60px 80px;
+  }
+}
+
 @media (max-width: 768px) {
   .button-greeting-div {
     justify-content: space-around;
@@ -127,5 +130,14 @@
 
   .greeting-desc {
     order: 3;
+  }
+  .main {
+    margin: 30px 40px;
+  }
+}
+
+@media (max-width: 500px) {
+  .main {
+    margin: 30px 20px;
   }
 }

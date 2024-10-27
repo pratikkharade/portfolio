@@ -9,10 +9,7 @@ class ExperienceCard extends Component {
     const totalCards = this.props.totalCards;
     const theme = this.props.theme;
     return (
-      <div
-        className="experience-list-item"
-        style={{ marginTop: index === 0 ? 30 : 50 }}
-      >
+      <div className="experience-list-item">
         <Fade left duration={1000} distance="40px">
           <div className="experience-card-logo-div">
             <div className="experience-card-img" 

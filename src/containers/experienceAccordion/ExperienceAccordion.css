@@ -1,13 +1,25 @@
 .experience-accord {
-  margin: 50px;
+  margin: 60px 120px;
 }
 
 .accord-panel {
   font-family: "Google Sans Regular";
 }
 
+@media (max-width: 968px) {
+  .experience-accord {
+    margin: 30px 80px;
+  }
+}
+
 @media (max-width: 768px) {
   .experience-accord {
-    margin: 20px;
+    margin: 30px 40px;
+  }
+}
+
+@media (max-width: 500px) {
+  .experience-accord {
+    margin: 30px 20px;
   }
 }
