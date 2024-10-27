@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import { Route, Switch, HashRouter } from "react-router-dom";
 import Home from "../pages/home/HomeComponent";
 import Splash from "../pages/splash/Splash";
-import Education from "../pages/education/EducationComponent";
+import Education from "../pages/education/Education";
 import Experience from "../pages/experience/Experience";
 import Projects from "../pages/projects/Projects.js";
 import MySkills from "../pages/myskills/MySkills.js";

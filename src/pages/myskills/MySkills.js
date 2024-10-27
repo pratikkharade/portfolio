@@ -17,7 +17,12 @@ class MySkills extends Component {
           <Fade bottom duration={1000} distance="40px">
             <div className="myskills-heading-div">
               <div className="myskills-heading-img-div">
-                <MySkillsImg theme={theme} />
+                {/* <MySkillsImg theme={theme} /> */}
+                <img
+                  className="projects-page-poster"
+                  src={require("../../assests/pages/myskills.png")}
+                  alt=""
+                />
               </div>
               <div className="myskills-heading-text-div">
                 <h1

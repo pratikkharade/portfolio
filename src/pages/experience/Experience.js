@@ -17,7 +17,12 @@ class Experience extends Component {
           <Fade bottom duration={1000} distance="40px">
             <div className="experience-heading-div">
               <div className="experience-heading-img-div">
-                <ExperienceImg theme={theme} />
+                {/* <ExperienceImg theme={theme} /> */}
+                <img
+                  className="projects-page-poster"
+                  src={require("../../assests/pages/experience.webp")}
+                  alt=""
+                />
               </div>
               <div className="experience-heading-text-div">
                 <h1

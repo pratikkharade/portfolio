@@ -18,7 +18,12 @@ class Projects extends Component {
           <Fade bottom duration={1000} distance="40px">
             <div className="projects-heading-div">
               <div className="projects-heading-img-div">
-                <ProjectsImg theme={theme} />
+                {/* <ProjectsImg theme={theme} /> */}
+                <img
+                  className="projects-page-poster"
+                  src={require("../../assests/pages/projects.webp")}
+                  alt=""
+                />
               </div>
               <div className="projects-heading-text-div">
                 <h1

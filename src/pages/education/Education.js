@@ -4,7 +4,7 @@ import TopButton from "../../components/topButton/TopButton";
 import Educations from "../../containers/education/Educations";
 import EducationImg from "./EducationImg";
 import { education } from "../../portfolio";
-import "./EducationComponent.css";
+import "./Education.css";
 import { Fade } from "react-reveal";
 
 class Education extends Component {
@@ -17,7 +17,12 @@ class Education extends Component {
           <Fade bottom duration={1000} distance="40px">
             <div className="heading-div">
               <div className="heading-img-div">
-                <EducationImg theme={theme} />
+                {/* <EducationImg theme={theme} /> */}
+                <img
+                  className="education-page-poster"
+                  src={require("../../assests/pages/education.webp")}
+                  alt=""
+                />
               </div>
               <div className="heading-text-div">
                 <h1 className="heading-text" style={{ color: theme.text }}>

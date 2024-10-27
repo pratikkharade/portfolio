@@ -20,7 +20,8 @@ class Header extends Component {
     const theme = this.props.theme;
     const link = settings.isSplash ? "/splash" : "home";
     return (
-      <Fade top duration={1000} distance="20px">
+      // <Fade top duration={1000} distance="20px">
+      <>
         <SeoHeader />
         <div>
           <header className="header">
@@ -37,9 +38,7 @@ class Header extends Component {
             </label>
             <ul className="menu" style={{ 
               backgroundColor: theme.body,
-              // boxShadow: `${theme.headerColor} 0 25px 20px -20px`
-              boxShadow: `${theme.headerColor} 0px 10px 15px -5px`
-              // rgba(14, 107, 168, 0.467) 0px 10px 15px -5px
+              boxShadow: `${theme.headerColor} 0px 0px 15px -2px`
               }}>
               <li>
                 <NavLink
@@ -116,7 +115,8 @@ class Header extends Component {
             </ul>
           </header>
         </div>
-      </Fade>
+      {/* </Fade> */}
+      </>
     );
   }
 }
