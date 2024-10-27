@@ -15,20 +15,20 @@
   flex: 1;
 }
 
-.experience-heading-img-div {
+/* .experience-heading-img-div {
   display: flex;
   align-items: center;
   justify-content: center;
-}
+} */
 
 .experience-heading-text-div {
   text-align: center;
 }
 
-.experience-heading-img-div > * {
+/* .experience-heading-img-div > * {
   max-width: 100%;
   height: auto;
-}
+} */
 
 .experience-heading-text {
   font-size: 56px;

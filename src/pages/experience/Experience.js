@@ -19,7 +19,7 @@ class Experience extends Component {
               <div className="experience-heading-img-div">
                 {/* <ExperienceImg theme={theme} /> */}
                 <img
-                  className="projects-page-poster"
+                  className="experience-page-poster"
                   src={require("../../assests/pages/experience.webp")}
                   alt=""
                 />

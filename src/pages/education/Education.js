@@ -15,8 +15,8 @@ class Education extends Component {
         <Header theme={this.props.theme} />
         <div className="basic-education">
           <Fade bottom duration={1000} distance="40px">
-            <div className="heading-div">
-              <div className="heading-img-div">
+            <div className="education-heading-div">
+              <div className="education-heading-img-div">
                 {/* <EducationImg theme={theme} /> */}
                 <img
                   className="education-page-poster"
@@ -24,8 +24,8 @@ class Education extends Component {
                   alt=""
                 />
               </div>
-              <div className="heading-text-div">
-                <h1 className="heading-text" style={{ color: theme.text }}>
+              <div className="education-heading-text-div">
+                <h1 className="education-heading-text" style={{ color: theme.text }}>
                   {education?.title}
                 </h1>
                 <p

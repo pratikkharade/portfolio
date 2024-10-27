@@ -20,7 +20,7 @@ class Contact extends Component {
                             <div className="contact-heading-img-div">
                                 {/* <ContactImg theme={theme} /> */}
                                 <img
-                                    className="projects-page-poster"
+                                    className="contact-page-poster"
                                     src={require("../../assests/pages/contact.webp")}
                                     alt=""
                                 />

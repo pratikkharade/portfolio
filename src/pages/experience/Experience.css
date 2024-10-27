@@ -25,9 +25,9 @@
   text-align: center;
 }
 
-.experience-heading-img-div > * {
-  max-width: 100%;
-  height: auto;
+.experience-page-poster {
+  max-height: 90%;
+  width: auto;
 }
 
 .experience-heading-text {
@@ -84,5 +84,9 @@
     margin-right: 0px;
     line-height: normal;
     text-align: center;
+  }
+
+  .experience-page-poster {
+    max-width: 60%;
   }
 }

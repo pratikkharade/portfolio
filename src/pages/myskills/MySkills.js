@@ -19,7 +19,7 @@ class MySkills extends Component {
               <div className="myskills-heading-img-div">
                 {/* <MySkillsImg theme={theme} /> */}
                 <img
-                  className="projects-page-poster"
+                  className="myskills-page-poster"
                   src={require("../../assests/pages/myskills.png")}
                   alt=""
                 />

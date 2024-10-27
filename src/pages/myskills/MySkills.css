@@ -26,9 +26,9 @@
   text-align: center;
 }
 
-.myskills-heading-img-div>* {
-  max-width: 100%;
-  height: auto;
+.myskills-page-poster {
+  width: auto;
+  max-height: 90%;
 }
 
 .myskills-heading-text {
@@ -73,6 +73,10 @@
   .myskills-heading-sub-text {
     font-size: 25px;
   }
+
+  .myskills-page-poster {
+    max-width: 75%;
+  }
 }
 
 @media (max-width: 768px) {
@@ -100,5 +104,9 @@
   .skills-cards-div-main {
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     margin: 30px 20px;
+  }
+
+  .myskills-page-poster {
+    max-width: 50%;
   }
 }

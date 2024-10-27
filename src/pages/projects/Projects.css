@@ -26,9 +26,9 @@
   text-align: center;
 }
 
-.projects-heading-img-div > * {
-  max-width: 100%;
-  height: auto;
+.projects-page-poster {
+  width: auto;
+  max-height: 85%;
 }
 
 .projects-heading-text {
@@ -80,6 +80,9 @@
   .projects-heading-sub-text {
     font-size: 25px;
   }
+  .projects-page-poster {
+    max-width: 100%;
+  }
 }
 
 @media (max-width: 768px) {
@@ -108,5 +111,9 @@
   .repo-cards-div-main {
     margin: 30px 20px 0 20px;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  }
+
+  .projects-page-poster {
+    max-width: 80%;
   }
 }

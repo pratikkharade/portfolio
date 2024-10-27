@@ -26,9 +26,9 @@
     text-align: center;
 }
 
-.contact-heading-img-div>* {
-    max-width: 100%;
-    height: auto;
+.contact-page-poster {
+    width: auto;
+    max-height: 80%;
 }
 
 .contact-heading-text {
@@ -77,6 +77,10 @@
     .contact-heading-sub-text {
         font-size: 25px;
     }
+
+    .contact-page-poster {
+        max-width: 80%;
+    }
 }
 
 @media (max-width: 768px) {
@@ -104,5 +108,9 @@
     .contact-cards-div-main {
         grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
         margin: 30px 20px;
+    }
+    
+    .contact-page-poster {
+        max-width: 50%;
     }
 }

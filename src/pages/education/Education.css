@@ -7,30 +7,30 @@
   margin-right: 5%;
 }
 
-.heading-div {
+.education-heading-div {
   display: flex;
 }
 
-.heading-div > * {
+.education-heading-div > * {
   flex: 1;
 }
 
-.heading-img-div {
+.education-heading-img-div {
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
-.heading-text-div {
+.education-heading-text-div {
   text-align: center;
 }
 
-.heading-img-div > * {
-  max-width: 100%;
+.education-page-poster {
+  max-width: 80%;
   height: auto;
 }
 
-.heading-text {
+.education-heading-text {
   font-size: 56px;
   font-weight: 400;
   font-family: "Google Sans Medium";
@@ -39,7 +39,7 @@
   margin-top: 100px;
 }
 
-.heading-sub-text {
+.education-heading-sub-text {
   font-size: 30px;
   font-family: "Google Sans Regular";
   text-align: center;
@@ -55,26 +55,29 @@
 }
 
 @media (max-width: 1380px) {
-  .heading-text {
+  .education-heading-text {
     font-size: 50px;
     margin-top: 80px;
   }
-  .heading-sub-text {
+  .education-heading-sub-text {
     font-size: 25px;
+  }
+  .education-page-poster {
+    max-width: 100%;
   }
 }
 
 @media (max-width: 768px) {
-  .heading-text {
+  .education-heading-text {
     font-size: 30px;
     margin-top: 20px;
   }
 
-  .heading-sub-text {
+  .education-heading-sub-text {
     font-size: 20px;
   }
 
-  .heading-div {
+  .education-heading-div {
     flex-direction: column;
   }
   .education-header-detail-text {
@@ -82,5 +85,8 @@
     margin-right: 0px;
     line-height: normal;
     text-align: center;
+  }
+  .education-page-poster {
+    max-width: 75%;
   }
 }
