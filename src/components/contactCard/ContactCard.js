@@ -17,7 +17,7 @@ export default function ContactCard(props) {
                         {title}
                     </p>
                 </div>
-                <div className="contact-details">
+                <div className="contact-details" style={{ color: theme.text }}>
                     {text}
                 </div>
             </Fade>

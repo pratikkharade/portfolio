@@ -1,14 +1,14 @@
 .skill-card-div {
     flex: 1 1 30%;
     /* padding: 2rem; */
-    border-radius: 7px;
+    border-radius: 10px;
     color: rgb(88, 96, 105);
     box-shadow: 5px 5px 5px #d9dbdf;
 }
 
 .skill-card-header {
     padding: 1.5rem 2rem;
-    border-radius: 7px 7px 0 0;
+    border-radius: 10px 10px 0 0;
 }
 
 .skill-card-body {

@@ -1,7 +1,7 @@
 .project-card-div {
   color: rgb(88, 96, 105);
   box-shadow: 5px 5px 5px #d9dbdf;
-  border-radius: 7px;
+  border-radius: 10px;
   padding: 2rem;
   position: relative;
   flex: 1 1 25%;

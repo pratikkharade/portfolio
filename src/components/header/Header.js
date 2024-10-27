@@ -35,7 +35,12 @@ class Header extends Component {
             <label className="menu-icon" htmlFor="menu-btn">
               <span className="navicon" style={{ background: theme.text }}></span>
             </label>
-            <ul className="menu" style={{ backgroundColor: theme.body }}>
+            <ul className="menu" style={{ 
+              backgroundColor: theme.body,
+              // boxShadow: `${theme.headerColor} 0 25px 20px -20px`
+              boxShadow: `${theme.headerColor} 0px 10px 15px -5px`
+              // rgba(14, 107, 168, 0.467) 0px 10px 15px -5px
+              }}>
               <li>
                 <NavLink
                   to="/home"
