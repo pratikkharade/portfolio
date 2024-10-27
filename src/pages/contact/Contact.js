@@ -14,8 +14,8 @@ class Contact extends Component {
         return (
             <div className="contact-main">
                 <Header theme={theme} />
-                <div className="basic-contact">
-                    <Fade bottom duration={1000} distance="40px">
+                <Fade bottom duration={1000} distance="40px">
+                    <div className="basic-contact">
                         <div className="contact-heading-div">
                             <div className="contact-heading-img-div">
                                 {/* <ContactImg theme={theme} /> */}
@@ -43,14 +43,15 @@ class Contact extends Component {
                                 </div>
                             </div>
                         </div>
-                    </Fade>
-                </div>
 
-                <div className="contact-cards-div-main">
-                    {contact?.address && <ContactCard theme={theme} title="Address" text={contact?.address} iconClass="fa-location-dot" />}
-                    {contact?.email && <ContactCard theme={theme} title="Email" text={contact?.email} iconClass="fa-envelope" />}
-                    {contact?.phone && <ContactCard theme={theme} title="Phone" text={contact?.phone} iconClass="fa-phone" />}
-                </div>
+                    </div>
+
+                    <div className="contact-cards-div-main">
+                        {contact?.address && <ContactCard theme={theme} title="Address" text={contact?.address} iconClass="fa-location-dot" />}
+                        {contact?.email && <ContactCard theme={theme} title="Email" text={contact?.email} iconClass="fa-envelope" />}
+                        {contact?.phone && <ContactCard theme={theme} title="Phone" text={contact?.phone} iconClass="fa-phone" />}
+                    </div>
+                </Fade>
                 <TopButton theme={this.props.theme} />
             </div>
         );
