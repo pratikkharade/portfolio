@@ -221,7 +221,7 @@ const education = {
     cert_link: "https://drive.google.com/file/d/1tpR9w8Mb9wCULuK0GF5FmlQECGaOS_yP/view?usp=sharing",
     website_link: "http://utah.edu"
   }, {
-    title: "Vishwakarma Institute of Technology,\nPune",
+    title: "Vishwakarma Institute of Technology, Pune",
     subtitle: "B.Tech. in Computer Engineering",
     logo_path: "vit_logo.png",
     alt_name: "VIT Pune",

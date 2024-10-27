@@ -10,6 +10,7 @@
 
 .contact-heading-div {
     display: flex;
+    height: 25rem;
 }
 
 .contact-heading-div>* {
@@ -79,7 +80,7 @@
     }
 
     .contact-page-poster {
-        max-width: 80%;
+        max-width: 90%;
     }
 }
 
@@ -94,6 +95,7 @@
     }
 
     .contact-heading-div {
+        height: auto;
         flex-direction: column;
     }
 
@@ -110,6 +112,12 @@
         margin: 30px 20px;
     }
     
+    .contact-page-poster {
+        max-width: 40%;
+    }
+}
+
+@media (max-width: 500px) {
     .contact-page-poster {
         max-width: 50%;
     }

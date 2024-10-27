@@ -10,6 +10,7 @@
 
 .projects-heading-div {
   display: flex;
+  height: 25rem;
 }
 
 .projects-heading-div > * {
@@ -81,7 +82,7 @@
     font-size: 25px;
   }
   .projects-page-poster {
-    max-width: 100%;
+    max-width: 120%;
   }
 }
 
@@ -97,6 +98,7 @@
   }
 
   .projects-heading-div {
+    height: auto;
     flex-direction: column;
   }
 
@@ -114,6 +116,12 @@
   }
 
   .projects-page-poster {
-    max-width: 80%;
+    max-width: 70%;
+  }
+}
+
+@media (max-width: 500px) {
+  .projects-page-poster {
+      max-width: 80%;
   }
 }

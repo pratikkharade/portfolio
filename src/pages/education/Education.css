@@ -9,6 +9,7 @@
 
 .education-heading-div {
   display: flex;
+  height: 25rem;
 }
 
 .education-heading-div > * {
@@ -26,8 +27,8 @@
 }
 
 .education-page-poster {
-  max-width: 80%;
   height: auto;
+  max-width: 75%;
 }
 
 .education-heading-text {
@@ -36,7 +37,7 @@
   font-family: "Google Sans Medium";
   line-height: 1.1;
   text-align: center;
-  margin-top: 100px;
+  margin-top: 80px;
 }
 
 .education-heading-sub-text {
@@ -78,6 +79,7 @@
   }
 
   .education-heading-div {
+    height: auto;
     flex-direction: column;
   }
   .education-header-detail-text {
@@ -87,6 +89,12 @@
     text-align: center;
   }
   .education-page-poster {
-    max-width: 75%;
+    max-width: 60%;
+  }
+}
+
+@media (max-width: 500px) {
+  .education-page-poster {
+      max-width: 75%;
   }
 }

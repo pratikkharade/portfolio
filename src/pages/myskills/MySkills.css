@@ -10,6 +10,7 @@
 
 .myskills-heading-div {
   display: flex;
+  height: 25rem;
 }
 
 .myskills-heading-div>* {
@@ -28,7 +29,7 @@
 
 .myskills-page-poster {
   width: auto;
-  max-height: 90%;
+  max-height: 85%;
 }
 
 .myskills-heading-text {
@@ -90,6 +91,7 @@
   }
 
   .myskills-heading-div {
+    height: auto;
     flex-direction: column;
   }
 
@@ -107,6 +109,12 @@
   }
 
   .myskills-page-poster {
-    max-width: 50%;
+    max-width: 40%;
+  }
+}
+
+@media (max-width: 500px) {
+  .myskills-page-poster {
+      max-width: 50%;
   }
 }
