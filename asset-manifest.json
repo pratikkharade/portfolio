@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.d0a6e8b1.chunk.css",
-    "main.js": "/portfolio/static/js/main.cd750274.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.cd750274.chunk.js.map",
+    "main.js": "/portfolio/static/js/main.bd76efae.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.bd76efae.chunk.js.map",
     "runtime-main.js": "/portfolio/static/js/runtime-main.3685d967.js",
     "runtime-main.js.map": "/portfolio/static/js/runtime-main.3685d967.js.map",
-    "static/js/2.b820b733.chunk.js": "/portfolio/static/js/2.b820b733.chunk.js",
-    "static/js/2.b820b733.chunk.js.map": "/portfolio/static/js/2.b820b733.chunk.js.map",
+    "static/js/2.f3e8c7a9.chunk.js": "/portfolio/static/js/2.f3e8c7a9.chunk.js",
+    "static/js/2.f3e8c7a9.chunk.js.map": "/portfolio/static/js/2.f3e8c7a9.chunk.js.map",
     "index.html": "/portfolio/index.html",
-    "precache-manifest.5caddf7dacf0c7a8d493a3c1610ff50f.js": "/portfolio/precache-manifest.5caddf7dacf0c7a8d493a3c1610ff50f.js",
+    "precache-manifest.bbf8de95471f52a07085f8272eb62e87.js": "/portfolio/precache-manifest.bbf8de95471f52a07085f8272eb62e87.js",
     "service-worker.js": "/portfolio/service-worker.js",
     "static/css/main.d0a6e8b1.chunk.css.map": "/portfolio/static/css/main.d0a6e8b1.chunk.css.map",
     "static/media/index.css": "/portfolio/static/media/Montserrat-Regular.ee653992.ttf",
@@ -18,13 +18,18 @@
     "static/media/expressjs.png": "/portfolio/static/media/expressjs.62f84be9.png",
     "static/media/all.css": "/portfolio/static/media/fa-solid-900.8e4a6dcc.eot",
     "static/media/flask.svg": "/portfolio/static/media/flask.d98463ab.svg",
+    "static/media/github.webp": "/portfolio/static/media/github.ea76ba6c.webp",
     "static/media/intellij.png": "/portfolio/static/media/intellij.b94a4cdd.png",
     "static/media/java.png": "/portfolio/static/media/java.e7868999.png",
     "static/media/javascript.png": "/portfolio/static/media/javascript.0cded3a3.png",
+    "static/media/jenkins.png": "/portfolio/static/media/jenkins.13e40185.png",
+    "static/media/jira.png": "/portfolio/static/media/jira.801235b3.png",
     "static/media/mongodb.svg": "/portfolio/static/media/mongodb.633c1cfb.svg",
     "static/media/mysql.png": "/portfolio/static/media/mysql.c89c837a.png",
     "static/media/numpy.png": "/portfolio/static/media/numpy.a06f0f96.png",
     "static/media/nvidia.svg": "/portfolio/static/media/nvidia.140a4e6b.svg",
+    "static/media/openai.png": "/portfolio/static/media/openai.24872d8f.png",
+    "static/media/openai.webp": "/portfolio/static/media/openai.5bfb83a8.webp",
     "static/media/oracle.png": "/portfolio/static/media/oracle.e71d1ba8.png",
     "static/media/pandas.svg": "/portfolio/static/media/pandas.24a9a779.svg",
     "static/media/pandas.png": "/portfolio/static/media/pandas.3e24eae8.png",
@@ -38,12 +43,14 @@
     "static/media/ril.png": "/portfolio/static/media/ril.0aee07d6.png",
     "static/media/sass.png": "/portfolio/static/media/sass.fbd9f99f.png",
     "static/media/scikitlearn.png": "/portfolio/static/media/scikitlearn.a4ae2966.png",
+    "static/media/tortoisesvn.png": "/portfolio/static/media/tortoisesvn.0274a6a8.png",
+    "static/media/tortoisesvn.webp": "/portfolio/static/media/tortoisesvn.f84e3879.webp",
     "static/media/typescript.png": "/portfolio/static/media/typescript.18e17501.png"
   },
   "entrypoints": [
     "static/js/runtime-main.3685d967.js",
-    "static/js/2.b820b733.chunk.js",
+    "static/js/2.f3e8c7a9.chunk.js",
     "static/css/main.d0a6e8b1.chunk.css",
-    "static/js/main.cd750274.chunk.js"
+    "static/js/main.bd76efae.chunk.js"
   ]
 }
