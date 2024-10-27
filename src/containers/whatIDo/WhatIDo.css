@@ -33,8 +33,16 @@
 .whatIDo-heading {
   font-size: 56px;
   font-weight: 400;
+  margin-bottom: 1rem;
   font-family: "Google Sans Regular";
   line-height: normal;
+  text-align: center;
+}
+
+.whatIdo-tech-stack-logos {
+  height: 3rem;
+  display: flex;
+  justify-content: center;
 }
 
 /* Media Query */
@@ -45,11 +53,13 @@
   .whatIDo-header {
     font-size: 50px;
   }
+  .whatIdo-tech-stack-logos {
+    height: 2.5rem;
+  }
 }
 @media (max-width: 768px) {
   .whatIDo-heading {
     font-size: 30px;
-    text-align: center;
   }
   .whatIDo-header {
     font-size: 30px;
@@ -77,5 +87,14 @@
   }
   .whatIDo-image-div > * {
     margin-top: 0px;
+  }
+  .whatIdo-tech-stack-logos {
+    height: 2rem;
+  }
+}
+
+@media (max-width: 500px) {
+  .whatIdo-tech-stack-logos {
+    height: 1.5rem;
   }
 }

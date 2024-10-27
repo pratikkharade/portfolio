@@ -6,6 +6,7 @@ import DataScienceImg from "./DataScienceImg";
 import FullStackImg from "./FullStackImg";
 import CloudInfraImg from "./CloudInfraImg";
 import DesignImg from "./DesignImg";
+import SkillIcons from "../../components/skillIcons/SkillIcons";
 
 function GetSkillSvg(props) {
   if (props.fileName === "DataScienceImg")
@@ -36,10 +37,8 @@ class WhatIDoSection extends Component {
                   <h1 className="whatIDo-heading" style={{ color: theme.text }}>
                     {skill.title}
                   </h1>
-                  <div>
-                    {skill?.techStack?.map((tech, i) => (
-                      <i key={i} className={tech}></i>
-                    ))}
+                  <div className="whatIdo-tech-stack-logos">
+                  {skill.techStack && <SkillIcons icons={skill.techStack} />}
                   </div>
                   <div>
                     {skill.skills.map((skillSentence, i) => {

@@ -51,6 +51,17 @@
     margin-right: 4px;
 }
 
+.myskill-skill-icons {
+    height: 2rem;
+    margin-top: 1rem;
+}
+
+@media (max-width: 1380px) {
+    .myskill-skill-icons {
+        height: 1.5rem;
+    }
+}
+
 @media (max-width: 768px) {
     .skill-category {
         font-size: 16px;
@@ -62,6 +73,10 @@
 
     .skill-details {
         flex-direction: column;
+    }
+
+    .myskill-skill-icons {
+        height: 1.25rem;
     }
 }
 

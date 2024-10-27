@@ -1,6 +1,7 @@
 import React from "react";
 import "./MySkillsCard.css";
 import { Fade } from "react-reveal";
+import SkillIcons from "../skillIcons/SkillIcons";
 
 export default function MySkillsCard(props) {
     const { skill, theme } = props;
@@ -26,6 +27,9 @@ export default function MySkillsCard(props) {
                             <li key={index} style={{ color: theme.text }}>{skill}</li>
                         ))}
                     </ul>
+                </div>
+                <div className="myskill-skill-icons">
+                    {skill?.techStack && <SkillIcons icons={skill.techStack} />}
                 </div>
             </Fade>
         </div>

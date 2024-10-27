@@ -68,10 +68,19 @@ const whatIDo = [{
     "⚡ Optimize software performance, implement security best practices, " +
     "and ensure code reliability with testing and version control."
   ],
-  techStack: [
-    // "fa-brands fa-python",
-    // "fa-brands fa-java"
-  ]
+  techStack: [{
+    name: "Python",
+    iconClass: "python.webp"
+  }, {
+    name: "PyCharm",
+    iconClass: "pycharm.png"
+  }, {
+    name: "Java",
+    iconClass: "java.png",
+  }, {
+    name: "IntellIJ",
+    iconClass: "intellij.png",
+  }]
 }, {
   title: "Front End Development",
   fileName: "FullStackImg",
@@ -82,7 +91,26 @@ const whatIDo = [{
     "using JavaScript, jQuery, and CSS frameworks like SASS/SCSS.",
     "⚡ Implement efficient state management and optimize load times " +
     "for high-performance applications."
-  ]
+  ],
+  techStack: [{
+    name: "React",
+    iconClass: "react.png"
+  }, {
+    name: "JavaScript",
+    iconClass: "javascript.png"
+  }, {
+    name: "TypeScript",
+    iconClass: "typescript.png",
+  }, {
+    name: "HTML5",
+    iconClass: "html5.png",
+  }, {
+    name: "CSS3",
+    iconClass: "css3.svg",
+  }, {
+    name: "Sass",
+    iconClass: "sass.png",
+  }]
 }, {
   title: "Machine Learning & Data Analysis",
   fileName: "DataScienceImg",
@@ -93,7 +121,23 @@ const whatIDo = [{
       "data visualization.",
     "⚡ Fine-tune hyperparameters and evaluate model performance " +
       "to ensure high accuracy."
-  ]
+  ],
+  techStack: [{
+    name: "Pandas",
+    iconClass: "pandas.png"
+  }, {
+    name: "NumPy",
+    iconClass: "numpy.png"
+  }, {
+    name: "PyTorch",
+    iconClass: "pytorch.svg",
+  }, {
+    name: "TensorFlow",
+    iconClass: "tensorflow.png",
+  }, {
+    name: "Scikit-Learn",
+    iconClass: "scikitlearn.png",
+  }]
 }, {
   title: "Back End Development",
   fileName: "FullStackImg",
@@ -104,7 +148,32 @@ const whatIDo = [{
       "like Express.js, Django, and ASP.NET.",
     "⚡ Manage database interactions and optimize queries for " +
       "efficient data handling."
-  ]
+  ],
+  techStack: [{
+    name: "PHP",
+    iconClass: "php.png"
+  }, {
+    name: "Flask",
+    iconClass: "flask.svg"
+  }, {
+    name: "Express JS",
+    iconClass: "expressjs.png",
+  }, {
+    name: "Django",
+    iconClass: "django.svg",
+  }, {
+    name: "MySQL",
+    iconClass: "mysql.png",
+  }, {
+    name: "Oracle",
+    iconClass: "oracle.png"
+  }, {
+    name: "Mongo DB",
+    iconClass: "mongodb.svg"
+  // }, {
+  //   name: "PostgreSQL",
+  //   iconClass: "postgresql.png"
+  }]
 }, {
   title: "AI-driven Learning Solutions",
   fileName: "DesignImg",
@@ -667,18 +736,50 @@ const mySkills = {
       "C++",
       "Python",
       "Java",
-    ]
+    ],
+    techStack: [{
+      name: "Python",
+      iconClass: "python.webp"
+    }, {
+      name: "PyCharm",
+      iconClass: "pycharm.png"
+    }, {
+      name: "Java",
+      iconClass: "java.png"
+    }, {
+      name: "IntellIJ",
+      iconClass: "intellij.png"
+    }]
   }, {
     category: "Front End Development",
     description: "My Frond End skills",
     iconClass: "fa-brands fa-react",
     skills: [
+      "React JS",
       "JavaScript",
       "TypeScript",
-      "React JS",
       "HTML5 / CSS3",
       "SASS / SCSS"
-    ]
+    ],
+    techStack: [{
+      name: "React",
+      iconClass: "react.png"
+    }, {
+      name: "JavaScript",
+      iconClass: "javascript.png"
+    }, {
+      name: "TypeScript",
+      iconClass: "typescript.png"
+    }, {
+      name: "HTML5",
+      iconClass: "html5.png"
+    }, {
+      name: "CSS3",
+      iconClass: "css3.svg"
+    }, {
+      name: "Sass",
+      iconClass: "sass.png"
+    }]
   }, {
     category: "Back End Development",
     description: "My Back End skills",
@@ -687,9 +788,22 @@ const mySkills = {
       "Flask",
       "PHP",
       "ASP.NET",
-      "Ezpress.js",
+      "Express.js",
       "Django",
-    ]
+    ],
+    techStack: [{
+      name: "PHP",
+      iconClass: "php.png"
+    }, {
+      name: "Flask",
+      iconClass: "flask.svg"
+    }, {
+      name: "Express JS",
+      iconClass: "expressjs.png"
+    }, {
+      name: "Django",
+      iconClass: "django.svg"
+    }]
   }, {
     category: "Databases",
     description: "My Databases skills",
@@ -699,7 +813,20 @@ const mySkills = {
       "MongoDB",
       "Oracle",
       "PostgreSQL",
-    ]
+    ],
+    techStack: [{
+      name: "MySQL",
+      iconClass: "mysql.png"
+    }, {
+      name: "Oracle",
+      iconClass: "oracle.png"
+    }, {
+      name: "Mongo DB",
+      iconClass: "mongodb.svg"
+    }, {
+      name: "PostgreSQL",
+      iconClass: "postgresql.png"
+    }]
   }, {
     category: "Machine Learning",
     description: "My ML skills",
@@ -711,7 +838,23 @@ const mySkills = {
       "PyTorch",
       "TensorFlow",
       "Scikit-learn"
-    ]
+    ],
+    techStack: [{
+    //   name: "Pandas",
+    //   iconClass: "pandas.png"
+    // }, {
+      name: "NumPy",
+      iconClass: "numpy.png"
+    }, {
+      name: "PyTorch",
+      iconClass: "pytorch.svg",
+    }, {
+      name: "TensorFlow",
+      iconClass: "tensorflow.png",
+    }, {
+      name: "Scikit-Learn",
+      iconClass: "scikitlearn.png",
+    }]
   }, {
     category: "Development Tools",
     description: "My dev tools skills",
