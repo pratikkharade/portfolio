@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "2c026837ac81b6accb292d7ca8108df8",
+    "revision": "05318ea69e808d0c53ce693100a24556",
     "url": "/portfolio/index.html"
   },
   {
-    "revision": "283baaa26322a4595655",
-    "url": "/portfolio/static/css/main.ea8a4120.chunk.css"
+    "revision": "06a032fe1c429828515d",
+    "url": "/portfolio/static/css/main.cd9d2f73.chunk.css"
   },
   {
-    "revision": "b8f23ce892a74c63b2df",
-    "url": "/portfolio/static/js/2.322a231f.chunk.js"
+    "revision": "612e1abd8cee9f6af317",
+    "url": "/portfolio/static/js/2.bdc321c1.chunk.js"
   },
   {
-    "revision": "283baaa26322a4595655",
-    "url": "/portfolio/static/js/main.e42d1833.chunk.js"
+    "revision": "06a032fe1c429828515d",
+    "url": "/portfolio/static/js/main.eb87cabd.chunk.js"
   },
   {
     "revision": "e9a53cd8842aa965b30c",
@@ -56,6 +56,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/portfolio/static/media/backend.66fd0bdc.png"
   },
   {
+    "revision": "2c3e3a6adcbe97e46d4cb669c99429f7",
+    "url": "/portfolio/static/media/contact.2c3e3a6a.webp"
+  },
+  {
     "revision": "b1b2685a5c313fb0900002e40745cb80",
     "url": "/portfolio/static/media/css3.b1b2685a.svg"
   },
@@ -64,8 +68,16 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/portfolio/static/media/django.da233e2d.svg"
   },
   {
+    "revision": "7fc42230f974551bc3c05654440b52e9",
+    "url": "/portfolio/static/media/education.7fc42230.webp"
+  },
+  {
     "revision": "63e6c7ba84f05efdee84e71365349708",
     "url": "/portfolio/static/media/eq.63e6c7ba.png"
+  },
+  {
+    "revision": "afe2978ee3a88eef24ba976d8daddcca",
+    "url": "/portfolio/static/media/experience.afe2978e.webp"
   },
   {
     "revision": "62f84be9d285840343566ff75ac8fe9a",
@@ -176,6 +188,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/portfolio/static/media/mongodb.633c1cfb.svg"
   },
   {
+    "revision": "76950569794f2025343c7d59b4bf4969",
+    "url": "/portfolio/static/media/myskills.76950569.png"
+  },
+  {
     "revision": "c89c837abfabd927ecb42421b6fcd576",
     "url": "/portfolio/static/media/mysql.c89c837a.png"
   },
@@ -222,6 +238,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "a1aab39e5a298a9a520a52598df6c808",
     "url": "/portfolio/static/media/pratik.a1aab39e.jpeg"
+  },
+  {
+    "revision": "6d05af58dafec1572c35ed2ff652c1b5",
+    "url": "/portfolio/static/media/projects.6d05af58.webp"
   },
   {
     "revision": "5c99b85753e287438b5e9b423bc638ba",
