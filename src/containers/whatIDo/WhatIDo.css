@@ -101,10 +101,6 @@
   .whatIDo-header {
     font-size: 30px;
   }
-  .greeting-text-p {
-    font-size: 16px;
-    line-height: normal;
-  }
   .whatIDo-main-div {
     flex-direction: column;
   }

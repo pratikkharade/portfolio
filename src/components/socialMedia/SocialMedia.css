@@ -3,28 +3,28 @@
 }
 
 .icon-button i {
-  color: white;
+  color: #fff;
 }
-.icon-button {
+/* .icon-button {
   margin-bottom: 10px;
-}
+} */
 
 .icon-button i {
-  border-radius: 2.6rem;
-  cursor: pointer;
-  display: inline-block;
-  font-size: 1.3rem;
-  height: 2.6rem;
-  line-height: 2.6rem;
+  width: 2.6rem;
   margin: 0 5px;
+  height: 2.6rem;
+  cursor: pointer;
+  font-size: 1.3rem;
   position: relative;
   text-align: center;
-  -webkit-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
-  user-select: none;
-  width: 2.6rem;
+  line-height: 2.6rem;
   margin-bottom: 10px;
+  display: inline-block;
+  border-radius: 2.6rem;
+  user-select: none;
+  -ms-user-select: none;
+  -moz-user-select: none;
+  -webkit-user-select: none;
 }
 
 /* Media Query */

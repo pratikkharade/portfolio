@@ -1,6 +1,6 @@
 .skill-icons-wrapper {
-    display: flex;
     height: 100%;
+    display: flex;
     width: fit-content;
 }
 

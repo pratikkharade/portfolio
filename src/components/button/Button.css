@@ -22,6 +22,12 @@
   transition: ease-in 0.3s;
 }
 
+.btn {
+  margin: 0px;
+  padding: 0px;
+  font-family: "Google Sans Regular";
+}
+
 /* Media Query */
 @media (max-width: 768px) {
   .main-button {

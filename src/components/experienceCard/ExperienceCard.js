@@ -106,10 +106,10 @@ class ExperienceCard extends Component {
                   </div>
                 </div>
               </div>
-              <ul className="body-content">
+              <ul className="experience-body-content">
                 {experience?.description?.map((sentence, index) => {
                   return (
-                    <li key={index} className="content-list" style={{ color: theme.text }}>
+                    <li key={index} className="experience-content-list" style={{ color: theme.text }}>
                       {sentence}
                     </li>
                   );

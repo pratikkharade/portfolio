@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import "./EducationCard.css";
 import { Fade, Flip } from "react-reveal";
+import Button from "../../components/button/Button.js";
 
 class DegreeCard extends Component {
   render() {
@@ -10,7 +11,7 @@ class DegreeCard extends Component {
       <div className="degree-card">
         {degree?.logo_path && (
           <Flip left duration={1000}>
-            <div className="card-img" 
+            <div className="education-card-img" 
                 style={{ boxShadow: `5px 5px 5px ${theme.headerColor}` }}>
               <img
                 style={{
@@ -26,48 +27,47 @@ class DegreeCard extends Component {
         )}
         <Fade right duration={1000} distance="40px">
           <div
-            className="card-body"
+            className="education-card-body"
             style={{
               width: degree?.logo_path ? "90%" : "100%",
               boxShadow: `4px 3px 20px -2px ${theme.headerColor}`,
             }}
           >
             <div
-              className="body-header"
+              className="education-body-header"
               style={{ backgroundColor: theme.headerColor }}
             >
-              <div className="body-header-title">
-                <h2 className="card-title" style={{ color: theme.text }}>
+              <div className="education-body-header-title">
+                <h2 className="education-card-title" style={{ color: theme.text }}>
                   {degree?.title}
                 </h2>
-                <h3 className="card-subtitle" style={{ color: theme.text }}>
+                <h3 className="education-card-subtitle" style={{ color: theme.text }}>
                   {degree?.subtitle}
                 </h3>
               </div>
-              <div className="body-header-duration">
-                <h3 className="duration" style={{ color: theme.text }}>
+              <div className="education-body-header-duration">
+                <h3 className="education-duration" style={{ color: theme.text }}>
                   {degree?.duration}
                 </h3>
               </div>
             </div>
-            <div className="body-content">
+            <div className="education-body-content">
               {degree?.descriptions?.map((sentence, index) => {
                 return (
-                  <li key={index} className="content-list" style={{ color: theme.text }}>
+                  <li key={index} className="education-content-list" style={{ color: theme.text }}>
                     {sentence}
                   </li>
                 );
               })}
               {degree?.courses?.length > 0 &&
-                <li className="content-list" style={{ color: theme.text }}>
+                <li className="education-content-list" style={{ color: theme.text }}>
                   Coursework:
                 </li>
               }
-              <ul className="content-list-ul">
-
+              <ul className="education-content-list-ul">
                 {degree?.courses?.map((sentence, index) => {
                   return (
-                    <li key={index} className="content-list" style={{ color: theme.text }}>
+                    <li key={index} className="education-content-list" style={{ color: theme.text }}>
                       {sentence}
                     </li>
                   );
@@ -75,36 +75,22 @@ class DegreeCard extends Component {
               </ul>
               <div className="degree-card-links">
                 {degree?.cert_link && (
-                  <a
+                  <Button
+                    text={"View Diploma"}
+                    className="visit-cert-btn"
                     href={degree.cert_link}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    <div
-                      className="visit-cert-btn"
-                      style={{ backgroundColor: theme.headerColor }}
-                    >
-                      <p className="btn" style={{ color: theme.text }}>
-                        View Diploma
-                      </p>
-                    </div>
-                  </a>
+                    newTab={true}
+                    theme={theme}
+                  />
                 )}
                 {degree?.website_link && (
-                  <a
+                  <Button
+                    text={"University Website"}
+                    className="visit-website-btn"
                     href={degree.website_link}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    <div
-                      className="visit-website-btn"
-                      style={{ backgroundColor: theme.headerColor }}
-                    >
-                      <p className="btn" style={{ color: theme.text }}>
-                        University Website
-                      </p>
-                    </div>
-                  </a>
+                    newTab={true}
+                    theme={theme}
+                  />
                 )}
               </div>
             </div>

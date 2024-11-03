@@ -1,7 +1,6 @@
 .skill-card-div {
     flex: 1 1 30%;
     border-radius: 10px;
-    color: rgb(88, 96, 105);
     box-shadow: 5px 5px 5px #d9dbdf;
 }
 
@@ -20,28 +19,25 @@
 }
 
 .skill-category {
-    text-align: left;
-    color: rgb(36, 41, 46);
-    font-family: "Google Sans Regular";
-    margin-bottom: 0.75rem;
+    margin: 0px;
     font-size: 25px;
+    text-align: left;
     font-weight: 700;
-    letter-spacing: -0.5px;
     overflow: hidden;
     line-height: 1.2;
-    margin: 0px;
+    font-family: "Google Sans Regular";
 }
 
 .skill-description {
     overflow: hidden;
     text-align: left;
     font-size: medium;
-    display: -webkit-box;
-    font-family: "Google Sans Regular";
-    -webkit-line-clamp: 2;
-    -webkit-box-orient: vertical;
     margin-top: 0.8rem;
     margin-bottom: 0px;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    font-family: "Google Sans Regular";
 }
 
 .skill-details {
@@ -51,8 +47,8 @@
 }
 
 .skill-details > ul {
-    padding-left: 15px;
     margin: 0;
+    padding-left: 15px;
 }
 
 .skill-category-icon {
@@ -60,10 +56,10 @@
 }
 
 .myskill-skill-icons {
+    bottom: 1rem;
     height: 2rem;
     margin-top: 1rem;
     position: absolute;
-    bottom: 1rem;
 }
 
 @media (max-width: 1380px) {

@@ -3,13 +3,12 @@
 }
 
 .basic-education {
-  margin-left: 5%;
-  margin-right: 5%;
+  margin: 0 5%;
 }
 
 .education-heading-div {
-  display: flex;
   height: 25rem;
+  display: flex;
 }
 
 .education-heading-div > * {
@@ -33,25 +32,17 @@
 
 .education-heading-text {
   font-size: 56px;
+  margin-top: 80px;
   font-weight: 400;
-  font-family: "Google Sans Medium";
   line-height: 1.1;
   text-align: center;
-  margin-top: 80px;
-}
-
-.education-heading-sub-text {
-  font-size: 30px;
-  font-family: "Google Sans Regular";
-  text-align: center;
+  font-family: "Google Sans Medium";
 }
 
 .education-header-detail-text {
+  margin: 0 20px;
   font-size: 20px;
   line-height: 30px;
-  margin-top: 0px;
-  margin-left: 20px;
-  margin-right: 20px;
   font-family: "Google Sans Medium";
 }
 
@@ -60,9 +51,7 @@
     font-size: 50px;
     margin-top: 80px;
   }
-  .education-heading-sub-text {
-    font-size: 25px;
-  }
+
   .education-page-poster {
     max-width: 100%;
   }
@@ -74,19 +63,16 @@
     margin-top: 20px;
   }
 
-  .education-heading-sub-text {
-    font-size: 20px;
-  }
-
+  
   .education-heading-div {
     height: auto;
     flex-direction: column;
   }
   .education-header-detail-text {
+    margin: 0;
     font-size: 16px;
-    margin-right: 0px;
-    line-height: normal;
     text-align: center;
+    line-height: normal;
   }
   .education-page-poster {
     max-width: 60%;

@@ -7,48 +7,48 @@
   justify-content: center;
 }
 
-.card-title {
+.education-card-title {
   font-size: 25px;
   margin: 0 0 0.5rem;
   font-family: "Google Sans Medium";
 }
 
-.card-subtitle {
+.education-card-subtitle {
   margin: 0;
   font-size: 18px;
   font-family: "Google Sans Medium";
 }
 
-.card-img {
+.education-card-img {
   width: 200px;
   height: auto;
   padding: 10px;
   border-radius: 50%;
 }
 
-.body-header {
+.education-body-header {
   padding: 20px;
   display: flex;
   max-width: inherit;
   border-radius: 10px 10px 0px 0px;
 }
 
-.body-header-title {
+.education-body-header-title {
   width: 75%;
   align-items: flex-start;
 }
 
-.body-header-duration {
+.education-body-header-duration {
   width: 25%;
 }
-.duration {
+.education-duration {
   margin: 0;
   float: right;
   font-size: 16px;
   font-family: "Google Sans Regular";
 }
 
-.body-content {
+.education-body-content {
   margin: 0;
   max-width: inherit;
   align-items: center;
@@ -57,7 +57,7 @@
   border-radius: 0px 0px 10px 10px;
 }
 
-.content-list {
+.education-content-list {
   margin: 0;
   text-align: left;
   padding-right: 10px;
@@ -65,15 +65,15 @@
   font-family: "Google Sans Regular";
 }
 
-.content-list:last-child {
+.education-content-list:last-child {
   padding-bottom: 0;
 }
 
-.content-list-ul {
+.education-content-list-ul {
   margin: 0;
 }
 
-.card-body {
+.education-card-body {
   margin-left: 20px;
   border-radius: 10px;
   border-top: 0;
@@ -81,24 +81,15 @@
 
 .visit-cert-btn,
 .visit-website-btn {
+  padding: 0;
   border: 0px;
-  padding: 10px;
+  margin: 0 0 20px;
   border-radius: 10px;
   display: inline-block;
-  margin: 20px 0;
 }
 
 .visit-website-btn {
   float: right;
-}
-
-.btn {
-  margin: 0px;
-  padding: 0px;
-  font-family: "Google Sans Regular";
-}
-
-@media (max-width: 1380px) {
 }
 
 @media (max-width: 768px) {
@@ -111,41 +102,41 @@
     margin-bottom: 0;
   }
 
-  .body-header {
+  .education-body-header {
     text-align: center;
     flex-direction: column;
   }
 
-  .body-header-title {
+  .education-body-header-title {
     width: 100%;
   }
 
-  .body-header-duration {
+  .education-body-header-duration {
     padding: 0;
     margin: 0;
     width: 100%;
   }
 
-  .duration {
+  .education-duration {
     float: none;
     margin: 0px;
     padding: 0px;
   }
 
-  .card-img {
+  .education-card-img {
     width: 150px;
   }
 
-  .card-body {
+  .education-card-body {
     margin: 0;
     width: 100% !important;
   }
 
-  .card-title {
+  .education-card-title {
     font-size: 20px;
   }
 
-  .card-subtitle {
+  .education-card-subtitle {
     font-size: 16px;
   }
 
@@ -160,7 +151,7 @@
 }
 
 @media (max-width:500px) {
-  .card-title {
+  .education-card-title {
     white-space: break-spaces;
   }
 }

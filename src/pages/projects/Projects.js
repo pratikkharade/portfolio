@@ -6,7 +6,7 @@ import TopButton from "../../components/topButton/TopButton.js";
 import { Fade } from "react-reveal";
 import { greeting, projects } from "../../portfolio.js";
 import "./Projects.css";
-import ProjectsImg from "./ProjectsImg.js";
+// import ProjectsImg from "./ProjectsImg.js";
 
 class Projects extends Component {
   render() {

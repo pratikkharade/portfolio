@@ -4,7 +4,7 @@ import TopButton from "../../components/topButton/TopButton.js";
 import { Fade } from "react-reveal";
 import { contact } from "../../portfolio.js";
 import "./Contact.css";
-import ContactImg from "./ContactImg.js";
+// import ContactImg from "./ContactImg.js";
 import ContactCard from "../../components/contactCard/ContactCard.js";
 import SocialMedia from "../../components/socialMedia/SocialMedia";
 

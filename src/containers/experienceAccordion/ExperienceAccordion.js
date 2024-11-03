@@ -7,7 +7,7 @@ class ExperienceAccordion extends Component {
     const {theme, experiences} = this.props;
     return (
       <div className="experience-accord">
-        <div className="accord-panel">
+        <div className="experience-accord-panel">
           <div style={{ backgroundColor: theme.body }}>
             {experiences.map((experience, index) => {
               return (

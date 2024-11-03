@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import Header from "../../components/header/Header";
 import TopButton from "../../components/topButton/TopButton";
 import Educations from "../../containers/education/Educations";
-import EducationImg from "./EducationImg";
+// import EducationImg from "./EducationImg";
 import { education } from "../../portfolio";
 import "./Education.css";
 import { Fade } from "react-reveal";

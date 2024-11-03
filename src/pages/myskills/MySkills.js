@@ -5,7 +5,7 @@ import MySkillsCard from "../../components/mySkillsCard/MySkillsCard.js";
 import { Fade } from "react-reveal";
 import { mySkills } from "../../portfolio.js";
 import "./MySkills.css";
-import MySkillsImg from "./MySkillsImg.js";
+// import MySkillsImg from "./MySkillsImg.js";
 
 class MySkills extends Component {
   render() {
