@@ -1,6 +1,6 @@
 import React from "react";
 import "./ProjectCard.css";
-import { Fade } from "react-reveal";
+// import { Fade } from "react-reveal";
 
 export default function ProjectCard(props) {
   const { repo, theme } = props;

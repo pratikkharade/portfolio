@@ -12,8 +12,8 @@ class ExperienceCard extends Component {
       <div className="experience-list-item">
         <Fade left duration={1000} distance="40px">
           <div className="experience-card-logo-div">
-            <div className="experience-card-img" 
-                style={{ boxShadow: `5px 5px 5px ${theme.headerColor}` }}>
+            <div className="experience-card-img"
+              style={{ boxShadow: `5px 5px 5px ${theme.headerColor}` }}>
               <img
                 className="experience-card-logo"
                 src={require(`../../assests/images/${experience["logo_path"]}`)}
@@ -82,11 +82,11 @@ class ExperienceCard extends Component {
                       style={{ color: theme.text }}
                     >
                       {experience?.company}
-                      <i 
+                      <i
                         style={{ color: theme.secondaryText }}
                         className="fa-solid fa-up-right-from-square expo-compary-url-icon"></i>
                     </a>
-                    
+
                   </p>
                 </div>
                 <div>
@@ -106,15 +106,15 @@ class ExperienceCard extends Component {
                   </div>
                 </div>
               </div>
-              <ul className="experience-body-content">
-                {experience?.description?.map((sentence, index) => {
-                  return (
+              {experience?.description && (
+                <ul className="experience-body-content">
+                  {experience?.description?.map((sentence, index) => (
                     <li key={index} className="experience-content-list" style={{ color: theme.text }}>
                       {sentence}
                     </li>
-                  );
-                })}
-              </ul>
+                  ))}
+                </ul>
+              )}
             </div>
           </div>
         </Fade>

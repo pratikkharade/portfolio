@@ -1,6 +1,6 @@
 import React from "react";
 import "./ContactCard.css";
-import { Fade } from "react-reveal";
+// import { Fade } from "react-reveal";
 
 export default function ContactCard(props) {
     const { iconClass, title, text, theme } = props;
