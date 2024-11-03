@@ -9,7 +9,6 @@ export default function MySkillsCard(props) {
     return (
         <Fade bottom duration={1000} distance="40px">
             <div className="skill-card-div" style={{
-                backgroundColor: theme.highlight,
                 boxShadow: `4px 3px 20px -2px ${theme.headerColor}`
             }}>
 

@@ -111,34 +111,6 @@ const whatIDo = [{
     iconClass: "sass.png",
   }]
 }, {
-  title: "Machine Learning & Data Analysis",
-  fileName: "DataScienceImg",
-  img: "ml.webp",
-  skills: [
-    "⚡ Develop ML models and pipelines to draw insights from " +
-      "structured and unstructured data.",
-    "⚡ Perform data preprocessing, feature engineering, and " +
-      "data visualization.",
-    "⚡ Fine-tune hyperparameters and evaluate model performance " +
-      "to ensure high accuracy."
-  ],
-  techStack: [{
-    name: "Pandas",
-    iconClass: "pandas.png"
-  }, {
-    name: "NumPy",
-    iconClass: "numpy.png"
-  }, {
-    name: "PyTorch",
-    iconClass: "pytorch.svg",
-  }, {
-    name: "TensorFlow",
-    iconClass: "tensorflow.png",
-  }, {
-    name: "Scikit-Learn",
-    iconClass: "scikitlearn.png",
-  }]
-}, {
   title: "Back End Development",
   fileName: "FullStackImg",
   img: "backend.png",
@@ -171,6 +143,34 @@ const whatIDo = [{
   }, {
     name: "Mongo DB",
     iconClass: "mongodb.svg"
+  }]
+}, {
+  title: "Machine Learning & Data Analysis",
+  fileName: "DataScienceImg",
+  img: "ml.webp",
+  skills: [
+    "⚡ Develop ML models and pipelines to draw insights from " +
+      "structured and unstructured data.",
+    "⚡ Perform data preprocessing, feature engineering, and " +
+      "data visualization.",
+    "⚡ Fine-tune hyperparameters and evaluate model performance " +
+      "to ensure high accuracy."
+  ],
+  techStack: [{
+    name: "Pandas",
+    iconClass: "pandas.png"
+  }, {
+    name: "NumPy",
+    iconClass: "numpy.png"
+  }, {
+    name: "PyTorch",
+    iconClass: "pytorch.svg",
+  }, {
+    name: "TensorFlow",
+    iconClass: "tensorflow.png",
+  }, {
+    name: "Scikit-Learn",
+    iconClass: "scikitlearn.png",
   }]
 }, {
   title: "AI-driven Learning Solutions",
