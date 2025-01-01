@@ -14,8 +14,7 @@ const seo = {
     "programming. Let’s code a better future!",
   og: {
     title: "Pratik Kharade's Portfolio",
-    type: "website",
-    // url: "http://deepakdhole.com/"
+    type: "website"
   }
 };
 
@@ -31,8 +30,7 @@ const greeting = {
     "build seamless applications that empower users to thrive " +
     "in programming. Let’s code a better future!",
   githubProfile: "https://github.com/pratikkharade/",
-  resumeLink: "https://drive.google.com/file/d/1MkNqg1n4A4aOu3hyRs_-0ZDqEJpkcIAt/view?usp=sharing"
-
+  resumeLink: "https://drive.google.com/file/d/11kAHGNGfB0e24jhcmJT7zrmtuLF6xZrS/view?usp=sharing"
 };
 
 // Social Media Links
@@ -205,7 +203,7 @@ const education = {
     alt_name: "UoU",
     duration: "2022 - 2024",
     descriptions: [
-      "Rewarded Graduate Teaching Assistantship for all 4 semesters.",
+      "Awarded Graduate Teaching Assistantship for all 4 semesters.",
       "Vice-President of Indian Student Association '23-'24",
       "Committee Member of Indian Student Association '22-'23"
     ],
@@ -285,7 +283,7 @@ const experience = {
         "encouraged student engagement and teamwork."
     ]
   }, {
-    title: "Software Engineer",
+    title: "Software Engineer - Fullstack",
     company: "eQ Technologic",
     company_url: "https://www.1eq.com/",
     logo_path: "eq.png",
@@ -355,25 +353,7 @@ const projects = {
       description: "Engaged in a project assessing the security of prominent web " +
         "application frameworks like Django (Python), JavaScript frameworks (Express.js," +
         " Angular.js), and Ruby on Rails, aimed at fortifying defenses against cyber " +
-        "threats across sectors including finance, healthcare, and e-commerce.",
-      // languages: [
-      //   {
-      //     "name": "Python",
-      //     "iconifyClass": "logos-python"
-      //   },
-      //   {
-      //     "name": "Machine Learning",
-      //     "iconifyClass": "eos-icons:machine-learning"
-      //   },
-      //   {
-      //     "name": "Scikit Learn",
-      //     "iconifyClass": "devicon:scikitlearn"
-      //   },
-      //   {
-      //     "name": "Data Analysis",
-      //     "iconifyClass": "streamline:money-graph-analytics-business-product-graph-data-chart-analysis"
-      //   }
-      // ]
+        "threats across sectors including finance, healthcare, and e-commerce."
     },
     {
       name: "An Exploration of Privacy and Visibility in 2 STEAM Friend Networks",
@@ -390,17 +370,7 @@ const projects = {
         "on the STEAM platform. By analyzing data collected through STEAM's " +
         "Web API, I uncovered patterns in how users manage their privacy, " +
         "particularly in relation to the visibility of profiles, real names, " +
-        "locations, and friends lists within the gaming community.",
-      // languages: [
-      //   {
-      //     "name": "Python",
-      //     "iconifyClass": "logos-python"
-      //   },
-      //   {
-      //     "name": "REST API",
-      //     "iconifyClass": "dashicons:rest-api"
-      //   }
-      // ]
+        "locations, and friends lists within the gaming community."
     },
     {
       name: "Formula 1 Race Outcomes – Analysis and Predictions",
@@ -415,17 +385,7 @@ const projects = {
       description: "Collected and analyzed Formula 1 race data to build a predictive " +
         "model for forecasting race outcomes, utilizing Machine Learning and Data " +
         "Mining techniques such as Regression, Clustering, and Gradient Descent, " +
-        "achieving 97% accuracy.",
-      // languages: [
-      //   {
-      //     "name": "Python",
-      //     "iconifyClass": "logos-python"
-      //   },
-      //   {
-      //     "name": "REST API",
-      //     "iconifyClass": "dashicons:rest-api"
-      //   }
-      // ]
+        "achieving 97% accuracy."
     },
     {
       name: "Sentiment Analysis of Movies",
@@ -438,17 +398,7 @@ const projects = {
       description: "Designed and developed a sentiment analysis model, optimizing " +
         "preprocessing, merging datasets, and fine-tuning hyperparameters, resulting " +
         "in a 15% increase in accuracy and a 20% reduction in training time across " +
-        "multiple classifiers.",
-      // languages: [
-      //   {
-      //     "name": "Python",
-      //     "iconifyClass": "logos-python"
-      //   },
-      //   {
-      //     "name": "REST API",
-      //     "iconifyClass": "dashicons:rest-api"
-      //   }
-      // ]
+        "multiple classifiers."
     },
     {
       name: "CT and PET-CT Lung Cancer Visualization",
@@ -465,17 +415,7 @@ const projects = {
         "their grasp of their medical condition. By implementing advanced image " +
         "processing techniques with Paraview and Seg3D, the project enhanced tumor " +
         "visualization and detection of lung carcinoma, making medical information " +
-        "more accessible and easier to comprehend for patients.",
-      // languages: [
-      //   {
-      //     "name": "Python",
-      //     "iconifyClass": "logos-python"
-      //   },
-      //   {
-      //     "name": "REST API",
-      //     "iconifyClass": "dashicons:rest-api"
-      //   }
-      // ]
+        "more accessible and easier to comprehend for patients."
     },
     {
       name: "Power Profiling of Nvidia GPUs",
@@ -490,17 +430,7 @@ const projects = {
       description: "Developed Python scripts to collect and analyze power " +
         "consumption data across 15 GPU configurations and 10 testing scenarios, " +
         "identifying optimization strategies that reduced power consumption " +
-        "disparities by 25%.",
-      // languages: [
-      //   {
-      //     "name": "Python",
-      //     "iconifyClass": "logos-python"
-      //   },
-      //   {
-      //     "name": "REST API",
-      //     "iconifyClass": "dashicons:rest-api"
-      //   }
-      // ]
+        "disparities by 25%."
     },
     {
       name: "Sorting Algorithms using Parallel Processing",
@@ -512,17 +442,7 @@ const projects = {
       url: "https://github.com/deepakdhole777/vaccination-slots",
       brief_desc: "Executed sorting algorithms on a substantial dataset of one " +
         "million items, leveraging Parallel Processing on CUDA to enhance computational " +
-        "efficiency, resulting in a 40% reduction in response time.",
-      // languages: [
-      //   {
-      //     "name": "Python",
-      //     "iconifyClass": "logos-python"
-      //   },
-      //   {
-      //     "name": "REST API",
-      //     "iconifyClass": "dashicons:rest-api"
-      //   }
-      // ]
+        "efficiency, resulting in a 40% reduction in response time."
     },
     {
       name: "Prioritize: An Android App",
@@ -541,17 +461,7 @@ const projects = {
         "and delivery location distances, our app employed Dijkstra’s Shortest " +
         "Path Algorithm to calculate distances efficiently. We complemented this " +
         "with a proprietary algorithm to generate the most optimal delivery sequence. " +
-        "This innovative solution was built using Android and Java technologies.",
-      // languages: [
-      //   {
-      //     "name": "Python",
-      //     "iconifyClass": "logos-python"
-      //   },
-      //   {
-      //     "name": "REST API",
-      //     "iconifyClass": "dashicons:rest-api"
-      //   }
-      // ]
+        "This innovative solution was built using Android and Java technologies."
     },
     {
       name: "Graphical Protuberance",
@@ -569,17 +479,7 @@ const projects = {
         "minimizing errors. This initiative yielded a remarkable 50-fold " +
         "increase in projection speed and enhanced precision by a factor " +
         "of 1000 compared to manual drawings. This achievement was made " +
-        "possible through the application of advanced C++ techniques.",
-      // languages: [
-      //   {
-      //     "name": "Python",
-      //     "iconifyClass": "logos-python"
-      //   },
-      //   {
-      //     "name": "REST API",
-      //     "iconifyClass": "dashicons:rest-api"
-      //   }
-      // ]
+        "possible through the application of advanced C++ techniques."
     }
   ]
 };
