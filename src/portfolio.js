@@ -287,7 +287,7 @@ const experience = {
     company: "eQ Technologic",
     company_url: "https://www.1eq.com/",
     logo_path: "eq.png",
-    duration: "July 2019 - June 2024",
+    duration: "July 2019 - June 2022",
     location: "Pune, India",
     description: [
       "Directed the design, deployment, and maintenance of eQ Technologic's Data " +
