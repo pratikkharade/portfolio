@@ -51,7 +51,7 @@ class DegreeCard extends Component {
                 </h3>
               </div>
             </div>
-            <div className="education-body-content">
+            <ul className="education-body-content">
               {degree?.descriptions?.map((sentence, index) => {
                 return (
                   <li key={index} className="education-content-list" style={{ color: theme.text }}>
@@ -64,7 +64,7 @@ class DegreeCard extends Component {
                   Coursework:
                 </li>
               }
-              <ul className="education-content-list-ul">
+              <ul className="education-content-coursework-list">
                 {degree?.courses?.map((sentence, index) => {
                   return (
                     <li key={index} className="education-content-list" style={{ color: theme.text }}>
@@ -73,26 +73,27 @@ class DegreeCard extends Component {
                   );
                 })}
               </ul>
-              <div className="degree-card-links">
-                {degree?.cert_link && (
-                  <Button
-                    text={"View Diploma"}
-                    className="visit-cert-btn"
-                    href={degree.cert_link}
-                    newTab={true}
-                    theme={theme}
-                  />
-                )}
-                {degree?.website_link && (
-                  <Button
-                    text={"University Website"}
-                    className="visit-website-btn"
-                    href={degree.website_link}
-                    newTab={true}
-                    theme={theme}
-                  />
-                )}
-              </div>
+
+            </ul>
+            <div className="degree-card-footer">
+              {degree?.cert_link && (
+                <Button
+                  text={"View Diploma"}
+                  className="visit-cert-btn"
+                  href={degree.cert_link}
+                  newTab={true}
+                  theme={theme}
+                />
+              )}
+              {degree?.website_link && (
+                <Button
+                  text={"University Website"}
+                  className="visit-website-btn"
+                  href={degree.website_link}
+                  newTab={true}
+                  theme={theme}
+                />
+              )}
             </div>
           </div>
         </Fade>

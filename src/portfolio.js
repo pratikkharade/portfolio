@@ -30,7 +30,7 @@ const greeting = {
     "build seamless applications that empower users to thrive " +
     "in programming. Let’s code a better future!",
   githubProfile: "https://github.com/pratikkharade/",
-  resumeLink: "https://drive.google.com/file/d/1osNPW7y5FSPpIbtcwqxpUTflTHRbMsrH/"
+  resumeLink: "https://drive.google.com/file/d/1Z7XDU0qv4V8xvdzivJT84ZNwTz10VXOV/"
 };
 
 // Social Media Links
@@ -248,12 +248,28 @@ const experience = {
   description: "🖥️ With each experience, we refine our skills, learn from diverse " +
     "situations, and gain a broader perspective on how to approach problems.",
   experiences: [{
-    title: "Researcher",
+    title: "Research Associate 2 - AI",
+    company: "Keywords Studios",
+    company_url: "https://www.keywordsstudios.com/",
+    logo_path: "kws.png",
+    logo_class: "kws_logo",
+    duration: "May 2025 - Present",
+    location: "Houston, TX (Remote)",
+    description: [
+      "Fine-tuning and evaluating NLP models to enhance consistency and " + 
+        "accuracy of language generation for gaming and media applications.",
+      "Researching and applying cutting-edge advancements in NLP to improve " + 
+        "AI model training pipelines and content generation workflows.",
+      "Designing and optimizing prompt engineering and feedback loop strategies " + 
+        "to refine AI-generated content quality in entertainment-focused use cases.",
+    ]
+  }, {
+    title: "Research Assistant",
     company: "University of Utah",
     company_url: "https://www.utah.edu/",
     logo_path: "uou.png",
-    duration: "July 2024 - Present",
-    location: "Salt Lake City, UT",
+    duration: "July 2024 - May 2025",
+    location: "Salt Lake City, UT (Remote)",
     description: [
       "Leading a research project to create an interactive learning platform " +
         "using Generative AI (ChatGPT) to enhance coding education, targeting " +
@@ -287,6 +303,7 @@ const experience = {
     company: "eQ Technologic",
     company_url: "https://www.1eq.com/",
     logo_path: "eq.png",
+    logo_class: "eq_logo",
     duration: "July 2019 - June 2022",
     location: "Pune, India",
     description: [
@@ -650,7 +667,7 @@ const mySkills = {
 const contact = {
   title: "Contact Me",
   description: "Feel free to reach out to me! 💬",
-  address: "Salt Lake City,\nUtah, USA, 84102",
+  address: "Greater Houston, \nTexas, USA, 77479",
   email: "pratik.kharade@utah.edu\nkharadepratik6@gmail.com",
   phone: "+1-385-457-7822\n+91-7219219994"
 };

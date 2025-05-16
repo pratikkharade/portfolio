@@ -58,7 +58,17 @@
   max-height: 80%;
   position: absolute;
   transform: translate(-50%, -50%);
+  &.kws_logo {
+    max-width: 70%;
+    max-height: 70%;
+  }
+  &.eq_logo {
+    height: 80%;
+    width: auto;
+    max-width: fit-content;
+  }
 }
+
 
 .experience-card-title {
   font-size: 25px;
