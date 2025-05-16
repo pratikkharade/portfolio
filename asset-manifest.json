@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.7f4933ef.chunk.css",
-    "main.js": "/portfolio/static/js/main.af1ddb92.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.af1ddb92.chunk.js.map",
+    "main.css": "/portfolio/static/css/main.d768a610.chunk.css",
+    "main.js": "/portfolio/static/js/main.b749fb90.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.b749fb90.chunk.js.map",
     "runtime-main.js": "/portfolio/static/js/runtime-main.3685d967.js",
     "runtime-main.js.map": "/portfolio/static/js/runtime-main.3685d967.js.map",
-    "static/js/2.528f16d4.chunk.js": "/portfolio/static/js/2.528f16d4.chunk.js",
-    "static/js/2.528f16d4.chunk.js.map": "/portfolio/static/js/2.528f16d4.chunk.js.map",
+    "static/js/2.54920e94.chunk.js": "/portfolio/static/js/2.54920e94.chunk.js",
+    "static/js/2.54920e94.chunk.js.map": "/portfolio/static/js/2.54920e94.chunk.js.map",
     "index.html": "/portfolio/index.html",
-    "precache-manifest.08df2c5cfee6307816ef2f571c8196c1.js": "/portfolio/precache-manifest.08df2c5cfee6307816ef2f571c8196c1.js",
+    "precache-manifest.d0b88d7341e4cb37f2040bede19072b7.js": "/portfolio/precache-manifest.d0b88d7341e4cb37f2040bede19072b7.js",
     "service-worker.js": "/portfolio/service-worker.js",
-    "static/css/main.7f4933ef.chunk.css.map": "/portfolio/static/css/main.7f4933ef.chunk.css.map",
+    "static/css/main.d768a610.chunk.css.map": "/portfolio/static/css/main.d768a610.chunk.css.map",
     "static/media/index.css": "/portfolio/static/media/Montserrat-Regular.ee653992.ttf",
     "static/media/backend.png": "/portfolio/static/media/backend.66fd0bdc.png",
     "static/media/contact.webp": "/portfolio/static/media/contact.2c3e3a6a.webp",
@@ -29,6 +29,7 @@
     "static/media/javascript.png": "/portfolio/static/media/javascript.0cded3a3.png",
     "static/media/jenkins.png": "/portfolio/static/media/jenkins.8a26c0e5.png",
     "static/media/jira.png": "/portfolio/static/media/jira.801235b3.png",
+    "static/media/kws.png": "/portfolio/static/media/kws.46e51a53.png",
     "static/media/learningsolutions.png": "/portfolio/static/media/learningsolutions.933bd548.png",
     "static/media/ml.webp": "/portfolio/static/media/ml.ac508c08.webp",
     "static/media/mongodb.svg": "/portfolio/static/media/mongodb.633c1cfb.svg",
@@ -60,8 +61,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.3685d967.js",
-    "static/js/2.528f16d4.chunk.js",
-    "static/css/main.7f4933ef.chunk.css",
-    "static/js/main.af1ddb92.chunk.js"
+    "static/js/2.54920e94.chunk.js",
+    "static/css/main.d768a610.chunk.css",
+    "static/js/main.b749fb90.chunk.js"
   ]
 }
