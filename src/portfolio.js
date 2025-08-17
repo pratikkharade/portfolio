@@ -248,12 +248,28 @@ const experience = {
   description: "🖥️ With each experience, we refine our skills, learn from diverse " +
     "situations, and gain a broader perspective on how to approach problems.",
   experiences: [{
+    title: "Technical Research Associate 2 - AI",
+    company: "Keywords Studios",
+    company_url: "https://www.keywordsstudios.com/",
+    logo_path: "kws.png",
+    logo_class: "kws_logo",
+    duration: "July 2025 - Present",
+    location: "Houston, TX (Remote)",
+    description: [
+      "Conducted end-to-end validation of AI content tools, identifying " + 
+        "edge cases and inconsistencies before wider deployment.",
+      "Reviewed peer-generated assets for alignment with project standards, " + 
+        "ensuring consistent output quality across the research team.",
+      "Authored technical guides and internal playbooks to streamline onboarding " + 
+        "and reduce ambiguity in troubleshooting scenarios."
+    ]
+  }, {
     title: "Research Associate 2 - AI",
     company: "Keywords Studios",
     company_url: "https://www.keywordsstudios.com/",
     logo_path: "kws.png",
     logo_class: "kws_logo",
-    duration: "May 2025 - Present",
+    duration: "May 2025 - July 2025",
     location: "Houston, TX (Remote)",
     description: [
       "Fine-tuning and evaluating NLP models to enhance consistency and " + 
@@ -264,7 +280,7 @@ const experience = {
         "to refine AI-generated content quality in entertainment-focused use cases.",
     ]
   }, {
-    title: "Research Assistant",
+    title: "Research Assistant - Full Stack",
     company: "University of Utah",
     company_url: "https://www.utah.edu/",
     logo_path: "uou.png",
@@ -299,7 +315,7 @@ const experience = {
         "encouraged student engagement and teamwork."
     ]
   }, {
-    title: "Software Engineer - Fullstack",
+    title: "Software Engineer - Full Stack",
     company: "eQ Technologic",
     company_url: "https://www.1eq.com/",
     logo_path: "eq.png",
