@@ -58,11 +58,12 @@ class ExperienceCard extends Component {
               }}
             >
               <div
-                style={{
-                  display: "flex",
-                  flexDirection: "row",
-                  justifyContent: "space-between",
-                }}
+                className="experience-card-header"
+                // style={{
+                //   display: "flex",
+                //   flexDirection: "row",
+                //   justifyContent: "space-between",
+                // }}
               >
                 <div>
                   <h3

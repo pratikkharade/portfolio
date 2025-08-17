@@ -287,14 +287,14 @@ const experience = {
     duration: "July 2024 - May 2025",
     location: "Salt Lake City, UT (Remote)",
     description: [
-      "Leading a research project to create an interactive learning platform " +
-        "using Generative AI (ChatGPT) to enhance coding education, targeting " +
-        "a 30% improvement in coding proficiency.",
-      "Developing the front end with React, JavaScript, HTML/CSS, and integrating " +
-        "Flask for running Python scripts.",
-      "Managing MySQL databases to streamline data handling, contributing to a 25% " +
-        "reduction in development time and a 20% increase in project efficiency, while " +
-        "guiding undergraduate students through development, experimentation, and analysis."
+      "Led a research project to develop an AI-powered interactive learning platform " + 
+        "using Generative AI (OpenAI’s ChatGPT) by leveraging their APIs to improve " + 
+        "coding education, aiming for a 30% improvement in learner engagement.",
+      "Designed and implemented the frontend with React, JavaScript, HTML, and CSS, " + 
+        "while integrating Flask to execute Python scripts for real-time code evaluation, " + 
+        "resulting in a 25% reduction in development time and a 20% boost in project efficiency.",
+      "Managed MySQL databases to optimize data handling and mentored undergraduate students " + 
+        "in development, experimentation, and analysis."
     ]
   }, {
     title: "Graduate Teaching Assistant",
@@ -323,15 +323,26 @@ const experience = {
     duration: "July 2019 - June 2022",
     location: "Pune, India",
     description: [
-      "Directed the design, deployment, and maintenance of eQ Technologic's Data " +
-        "Visualization suite, improving real-time enterprise data analysis through " +
-        "JavaScript/jQuery, React JS, HTML, and CSS, leading to a 35% boost in user " +
-        "engagement and a 25% reduction in data processing time.",
-      "Spearheaded the creation and refinement of key UI features, elevating user " +
-        "satisfaction by 25 % and driving a 20 % increase in daily active users.",
-      "Assessed and compared various JavaScript frameworks, recommending a migration " +
-        "strategy that enhanced technological agility, reduced development time by 25 %, " +
-        "and significantly improved product scalability."
+      "Led the design, deployment, and maintenance of eQ Technologic’s Data " + 
+        "Visualization suite, enabling real-time enterprise data analysis with " + 
+        "JavaScript/jQuery, React JS, HTML, CSS, and Java, resulting in a 35% " + 
+        "increase in developer adoption and a 25% reduction in data processing " + 
+        "time for engineering teams.",
+      "Designed and enhanced key UI features, utilizing full-stack expertise with " + 
+        "Java on the backend, improving developer productivity by 25% and accelerating " + 
+        "feature delivery by 20%.",
+      "Evaluated Vue.js and React.js, leading the decision to migrate from vanilla " + 
+        "JavaScript to React.js, reducing development effort by 25%, improving product " + 
+        "scalability, and enhanced technological agility across teams."
+      // "Directed the design, deployment, and maintenance of eQ Technologic's Data " +
+      //   "Visualization suite, improving real-time enterprise data analysis through " +
+      //   "JavaScript/jQuery, React JS, HTML, and CSS, leading to a 35% boost in user " +
+      //   "engagement and a 25% reduction in data processing time.",
+      // "Spearheaded the creation and refinement of key UI features, elevating user " +
+      //   "satisfaction by 25 % and driving a 20 % increase in daily active users.",
+      // "Assessed and compared various JavaScript frameworks, recommending a migration " +
+      //   "strategy that enhanced technological agility, reduced development time by 25 %, " +
+      //   "and significantly improved product scalability."
     ]
   }, {
     title: "System Software Intern",
@@ -427,11 +438,11 @@ const projects = {
       report_url: "https://drive.google.com/file/d/1hjzayW7aA9D82YMm2bqK5qiOWRzZRPyW/view?usp=sharing",
       poster_url: "",
       github_url: "https://github.com/pratikkharade/Sentiment-Analysis-of-Movies",
-      brief_desc: "Predicted movie review sentiment using machine learning classifiers, optimizing performance through preprocessing, hyperparameter tuning, and cross-validation.",
-      description: "Designed and developed a sentiment analysis model, optimizing " +
-        "preprocessing, merging datasets, and fine-tuning hyperparameters, resulting " +
-        "in a 15% increase in accuracy and a 20% reduction in training time across " +
-        "multiple classifiers."
+      brief_desc: "Predicted movie review sentiment using machine learning classifiers, " + 
+        "optimizing performance through preprocessing, hyperparameter tuning, and cross-validation.",
+      description: "Designed and developed a sentiment analysis model, optimizing preprocessing, " + 
+        "merging datasets, and fine-tuning hyperparameters, resulting in a 15% increase in accuracy " + 
+        "and a 20% reduction in training time across multiple classifiers."
     },
     {
       name: "CT and PET-CT Lung Cancer Visualization",
