@@ -212,23 +212,23 @@
     min-width: auto;
     text-align: center;
     flex-direction: column;
+  }
 
-    .experience-card-header {
-      flex-direction: column;
+  .experience-card-header {
+    flex-direction: column;
+  }
 
-      .experience-card-title,
-      .experience-card-company,
-      .experience-card-duration,
-      .experience-card-location {
-        text-align: center;
-        margin-bottom: 0.25rem;
-      }
+  .experience-card-title,
+  .experience-card-company,
+  .experience-card-duration,
+  .experience-card-location {
+    text-align: center;
+    margin-bottom: 0.25rem;
+  }
 
-      .experience-card-heading-right {
-        float: none;
-        font-size: 15px;
-      }
-    }
+  .experience-card-heading-right {
+    float: none;
+    font-size: 15px;
   }
 }
 
