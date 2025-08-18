@@ -11,8 +11,8 @@ class DegreeCard extends Component {
       <div className="degree-card">
         {degree?.logo_path && (
           <Flip left duration={1000}>
-            <div className="education-card-img" 
-                style={{ boxShadow: `5px 5px 5px ${theme.headerColor}` }}>
+            <div className="education-card-img"
+              style={{ boxShadow: `5px 5px 5px ${theme.headerColor}` }}>
               <img
                 style={{
                   maxWidth: "100%",
@@ -51,49 +51,50 @@ class DegreeCard extends Component {
                 </h3>
               </div>
             </div>
-            <ul className="education-body-content">
-              {degree?.descriptions?.map((sentence, index) => {
-                return (
-                  <li key={index} className="education-content-list" style={{ color: theme.text }}>
-                    {sentence}
-                  </li>
-                );
-              })}
-              {degree?.courses?.length > 0 &&
-                <li className="education-content-list" style={{ color: theme.text }}>
-                  Coursework:
-                </li>
-              }
-              <ul className="education-content-coursework-list">
-                {degree?.courses?.map((sentence, index) => {
+            <div className="education-body-content-wrapper">
+              <ul className="education-body-content">
+                {degree?.descriptions?.map((sentence, index) => {
                   return (
                     <li key={index} className="education-content-list" style={{ color: theme.text }}>
                       {sentence}
                     </li>
                   );
                 })}
+                {degree?.courses?.length > 0 &&
+                  <li className="education-content-list" style={{ color: theme.text }}>
+                    Coursework:
+                  </li>
+                }
+                <ul className="education-content-coursework-list">
+                  {degree?.courses?.map((sentence, index) => {
+                    return (
+                      <li key={index} className="education-content-list" style={{ color: theme.text }}>
+                        {sentence}
+                      </li>
+                    );
+                  })}
+                </ul>
               </ul>
-
-            </ul>
-            <div className="degree-card-footer">
-              {degree?.cert_link && (
-                <Button
-                  text={"View Diploma"}
-                  className="visit-cert-btn"
-                  href={degree.cert_link}
-                  newTab={true}
-                  theme={theme}
-                />
-              )}
-              {degree?.website_link && (
-                <Button
-                  text={"University Website"}
-                  className="visit-website-btn"
-                  href={degree.website_link}
-                  newTab={true}
-                  theme={theme}
-                />
-              )}
+              <div className="degree-card-footer">
+                {degree?.cert_link && (
+                  <Button
+                    text={"View Diploma"}
+                    className="visit-cert-btn"
+                    href={degree.cert_link}
+                    newTab={true}
+                    theme={theme}
+                  />
+                )}
+                {degree?.website_link && (
+                  <Button
+                    text={"University Website"}
+                    className="visit-website-btn"
+                    href={degree.website_link}
+                    newTab={true}
+                    theme={theme}
+                  />
+                )}
+              </div>
             </div>
           </div>
         </Fade>
