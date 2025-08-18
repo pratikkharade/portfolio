@@ -32,20 +32,18 @@ class ExperienceCard extends Component {
               zIndex: 100,
             }}
           />
-          {index !== totalCards - 1 && (
-            <div
-              style={{
-                height: 190,
-                width: 2,
-                backgroundColor: `${theme.headerColor}`,
-                position: "absolute",
-                marginTop: 20,
-              }}
-            />
-          )}
+          <div
+            style={{
+              height: "calc(100% - 70px)",
+              width: 2,
+              backgroundColor: `${theme.headerColor}`,
+              position: "absolute",
+              marginTop: 20,
+            }}
+          />
         </div>
         <Fade right duration={1000} distance="40px">
-          <div style={{ display: "flex", flexDirection: "row" }}>
+          <div style={{ display: "flex", flexDirection: "row", width: "100%" }}>
             <div
               className="arrow-left"
               style={{ borderRight: `10px solid ${theme.body}` }}
@@ -57,14 +55,7 @@ class ExperienceCard extends Component {
                 boxShadow: `4px 3px 20px -2px ${theme.headerColor}`
               }}
             >
-              <div
-                className="experience-card-header"
-                // style={{
-                //   display: "flex",
-                //   flexDirection: "row",
-                //   justifyContent: "space-between",
-                // }}
-              >
+              <div className="experience-card-header" >
                 <div>
                   <h3
                     className="experience-card-title"
