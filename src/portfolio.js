@@ -24,11 +24,10 @@ const greeting = {
   logo_name: "PratikKharade",
   pronouns: "he/him",
   image_path: "pratik.jpeg",
-  subTitle: "Innovative Software Engineer creating intuitive " +
-    "user experiences! With a Master’s in Computer Science and " +
-    "front-end expertise, I blend creativity and technology to " +
-    "build seamless applications that empower users to thrive " +
-    "in programming. Let’s code a better future!",
+  subTitle: "Innovative Software Engineer creating intuitive user experiences! " +
+    "With a Master’s in Computer Science and front-end expertise, I blend creativity " +
+    "and technology to build seamless applications that empower users to thrive in " +
+    "programming. Let’s code a better future!",
   githubProfile: "https://github.com/pratikkharade/",
   resumeLink: "https://drive.google.com/file/d/1Z7XDU0qv4V8xvdzivJT84ZNwTz10VXOV/"
 };
@@ -429,7 +428,7 @@ const projects = {
       description: "Collected and analyzed Formula 1 race data to build a predictive " +
         "model for forecasting race outcomes, utilizing Machine Learning and Data " +
         "Mining techniques such as Regression, Clustering, and Gradient Descent, " +
-        "achieving 97% accuracy."
+        "achieving 92% accuracy."
     },
     {
       name: "Sentiment Analysis of Movies",

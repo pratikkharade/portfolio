@@ -12,7 +12,7 @@
 }
 
 .project-name {
-  font-size: 22px;
+  font-size: 1.5rem;
   overflow: hidden;
   text-align: left;
   font-weight: 700;
@@ -26,7 +26,7 @@
 }
 
 .project-description {
-  margin: 1rem 0;
+  margin-top: 1rem;
   font-size: 1rem;
   overflow: hidden;
   text-align: left;
@@ -49,11 +49,11 @@
 }
 
 .project-urls {
+  float: left;
   bottom: 1rem;
   display: flex;
   font-size: small;
   column-gap: 1rem;
-  position: absolute;
 }
 
 .project-urls-new-tab-icon {
@@ -68,16 +68,25 @@
 }
 
 @media (max-width: 768px) {
+  .project-name-div {
+    justify-content: center;
+  }
+  .project-name-icon {
+    display: none;
+  }
   .project-card-div {
     flex: 1 1 100%;
   }
 
   .project-name {
-    font-size: 16px;
+    font-size: 1.25rem;
+    text-align: center;
+    margin-bottom: 0.25rem;
   }
 
   .project-description {
-    font-size: 14px;
+    font-size: 1rem;
+    margin-top: 0.5rem;
   }
 
   .project-dates {
@@ -85,7 +94,7 @@
   }
 
   .project-date-para {
-    font-size: 14px;
+    font-size: 1rem;
   }
 
   .project-urls {
