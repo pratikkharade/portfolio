@@ -25,11 +25,11 @@ const greeting = {
   pronouns: "he/him",
   image_path: "pratik.jpeg",
   subTitle: "Innovative Software Engineer creating intuitive user experiences! " +
-    "With a Master’s in Computer Science and front-end expertise, I blend creativity " +
+    "With a Master’s in Computer Science and full-stack expertise, I blend creativity " +
     "and technology to build seamless applications that empower users to thrive in " +
     "programming. Let’s code a better future!",
   githubProfile: "https://github.com/pratikkharade/",
-  resumeLink: "https://drive.google.com/file/d/1g4_FzrWGmqqCaG03DNGeEGxgvktTWFcQ/"
+  resumeLink: "https://drive.google.com/file/d/1K3KfiAwAAuTQSmEOx2To0Snt5o2m9wKn/"
 };
 
 // Social Media Links
@@ -57,11 +57,11 @@ const whatIDo = [{
   img: "software.png",
   skills: [
     "⚡ Develop scalable, maintainable software solutions " +
-      "through rigorous design and code review practices.",
+    "through rigorous design and code review practices.",
     "⚡ Collaborate with cross-functional teams to build end-to-end " +
-      "systems from requirements gathering to deployment.",
+    "systems from requirements gathering to deployment.",
     "⚡ Optimize software performance, implement security best practices, " +
-      "and ensure code reliability with testing and version control."
+    "and ensure code reliability with testing and version control."
   ],
   techStack: [{
     name: "Python",
@@ -113,11 +113,11 @@ const whatIDo = [{
   img: "backend.png",
   skills: [
     "⚡ Build RESTful APIs and microservices to handle business " +
-      "logic and data flow.",
+    "logic and data flow.",
     "⚡ Ensure secure and scalable server-side code using frameworks " +
-      "like Express.js, Django, and ASP.NET.",
+    "like Express.js, Django, and ASP.NET.",
     "⚡ Manage database interactions and optimize queries for " +
-      "efficient data handling."
+    "efficient data handling."
   ],
   techStack: [{
     name: "PHP",
@@ -147,11 +147,11 @@ const whatIDo = [{
   img: "ml.webp",
   skills: [
     "⚡ Develop ML models and pipelines to draw insights from " +
-      "structured and unstructured data.",
+    "structured and unstructured data.",
     "⚡ Perform data preprocessing, feature engineering, and " +
-      "data visualization.",
+    "data visualization.",
     "⚡ Fine-tune hyperparameters and evaluate model performance " +
-      "to ensure high accuracy."
+    "to ensure high accuracy."
   ],
   techStack: [{
     name: "Pandas",
@@ -247,20 +247,43 @@ const experience = {
   description: "🖥️ With each experience, we refine our skills, learn from diverse " +
     "situations, and gain a broader perspective on how to approach problems.",
   experiences: [{
+    title: "Senior Research Associate 2 - AI",
+    company: "Keywords Studios",
+    company_url: "https://www.keywordsstudios.com/",
+    logo_path: "kws.png",
+    logo_class: "kws_logo",
+    duration: "Nov 2025 - Present",
+    location: "Houston, TX (Remote)",
+    description: [
+      "Leading a 9-member research pod by setting team-wide KPIs, " +
+      "managing execution, performing weekly quality audits, and " + 
+      "ensuring 100% on-time, high-quality deliverables.",
+      "Improving end-to-end workflows by designing and implementing " +
+      "4 new processes, identifying risks, troubleshooting issues, " +
+      "and driving 30–40% efficiency gains across operations.",
+      "Mentoring and training 5+ junior team members, coordinating " +
+      "daily client stand-ups, and collaborating cross-functionally " +
+      "to support seamless project delivery."
+
+    ]
+  }, {
     title: "Technical Research Associate 2 - AI",
     company: "Keywords Studios",
     company_url: "https://www.keywordsstudios.com/",
     logo_path: "kws.png",
     logo_class: "kws_logo",
-    duration: "July 2025 - Present",
+    duration: "July 2025 - Nov 2025",
     location: "Houston, TX (Remote)",
     description: [
-      "Conducted end-to-end validation of AI content tools, identifying " + 
-        "edge cases and inconsistencies before wider deployment.",
-      "Reviewed peer-generated assets for alignment with project standards, " + 
-        "ensuring consistent output quality across the research team.",
-      "Authored technical guides and internal playbooks to streamline onboarding " + 
-        "and reduce ambiguity in troubleshooting scenarios."
+      "Conducted hundreds of end-to-end validations and peer reviews of " +
+      "AI content tools, identifying 50+ edge cases and ensuring consistent " +
+      "output quality across the research team.",
+      "Fine-tuned and evaluated multiple NLP models, researching and applying " +
+      "advancements that improved accuracy, consistency, and efficiency of AI " +
+      "model training pipelines by 20%+.",
+      "Designed and optimized prompt-engineering strategies and feedback loops, " +
+      "authoring 3 internal technical playbooks that streamlined onboarding and " +
+      "reduced troubleshooting ambiguity by 30%."
     ]
   }, {
     title: "Research Associate 2 - AI",
@@ -271,12 +294,15 @@ const experience = {
     duration: "May 2025 - July 2025",
     location: "Houston, TX (Remote)",
     description: [
-      "Fine-tuning and evaluating NLP models to enhance consistency and " + 
-        "accuracy of language generation for gaming and media applications.",
-      "Researching and applying cutting-edge advancements in NLP to improve " + 
-        "AI model training pipelines and content generation workflows.",
-      "Designing and optimizing prompt engineering and feedback loop strategies " + 
-        "to refine AI-generated content quality in entertainment-focused use cases.",
+      "Fine-tuned and evaluated NLP models across 10+ projects to improve " +
+      "consistency and accuracy of language generation for gaming and media " +
+      "applications.",
+      "Researched and applied cutting-edge NLP advancements, contributing " +
+      "to 15%+ improvements in AI model training pipelines and content " +
+      "generation workflows.",
+      "Designed and optimized prompt-engineering and feedback loop strategies, " +
+      "enhancing AI-generated content quality and reducing manual revision " +
+      "cycles by 25%."
     ]
   }, {
     title: "Research Assistant - Full Stack",
@@ -286,14 +312,14 @@ const experience = {
     duration: "July 2024 - May 2025",
     location: "Salt Lake City, UT (Remote)",
     description: [
-      "Led a research project to develop an AI-powered interactive learning platform " + 
-        "using Generative AI (OpenAI’s ChatGPT) by leveraging their APIs to improve " + 
-        "coding education, aiming for a 30% improvement in learner engagement.",
-      "Designed and implemented the frontend with React, JavaScript, HTML, and CSS, " + 
-        "while integrating Flask to execute Python scripts for real-time code evaluation, " + 
-        "resulting in a 25% reduction in development time and a 20% boost in project efficiency.",
-      "Managed MySQL databases to optimize data handling and mentored undergraduate students " + 
-        "in development, experimentation, and analysis."
+      "Led a research project to develop an AI-powered interactive learning platform " +
+      "using Generative AI (OpenAI’s ChatGPT) by leveraging their APIs to improve " +
+      "coding education, aiming for a 30% improvement in learner engagement.",
+      "Designed and implemented the frontend with React, JavaScript, HTML, and CSS, " +
+      "while integrating Flask to execute Python scripts for real-time code evaluation, " +
+      "resulting in a 25% reduction in development time and a 20% boost in project efficiency.",
+      "Managed MySQL databases to optimize data handling and mentored undergraduate students " +
+      "in development, experimentation, and analysis."
     ]
   }, {
     title: "Graduate Teaching Assistant",
@@ -304,14 +330,14 @@ const experience = {
     location: "Salt Lake City, UT",
     description: [
       "Served as a Teaching Assistant for 4 semesters in undergraduate courses " +
-        "focused on Python, grading assignments and providing constructive feedback " +
-        "to help students enhance their coding and problem-solving skills.",
+      "focused on Python, grading assignments and providing constructive feedback " +
+      "to help students enhance their coding and problem-solving skills.",
       "Held weekly office hours to assist students with course material, clarify " +
-        "doubts, and guide them through challenging concepts, fostering a deeper " +
-        "understanding of Python programming.",
+      "doubts, and guide them through challenging concepts, fostering a deeper " +
+      "understanding of Python programming.",
       "Led lab sessions, facilitating hands-on learning and practical application " +
-        "of theoretical concepts, while creating a collaborative environment that " +
-        "encouraged student engagement and teamwork."
+      "of theoretical concepts, while creating a collaborative environment that " +
+      "encouraged student engagement and teamwork."
     ]
   }, {
     title: "Software Engineer - Full Stack",
@@ -322,17 +348,17 @@ const experience = {
     duration: "July 2019 - June 2022",
     location: "Pune, India",
     description: [
-      "Led the design, deployment, and maintenance of eQ Technologic’s Data " + 
-        "Visualization suite, enabling real-time enterprise data analysis with " + 
-        "JavaScript/jQuery, React JS, HTML, CSS, and Java, resulting in a 35% " + 
-        "increase in developer adoption and a 25% reduction in data processing " + 
-        "time for engineering teams.",
-      "Designed and enhanced key UI features, utilizing full-stack expertise with " + 
-        "Java on the backend, improving developer productivity by 25% and accelerating " + 
-        "feature delivery by 20%.",
-      "Evaluated Vue.js and React.js, leading the decision to migrate from vanilla " + 
-        "JavaScript to React.js, reducing development effort by 25%, improving product " + 
-        "scalability, and enhanced technological agility across teams."
+      "Led the design, deployment, and maintenance of eQ Technologic’s Data " +
+      "Visualization suite, enabling real-time enterprise data analysis with " +
+      "JavaScript/jQuery, React JS, HTML, CSS, and Java, resulting in a 35% " +
+      "increase in developer adoption and a 25% reduction in data processing " +
+      "time for engineering teams.",
+      "Designed and enhanced key UI features, utilizing full-stack expertise with " +
+      "Java on the backend, improving developer productivity by 25% and accelerating " +
+      "feature delivery by 20%.",
+      "Evaluated Vue.js and React.js, leading the decision to migrate from vanilla " +
+      "JavaScript to React.js, reducing development effort by 25%, improving product " +
+      "scalability, and enhanced technological agility across teams."
       // "Directed the design, deployment, and maintenance of eQ Technologic's Data " +
       //   "Visualization suite, improving real-time enterprise data analysis through " +
       //   "JavaScript/jQuery, React JS, HTML, and CSS, leading to a 35% boost in user " +
@@ -352,13 +378,13 @@ const experience = {
     location: "Pune, India",
     description: [
       "Designed, developed, and implemented web - based automation tools for " +
-        "developers at Nvidia, utilizing JavaScript(Frontend), Python(Backend), " +
-        "and HTML5 / CSS3.",
+      "developers at Nvidia, utilizing JavaScript(Frontend), Python(Backend), " +
+      "and HTML5 / CSS3.",
       "Performed comprehensive analysis and standardized power consumption across " +
-        "15 GPU configurations and 10 testing scenarios, improving performance " +
-        "consistency by 20 % through Python scripting.",
+      "15 GPU configurations and 10 testing scenarios, improving performance " +
+      "consistency by 20 % through Python scripting.",
       "Debugged and resolved around 15 resource management issues using C, enhancing " +
-        "overall system reliability."
+      "overall system reliability."
     ]
   }, {
     title: "System Software Intern",
@@ -369,7 +395,7 @@ const experience = {
     location: "Nagothane, India",
     description: [
       "Architected and developed a comprehensive Inventory Management System using C# " +
-        "and ASP.NET, demonstrating strong system design and software engineering skills.",
+      "and ASP.NET, demonstrating strong system design and software engineering skills.",
       "Led project execution, achieving a 30% boost in inventory tracking efficiency."
     ]
   }]
@@ -424,7 +450,7 @@ const projects = {
       github_url: "https://github.com/pratikkharade/Formula-1-Race-Outcomes-Analysis-and-Predictions",
       brief_desc: "Built a predictive model for Formula 1 race outcomes using " +
         "Machine Learning techniques like Regression, Clustering, and Gradient " +
-        "Descent, achieving 97% accuracy.",
+        "Descent, achieving 92% accuracy.",
       description: "Collected and analyzed Formula 1 race data to build a predictive " +
         "model for forecasting race outcomes, utilizing Machine Learning and Data " +
         "Mining techniques such as Regression, Clustering, and Gradient Descent, " +
@@ -437,10 +463,10 @@ const projects = {
       report_url: "https://drive.google.com/file/d/1hjzayW7aA9D82YMm2bqK5qiOWRzZRPyW/view?usp=sharing",
       poster_url: "",
       github_url: "https://github.com/pratikkharade/Sentiment-Analysis-of-Movies",
-      brief_desc: "Predicted movie review sentiment using machine learning classifiers, " + 
+      brief_desc: "Predicted movie review sentiment using machine learning classifiers, " +
         "optimizing performance through preprocessing, hyperparameter tuning, and cross-validation.",
-      description: "Designed and developed a sentiment analysis model, optimizing preprocessing, " + 
-        "merging datasets, and fine-tuning hyperparameters, resulting in a 15% increase in accuracy " + 
+      description: "Designed and developed a sentiment analysis model, optimizing preprocessing, " +
+        "merging datasets, and fine-tuning hyperparameters, resulting in a 15% increase in accuracy " +
         "and a 20% reduction in training time across multiple classifiers."
     },
     {
