@@ -29,7 +29,7 @@ const greeting = {
     "and technology to build seamless applications that empower users to thrive in " +
     "programming. Let’s code a better future!",
   githubProfile: "https://github.com/pratikkharade/",
-  resumeLink: "https://drive.google.com/file/d/1K3KfiAwAAuTQSmEOx2To0Snt5o2m9wKn/"
+  resumeLink: "https://drive.google.com/file/d/1-kAw6E9njci3CIvORwIP7Q90DMHkfuCF/"
 };
 
 // Social Media Links
