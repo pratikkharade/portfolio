@@ -244,19 +244,40 @@ const education = {
 // Experience Page
 const experience = {
   title: "Experience",
-  description: "🖥️ With each experience, we refine our skills, learn from diverse " +
-    "situations, and gain a broader perspective on how to approach problems.",
+  description: "🖥️ With each experience, we refine our skills, " +
+    "learn from diverse situations, and gain a broader perspective " +
+    "on how to approach problems.",
   experiences: [{
+    title: "Software Development Engineer",
+    company: "Scientific Computing & Imaging Institute at The University of Utah",
+    company_url: "https://sci.utah.edu/",
+    logo_path: "sci-logo.png",
+    logo_class: "sci_logo",
+    duration: "Feb 2026 - Present",
+    location: "Salt Lake City, UT",
+    description: [
+      "Contribute to the National Data Platform (NDP) to democratize " +
+      "data access by building full-stack features (React, TypeScript, " +
+      "Flask, Elasticsearch, PostgreSQL) that power scalable dataset " +
+      "search and visualization.",
+      "Design and optimize data workflows and database integrations; " +
+      "improve query performance and system latency, and manage containerized " +
+      "deployments with Docker and CI/CD pipelines.",
+      "Collaborate with faculty and researchers to translate requirements " +
+      "into production-ready APIs and intuitive UI components, contributing " +
+      "to architecture, testing, and maintainable, high-quality code.",
+    ]
+  }, {
     title: "Senior Research Associate 2 - AI",
     company: "Keywords Studios",
     company_url: "https://www.keywordsstudios.com/",
     logo_path: "kws.png",
     logo_class: "kws_logo",
-    duration: "Nov 2025 - Present",
+    duration: "Nov 2025 - Jan 2026",
     location: "Houston, TX (Remote)",
     description: [
       "Leading a 9-member research pod by setting team-wide KPIs, " +
-      "managing execution, performing weekly quality audits, and " + 
+      "managing execution, performing weekly quality audits, and " +
       "ensuring 100% on-time, high-quality deliverables.",
       "Improving end-to-end workflows by designing and implementing " +
       "4 new processes, identifying risks, troubleshooting issues, " +
@@ -359,15 +380,6 @@ const experience = {
       "Evaluated Vue.js and React.js, leading the decision to migrate from vanilla " +
       "JavaScript to React.js, reducing development effort by 25%, improving product " +
       "scalability, and enhanced technological agility across teams."
-      // "Directed the design, deployment, and maintenance of eQ Technologic's Data " +
-      //   "Visualization suite, improving real-time enterprise data analysis through " +
-      //   "JavaScript/jQuery, React JS, HTML, and CSS, leading to a 35% boost in user " +
-      //   "engagement and a 25% reduction in data processing time.",
-      // "Spearheaded the creation and refinement of key UI features, elevating user " +
-      //   "satisfaction by 25 % and driving a 20 % increase in daily active users.",
-      // "Assessed and compared various JavaScript frameworks, recommending a migration " +
-      //   "strategy that enhanced technological agility, reduced development time by 25 %, " +
-      //   "and significantly improved product scalability."
     ]
   }, {
     title: "System Software Intern",
@@ -404,7 +416,7 @@ const experience = {
 // Projects Page
 const projects = {
   title: "Projects",
-  description: "🚀 My projects makes use of vast variety of latest " +
+  description: "🚀 My projects make use of vast variety of latest " +
     "technology tools. My best experience is to create Data Science " +
     "projects and deploy them to web applications using cloud infrastructure.",
   data: [
@@ -719,9 +731,9 @@ const mySkills = {
 const contact = {
   title: "Contact Me",
   description: "Feel free to reach out to me! 💬",
-  address: "Greater Houston, \nTexas, USA, 77479",
+  address: "Salt Lake City,\nUT, USA - 84112",
   email: "pratik.kharade@utah.edu\nkharadepratik6@gmail.com",
-  phone: "+1-385-457-7822\n+91-7219219994"
+  phone: "+1 (385) 457-7822\n+91-7219219994"
 };
 
 export {
