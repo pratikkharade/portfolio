@@ -12,7 +12,11 @@ class Experience extends Component {
     const theme = this.props.theme;
     return (
       <div className="experience-main">
-        <Header theme={theme} />
+        <Header
+          theme={theme}
+          isDark={this.props.isDark}
+          toggleTheme={this.props.toggleTheme}
+        />
         <div className="basic-experience">
           <Fade bottom duration={1000} distance="40px">
             <div className="experience-heading-div">
@@ -29,19 +33,22 @@ class Experience extends Component {
                   className="experience-heading-text"
                   style={{ color: theme.text }}
                 >
-                  { experience?.title }
+                  {experience?.title}
                 </h1>
                 <p
                   className="experience-header-detail-text"
                   style={{ color: theme.secondaryText }}
                 >
-                  { experience?.description }
+                  {experience?.description}
                 </p>
               </div>
             </div>
           </Fade>
         </div>
-        <ExperienceAccordion experiences={experience?.experiences} theme={theme} />
+        <ExperienceAccordion
+          experiences={experience?.experiences}
+          theme={theme}
+        />
         <TopButton theme={this.props.theme} />
       </div>
     );

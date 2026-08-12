@@ -13,7 +13,11 @@ class Projects extends Component {
     const theme = this.props.theme;
     return (
       <div className="projects-main">
-        <Header theme={theme} />
+        <Header
+          theme={theme}
+          isDark={this.props.isDark}
+          toggleTheme={this.props.toggleTheme}
+        />
         <Fade bottom duration={1000} distance="40px">
           <div className="basic-projects">
             <div className="projects-heading-div">

@@ -17,11 +17,17 @@
   line-height: 2.6rem;
   margin-bottom: 10px;
   display: inline-block;
-  border-radius: 2.6rem;
+  border-radius: 12px;
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.18);
   user-select: none;
   -ms-user-select: none;
   -moz-user-select: none;
   -webkit-user-select: none;
+}
+.icon-button:hover i {
+  transform: translateY(-4px);
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.3);
 }
 
 /* Media Query */

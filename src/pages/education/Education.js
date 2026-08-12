@@ -12,7 +12,11 @@ class Education extends Component {
     const theme = this.props.theme;
     return (
       <div className="education-main">
-        <Header theme={this.props.theme} />
+        <Header
+          theme={this.props.theme}
+          isDark={this.props.isDark}
+          toggleTheme={this.props.toggleTheme}
+        />
         <div className="basic-education">
           <Fade bottom duration={1000} distance="40px">
             <div className="education-heading-div">
@@ -25,7 +29,10 @@ class Education extends Component {
                 />
               </div>
               <div className="education-heading-text-div">
-                <h1 className="education-heading-text" style={{ color: theme.text }}>
+                <h1
+                  className="education-heading-text"
+                  style={{ color: theme.text }}
+                >
                   {education?.title}
                 </h1>
                 <p

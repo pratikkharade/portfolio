@@ -11,6 +11,11 @@ import { settings } from "../portfolio.js";
 
 export default class Main extends Component {
   render() {
+    const pageProps = {
+      theme: this.props.theme,
+      isDark: this.props.isDark,
+      toggleTheme: this.props.toggleTheme,
+    };
     return (
       <HashRouter basename="/">
         <Switch>
@@ -19,53 +24,48 @@ export default class Main extends Component {
             exact
             render={(props) =>
               settings.isSplash ? (
-                <Splash {...props} theme={this.props.theme} />
+                <Splash {...props} {...pageProps} />
               ) : (
-                <Home {...props} theme={this.props.theme} />
+                <Home {...props} {...pageProps} />
               )
             }
           />
           <Route
             path="/home"
-            render={(props) => <Home {...props} theme={this.props.theme} />}
+            render={(props) => <Home {...props} {...pageProps} />}
           />
           <Route
             path="/experience"
             exact
-            render={(props) => (
-              <Experience {...props} theme={this.props.theme} />
-            )}
+            render={(props) => <Experience {...props} {...pageProps} />}
           />
           <Route
             path="/education"
-            render={(props) => (
-              <Education {...props} theme={this.props.theme} />
-            )}
+            render={(props) => <Education {...props} {...pageProps} />}
           />
           <Route
             path="/projects"
-            render={(props) => <Projects {...props} theme={this.props.theme} />}
+            render={(props) => <Projects {...props} {...pageProps} />}
           />
           <Route
             path="/myskills"
-            render={(props) => <MySkills {...props} theme={this.props.theme} />}
+            render={(props) => <MySkills {...props} {...pageProps} />}
           />
           <Route
             path="/contact"
-            render={(props) => <Contact {...props} theme={this.props.theme} />}
+            render={(props) => <Contact {...props} {...pageProps} />}
           />
 
           {settings.isSplash && (
             <Route
               path="/splash"
-              render={(props) => <Contact {...props} theme={this.props.theme} />}
+              render={(props) => <Contact {...props} {...pageProps} />}
             />
           )}
 
-          
           <Route
             path="*"
-            render={(props) => <Home {...props} theme={this.props.theme} />}
+            render={(props) => <Home {...props} {...pageProps} />}
           />
         </Switch>
       </HashRouter>

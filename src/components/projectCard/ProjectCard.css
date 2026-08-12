@@ -2,8 +2,14 @@
   flex: 1 1 25%;
   padding: 20px;
   position: relative;
-  border-radius: 10px;
-  box-shadow: 5px 5px 5px #d9dbdf;
+  border-radius: 20px;
+  border: 1px solid var(--border);
+  min-height: 260px;
+  transition: transform 0.3s ease, border-color 0.3s ease;
+}
+.project-card-div:hover {
+  transform: translateY(-6px);
+  border-color: rgba(35, 213, 232, 0.38);
 }
 
 .project-name-div {
@@ -12,7 +18,7 @@
 }
 
 .project-name {
-  font-size: 1.5rem;
+  font-size: 1.65rem;
   overflow: hidden;
   text-align: left;
   font-weight: 700;
@@ -54,6 +60,15 @@
   display: flex;
   font-size: small;
   column-gap: 1rem;
+}
+.project-urls a {
+  text-decoration: none !important;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  padding: 8px 12px;
+  border-radius: 8px;
+}
+.project-urls a:hover {
+  border-color: #23d5e8;
 }
 
 .project-urls-new-tab-icon {

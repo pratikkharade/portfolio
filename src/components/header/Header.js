@@ -34,12 +34,18 @@ class Header extends Component {
             </NavLink>
             <input className="menu-btn" type="checkbox" id="menu-btn" />
             <label className="menu-icon" htmlFor="menu-btn">
-              <span className="navicon" style={{ background: theme.text }}></span>
+              <span
+                className="navicon"
+                style={{ background: theme.text }}
+              ></span>
             </label>
-            <ul className="menu" style={{ 
-              backgroundColor: theme.body,
-              boxShadow: `${theme.headerColor} 0px 0px 15px -2px`
-              }}>
+            <ul
+              className="menu"
+              style={{
+                backgroundColor: theme.body,
+                boxShadow: `${theme.headerColor} 0px 0px 15px -2px`,
+              }}
+            >
               <li>
                 <NavLink
                   to="/home"
@@ -112,10 +118,37 @@ class Header extends Component {
                   Contact
                 </NavLink>
               </li>
+              <li className="theme-toggle-item">
+                <button
+                  className="theme-toggle"
+                  type="button"
+                  onClick={this.props.toggleTheme}
+                  aria-label={`Switch to ${
+                    this.props.isDark ? "light" : "dark"
+                  } theme`}
+                  title={`Switch to ${
+                    this.props.isDark ? "light" : "dark"
+                  } theme`}
+                >
+                  <span
+                    className={`theme-toggle-track ${
+                      this.props.isDark ? "is-dark" : "is-light"
+                    }`}
+                  >
+                    <span className="theme-toggle-thumb">
+                      <i
+                        className={`fa-solid ${
+                          this.props.isDark ? "fa-moon" : "fa-sun"
+                        }`}
+                      ></i>
+                    </span>
+                  </span>
+                </button>
+              </li>
             </ul>
           </header>
         </div>
-      {/* </Fade> */}
+        {/* </Fade> */}
       </>
     );
   }

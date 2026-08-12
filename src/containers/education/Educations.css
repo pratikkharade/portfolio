@@ -1,5 +1,7 @@
 .education-div-main {
-  margin: 60px 120px;
+  margin: 40px auto 80px;
+  max-width: 1150px;
+  padding: 0 30px;
 }
 
 .educations-header {

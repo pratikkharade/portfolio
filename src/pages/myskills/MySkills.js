@@ -12,7 +12,11 @@ class MySkills extends Component {
     const theme = this.props.theme;
     return (
       <div className="myskills-main">
-        <Header theme={theme} />
+        <Header
+          theme={theme}
+          isDark={this.props.isDark}
+          toggleTheme={this.props.toggleTheme}
+        />
         <div className="basic-myskills">
           <Fade bottom duration={1000} distance="40px">
             <div className="myskills-heading-div">
@@ -29,13 +33,13 @@ class MySkills extends Component {
                   className="myskills-heading-text"
                   style={{ color: theme.text }}
                 >
-                  { mySkills?.title }
+                  {mySkills?.title}
                 </h1>
                 <p
                   className="myskills-header-detail-text subTitle"
                   style={{ color: theme.secondaryText }}
                 >
-                  { mySkills?.description }
+                  {mySkills?.description}
                 </p>
               </div>
             </div>

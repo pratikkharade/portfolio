@@ -3,7 +3,7 @@
   display: flex;
   column-gap: 1rem;
   align-items: center;
-  margin-bottom: 2rem;
+  margin-bottom: 32px;
   justify-content: center;
 }
 
@@ -23,7 +23,8 @@
   width: 200px;
   height: auto;
   padding: 10px;
-  border-radius: 50%;
+  border-radius: 24px;
+  background: rgba(255, 255, 255, 0.92);
 }
 
 .education-body-header {
@@ -50,7 +51,7 @@
 }
 
 .education-body-content-wrapper {
-    padding: 1.25rem;
+  padding: 1.25rem;
 }
 
 .education-body-content {
@@ -88,7 +89,10 @@
 
 .education-card-body {
   margin-left: 20px;
-  border-radius: 10px;
+  border-radius: 20px;
+  border: 1px solid var(--border) !important;
+  overflow: hidden;
+  box-shadow: 0 20px 50px rgba(0, 0, 0, 0.2);
   border-top: 0;
 }
 
@@ -162,7 +166,7 @@
   }
 }
 
-@media (max-width:768px) {
+@media (max-width: 768px) {
   .degree-card-footer {
     display: flex;
     row-gap: 1rem;
@@ -175,7 +179,7 @@
   }
 }
 
-@media (max-width:500px) {
+@media (max-width: 500px) {
   .education-card-title {
     white-space: break-spaces;
   }

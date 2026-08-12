@@ -2,9 +2,16 @@
 
 .header {
   display: block;
-  max-width: 90%;
-  margin: 0px auto;
-  padding: 20px 10px;
+  max-width: 1240px;
+  margin: 18px auto 0;
+  padding: 10px 18px;
+  position: relative;
+  z-index: 1000;
+  border: 1px solid var(--border);
+  border-radius: 18px;
+  background: var(--header-bg);
+  backdrop-filter: blur(18px);
+  box-shadow: 0 16px 50px var(--shadow);
 }
 
 .header ul {
@@ -20,7 +27,10 @@
 
 .header li a {
   display: block;
-  padding: 20px 15px;
+  padding: 12px 14px;
+  border-radius: 10px;
+  font-size: 14px;
+  letter-spacing: 0.02em;
   text-decoration: none;
 }
 
@@ -28,7 +38,7 @@
   float: left;
   display: block;
   font-size: 1.5em;
-  margin-top: 10px;
+  margin-top: 5px;
   line-height: normal;
   text-decoration: none;
 }
@@ -37,13 +47,66 @@
   padding: 0 10px;
   font-weight: bold;
   font-variant-ligatures: none;
-  font-family: "Agustina Regular";
+  font-family: "Google Sans Bold";
+  letter-spacing: -0.04em;
 }
 
 /* menu */
 
 .menu {
   font-family: "Google Sans Regular";
+}
+.header li a:hover {
+  color: #23d5e8 !important;
+  background: rgba(35, 213, 232, 0.09) !important;
+}
+
+.theme-toggle-item {
+  display: flex;
+  align-items: center;
+}
+.theme-toggle {
+  padding: 8px 4px;
+  border: 0;
+  background: transparent;
+  cursor: pointer;
+}
+.theme-toggle-track {
+  width: 54px;
+  height: 30px;
+  display: block;
+  position: relative;
+  border-radius: 20px;
+  background: rgba(108, 124, 255, 0.32);
+  border: 1px solid var(--border);
+  transition: background 0.25s ease;
+}
+.theme-toggle-track.is-light {
+  background: rgba(35, 213, 232, 0.28);
+}
+.theme-toggle-thumb {
+  position: absolute;
+  top: 3px;
+  left: 3px;
+  width: 22px;
+  height: 22px;
+  display: grid;
+  place-items: center;
+  border-radius: 50%;
+  color: #eef6ff;
+  background: #102238;
+  font-size: 11px;
+  transition: transform 0.25s ease, background 0.25s ease;
+}
+.theme-toggle-track.is-light .theme-toggle-thumb {
+  transform: translateX(24px);
+  color: #6f5200;
+  background: #ffe278;
+}
+.theme-toggle:focus-visible {
+  outline: 2px solid #23d5e8;
+  outline-offset: 3px;
+  border-radius: 10px;
 }
 
 .header .menu {
@@ -140,5 +203,23 @@
 @media (max-width: 960px) and (min-width: 768px) {
   .header {
     font-size: 12px;
+  }
+}
+@media (max-width: 767px) {
+  .header {
+    margin: 10px 12px 0;
+    padding: 8px 12px;
+  }
+  .header .menu {
+    margin-top: 10px;
+    box-shadow: none !important;
+  }
+  .header li a {
+    padding: 12px;
+    text-align: center;
+  }
+  .theme-toggle-item {
+    justify-content: center;
+    padding: 8px 0 14px;
   }
 }

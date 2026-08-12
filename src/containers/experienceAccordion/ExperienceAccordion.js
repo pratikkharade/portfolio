@@ -4,11 +4,11 @@ import "./ExperienceAccordion.css";
 
 class ExperienceAccordion extends Component {
   render() {
-    const {theme, experiences} = this.props;
+    const { theme, experiences } = this.props;
     return (
       <div className="experience-accord">
         <div className="experience-accord-panel">
-          <div style={{ backgroundColor: theme.body }}>
+          <div>
             {experiences.map((experience, index) => {
               return (
                 <ExperienceCard
